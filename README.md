@@ -8,10 +8,10 @@ Hyperswap -> Done
 ProjectX -> Done
 HybraFinance -> Done
 Ultrasolid -> Done
-Hypurrfi -> 
-HLNames -> 
-Hypersurface -> 
-Rysk -> 
+Hypurrfi -> Done
+HLNames -> Done
+Hypersurface -> Done
+Rysk -> Done
 Pendle -> 
 ventuals -> Done
 Nunchi -> Done

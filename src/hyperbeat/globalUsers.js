@@ -71,7 +71,7 @@ async function buildGlobalUserList() {
     console.log(`Duplicates removed: ${totalAddresses - sortedAddresses.length}`);
     
     // Write to output file
-    const outputPath = path.join(__dirname, 'totalHyperbeatUsers.json');
+    const outputPath = path.join(__dirname, 'globalUniqueUsers.json');
     fs.writeFileSync(
       outputPath,
       JSON.stringify(sortedAddresses, null, 2),
