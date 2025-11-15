@@ -4,4 +4,6 @@ Felix -> Done
 Hyperlend -> Done
 Morpho -> Done
 Hyperbeat -> Done
-
+Hyperswap -> Done
+ProjectX -> Done
+HybraFinance -> Done
