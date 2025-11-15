@@ -1,0 +1,2 @@
+For this protocol, I basically fetched all the interactions of the smart contracts.
+I couldn't find anything in the doc, so I just guessed that was the interaction. Compared to Debunker, it seems to be the case. 
