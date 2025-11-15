@@ -1,0 +1,1 @@
+For this one, we basically fetched all the addresses that deposited into wNLP vault
