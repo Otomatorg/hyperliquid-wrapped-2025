@@ -1,0 +1,1 @@
+The approach for this one is to fetch all the hyperliquid names and NFT transfers and then fetch all the addresses that received an NFT.
