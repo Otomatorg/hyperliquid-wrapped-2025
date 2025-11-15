@@ -7,8 +7,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // ---- Config ----
-const INPUT_FILE = path.join(__dirname, "hyperbeatWithdrawCollateralAllLogs.json");   // your logs file
-const OUTPUT_FILE = path.join(__dirname, "uniqueUsers.json");          // where to save results
+const INPUT_FILE = path.join(__dirname, "earn/hyperEVM/hyperbeatLSTHypeDepositLogs.json");   // your logs file
+const OUTPUT_FILE = path.join(__dirname, "uniqueUsers6.json");          // where to save results
 
 function main() {
   // Read logs file
@@ -18,7 +18,7 @@ function main() {
   const uniqueUsers = new Set();
 
   for (const entry of raw) {
-    if (entry.onBehalf) uniqueUsers.add(entry.onBehalf);
+    if (entry.to) uniqueUsers.add(entry.to);
   }
 
   // Convert set back to array
