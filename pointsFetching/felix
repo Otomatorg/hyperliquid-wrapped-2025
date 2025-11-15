@@ -1,0 +1,19 @@
+curl 'https://www.usefelix.xyz/points' \
+  -H 'accept: text/x-component' \
+  -H 'accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: text/plain;charset=UTF-8' \
+  -H 'next-action: c04a6b63e7719e1aec93f066e17aece5443abf1613' \
+  -H 'next-router-state-tree: %5B%22%22%2C%7B%22children%22%3A%5B%22(dashboard)%22%2C%7B%22children%22%3A%5B%22points%22%2C%7B%22children%22%3A%5B%22__PAGE__%22%2C%7B%7D%2C%22%2Fpoints%22%2C%22refresh%22%5D%7D%5D%7D%5D%7D%2Cnull%2Cnull%2Ctrue%5D' \
+  -H 'origin: https://www.usefelix.xyz' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.usefelix.xyz/points' \
+  -H 'sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36' \
+  --data-raw '["0xBfb7e7327bbB888eB1e220dCfBeE0c53ba6a5BA3"]'
