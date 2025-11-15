@@ -1,0 +1,17 @@
+curl 'https://api.prjx.com/points/user?walletAddress=0x42f8ec52b2b78aecc6cdbbbdd086a6b15c5cdce6' \
+  -H 'accept: */*' \
+  -H 'accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'authorization: Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IldtTWxucW1DcDBKSzBkWmp2cm5na0VPVlNhTFVlWW9LX01uQ0w4OG1IRDAifQ.eyJzaWQiOiJjbWhhejY3a3QwNDNmazEwY2t4bzZ5dGpmIiwiaXNzIjoicHJpdnkuaW8iLCJpYXQiOjE3NjMyMTQzNDksImF1ZCI6ImNtYXZkaWt4dTAwbXFsNTBtYzFxYjU2bXgiLCJzdWIiOiJkaWQ6cHJpdnk6Y21oYXo2N21kMDQzaGsxMGM4aDR4cWx1bSIsImV4cCI6MTc2MzIxNzk0OX0.AvAN_4v1vbBxqFOqH9wBbt6maCDLeFTG4gJRMwvtSmiPDUYMY4yBA0Er7IgreJk3240QwcejtxHQufGmayV7iw' \
+  -H 'cache-control: no-cache' \
+  -H 'content-type: application/json' \
+  -H 'origin: https://www.prjx.com' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'referer: https://www.prjx.com/' \
+  -H 'sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-site' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36's

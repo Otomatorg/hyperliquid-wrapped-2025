@@ -1,0 +1,16 @@
+curl 'https://vhype.ventuals.com/api/points/0x8C298797fb92FB91C1d4a83e5B948F431FE229c6/stats?latest=false' \
+  -H 'accept: */*' \
+  -H 'accept-language: fr-FR,fr;q=0.9,en-US;q=0.8,en;q=0.7' \
+  -H 'cache-control: no-cache' \
+  -b 'privy-session=t; privy-token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkZfQ3YySC1vVmNvbWV2OGpNOWhNRU5WLUoyenV3Ul9XTFYyaTY4UWZrME0ifQ.eyJzaWQiOiJjbWhhc2c0d3MwMmMxaWMwY3V5Ynprb3MzIiwiaXNzIjoicHJpdnkuaW8iLCJpYXQiOjE3NjMyMTc4MjIsImF1ZCI6ImNtYmg1M3pnbjAwZjhsYjBteW1oOHM5Y2siLCJzdWIiOiJkaWQ6cHJpdnk6Y21ndjBnN3Y1MDBya2szMGNxeXF5bjBxNyIsImV4cCI6MTc2MzIyMTQyMn0.eqCg58p9sTeOoOp37j5cI8IxXhRVXtB4nIrodru6IKaX-XrWOMdGY29JO3cJT-Cj9BdjkzVXnsagbU18XJOlmw; _dd_s=logs=1&id=c74c7094-d229-4fd3-9c3f-a5528aeb0c68&created=1763217821806&expire=1763218747565; privy-id-token=eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkZfQ3YySC1vVmNvbWV2OGpNOWhNRU5WLUoyenV3Ul9XTFYyaTY4UWZrME0ifQ.eyJjciI6IjE3NjA3MTUzMzUiLCJsaW5rZWRfYWNjb3VudHMiOiJbe1widHlwZVwiOlwid2FsbGV0XCIsXCJhZGRyZXNzXCI6XCIweDhDMjk4Nzk3ZmI5MkZCOTFDMWQ0YTgzZTVCOTQ4RjQzMUZFMjI5YzZcIixcImNoYWluX3R5cGVcIjpcImV0aGVyZXVtXCIsXCJ3YWxsZXRfY2xpZW50X3R5cGVcIjpcInJhYmJ5X3dhbGxldFwiLFwibHZcIjoxNzYxNjY5MzUzfV0iLCJpc3MiOiJwcml2eS5pbyIsImlhdCI6MTc2MzIxNzg0OCwiYXVkIjoiY21iaDUzemduMDBmOGxiMG15bWg4czljayIsInN1YiI6ImRpZDpwcml2eTpjbWd2MGc3djUwMHJrazMwY3F5cXluMHE3IiwiZXhwIjoxNzYzMjIxNDQ4fQ.Tj0lxAXYLmYbhmogJDCP3f0kbq-wAgcg2cndnrjv6lEZhfzTm-J6QFvGydwSy4RA4AJkDUVXbPduz_IU4-NFQA; ph_phc_ICaVo0SiN5VSzMkRxMbVqWDSZIyERo0VPOC0Hieq3ji_posthog=%7B%22distinct_id%22%3A%220x8c298797fb92fb91c1d4a83e5b948f431fe229c6%22%2C%22%24sesid%22%3A%5B1763217848540%2C%22019a87f8-d0d2-77f2-b272-fabfa07cca67%22%2C1763217821906%5D%2C%22%24epp%22%3Atrue%2C%22%24initial_person_info%22%3A%7B%22r%22%3A%22https%3A%2F%2Fwww.google.com%2F%22%2C%22u%22%3A%22https%3A%2F%2Ftestnet.ventuals.com%2F%22%7D%7D' \
+  -H 'pragma: no-cache' \
+  -H 'priority: u=1, i' \
+  -H 'privy-id-token: eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IkZfQ3YySC1vVmNvbWV2OGpNOWhNRU5WLUoyenV3Ul9XTFYyaTY4UWZrME0ifQ.eyJjciI6IjE3NjA3MTUzMzUiLCJsaW5rZWRfYWNjb3VudHMiOiJbe1widHlwZVwiOlwid2FsbGV0XCIsXCJhZGRyZXNzXCI6XCIweDhDMjk4Nzk3ZmI5MkZCOTFDMWQ0YTgzZTVCOTQ4RjQzMUZFMjI5YzZcIixcImNoYWluX3R5cGVcIjpcImV0aGVyZXVtXCIsXCJ3YWxsZXRfY2xpZW50X3R5cGVcIjpcInJhYmJ5X3dhbGxldFwiLFwibHZcIjoxNzYxNjY5MzUzfV0iLCJpc3MiOiJwcml2eS5pbyIsImlhdCI6MTc2MzIxNzg0OCwiYXVkIjoiY21iaDUzemduMDBmOGxiMG15bWg4czljayIsInN1YiI6ImRpZDpwcml2eTpjbWd2MGc3djUwMHJrazMwY3F5cXluMHE3IiwiZXhwIjoxNzYzMjIxNDQ4fQ.Tj0lxAXYLmYbhmogJDCP3f0kbq-wAgcg2cndnrjv6lEZhfzTm-J6QFvGydwSy4RA4AJkDUVXbPduz_IU4-NFQA' \
+  -H 'referer: https://vhype.ventuals.com/points' \
+  -H 'sec-ch-ua: "Google Chrome";v="141", "Not?A_Brand";v="8", "Chromium";v="141"' \
+  -H 'sec-ch-ua-mobile: ?0' \
+  -H 'sec-ch-ua-platform: "macOS"' \
+  -H 'sec-fetch-dest: empty' \
+  -H 'sec-fetch-mode: cors' \
+  -H 'sec-fetch-site: same-origin' \
+  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36'
