@@ -14,3 +14,5 @@ uniqueUsers9.json is all the people that deposited on wNLP
 uniqueUsers10.json is all the people that deposited on wVLP
 uniqueUsers11.json is all the people that deposited on LiquidHype
 uniqueUsers12.json is all the people that deposited on dnPump
+
+totalHyperbeatUsers: all the jsons merged in one set.
