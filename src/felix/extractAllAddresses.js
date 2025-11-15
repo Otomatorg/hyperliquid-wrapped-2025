@@ -7,8 +7,8 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // ---- Config ----
-const INPUT_FILE = path.join(__dirname, "felixWithdrawCollateralAll.json");   // your logs file
-const OUTPUT_FILE = path.join(__dirname, "uniqueUsers2.json");          // where to save results
+const INPUT_FILE = path.join(__dirname, "hyperEVM/felixStabilityDepositOperationLogs.json");   // your logs file
+const OUTPUT_FILE = path.join(__dirname, "uniqueUsers4.json");          // where to save results
 
 function main() {
   // Read logs file
@@ -18,7 +18,7 @@ function main() {
   const uniqueUsers = new Set();
 
   for (const entry of raw) {
-    if (entry.onBehalf) uniqueUsers.add(entry.onBehalf);
+    if (entry.depositor) uniqueUsers.add(entry.depositor);
   }
 
   // Convert set back to array

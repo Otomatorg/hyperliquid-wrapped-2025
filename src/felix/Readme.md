@@ -7,3 +7,9 @@ Then, filterOnlyForFelix goes through all the markets logs & filter if it's a fe
 
 uniqueUsers.json -> Interacted with one felix vault
 uniqueUsers2.json -> Interacted with any felix market
+uniqueUsers3.json -> Interacted with any felix vault
+
+
+Now, I focused on CDP:
+UniqueUsers4.json -> Interacted with a felix stability pool.
+
