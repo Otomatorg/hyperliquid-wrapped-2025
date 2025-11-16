@@ -22,29 +22,53 @@ const addresses = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'uniqueUsers.json'), 'utf-8')
 );
 
-// Load existing progress if available
-const progressFile = path.join(__dirname, 'scrapedData_progress.json');
+// Load existing scraped data from scrapedData.json
+const scrapedDataFile = path.join(__dirname, 'scrapedData.json');
 let existingResults = [];
-let processedAddresses = new Set();
+let addressesWithVolume = new Set(); // Track addresses that already have volume
 
-if (fs.existsSync(progressFile)) {
+if (fs.existsSync(scrapedDataFile)) {
   try {
-    existingResults = JSON.parse(fs.readFileSync(progressFile, 'utf-8'));
-    // Create a set of already processed addresses
+    existingResults = JSON.parse(fs.readFileSync(scrapedDataFile, 'utf-8'));
+    // Create a set of addresses that already have volume (not null)
     existingResults.forEach(result => {
-      if (result.address) {
-        processedAddresses.add(result.address.toLowerCase());
+      if (result.address && result.volume !== null && result.volume !== undefined) {
+        addressesWithVolume.add(result.address.toLowerCase());
       }
     });
-    console.log(`📂 Loaded ${existingResults.length} existing results from progress file`);
+    console.log(`📂 Loaded ${existingResults.length} existing results from scrapedData.json`);
+    console.log(`📊 Found ${addressesWithVolume.size} addresses with existing volume (will be skipped)`);
+  } catch (error) {
+    console.log(`⚠️ Could not load scrapedData.json: ${error.message}`);
+  }
+}
+
+// Also load progress file if available (for recovery)
+const progressFile = path.join(__dirname, 'scrapedData_progress.json');
+if (fs.existsSync(progressFile)) {
+  try {
+    const progressResults = JSON.parse(fs.readFileSync(progressFile, 'utf-8'));
+    // Merge progress results, but prioritize scrapedData.json
+    // Only add progress entries that aren't in existingResults
+    const existingAddresses = new Set(existingResults.map(r => r.address?.toLowerCase()));
+    progressResults.forEach(result => {
+      if (result.address && !existingAddresses.has(result.address.toLowerCase())) {
+        existingResults.push(result);
+        // Update addressesWithVolume if this entry has volume
+        if (result.volume !== null && result.volume !== undefined) {
+          addressesWithVolume.add(result.address.toLowerCase());
+        }
+      }
+    });
+    console.log(`📂 Merged progress file data`);
   } catch (error) {
     console.log(`⚠️ Could not load progress file: ${error.message}`);
   }
 }
 
-// Filter out already processed addresses
+// Filter addresses: only process those that don't have volume (volume === null or missing)
 const addressesToProcess = addresses.filter(addr => 
-  !processedAddresses.has(addr.toLowerCase())
+  !addressesWithVolume.has(addr.toLowerCase())
 );
 
 // Results storage - start with existing results
@@ -67,6 +91,25 @@ chromeOptions.setUserPreferences({
 // Function to delay execution
 function delay(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+// Function to update or add result to results array
+function updateOrAddResult(results, newResult) {
+  const addressLower = newResult.address?.toLowerCase();
+  if (!addressLower) return;
+  
+  // Find existing entry
+  const existingIndex = results.findIndex(r => 
+    r.address?.toLowerCase() === addressLower
+  );
+  
+  if (existingIndex !== -1) {
+    // Update existing entry
+    results[existingIndex] = newResult;
+  } else {
+    // Add new entry
+    results.push(newResult);
+  }
 }
 
 // Function to ask user for confirmation
@@ -499,15 +542,15 @@ async function main() {
   console.log(`RYSK USER DATA SCRAPER`);
   console.log(`${'='.repeat(60)}`);
   console.log(`Total addresses: ${totalAddresses}`);
-  console.log(`Already processed: ${processedCount}`);
-  console.log(`Remaining to process: ${remainingAddresses}`);
+  console.log(`Addresses with volume (skipped): ${addressesWithVolume.size}`);
+  console.log(`Addresses to process (volume === null): ${remainingAddresses}`);
   console.log(`Website: ${WEBSITE_URL}`);
   console.log(`Input placeholder: "${INPUT_PLACEHOLDER}"`);
   console.log(`Test mode: ${TEST_MODE ? 'ENABLED' : 'DISABLED'}\n`);
   
-  // If all addresses are already processed, exit early
+  // If all addresses already have volume, exit early
   if (remainingAddresses === 0) {
-    console.log(`✅ All addresses have already been processed!`);
+    console.log(`✅ All addresses already have volume data! Nothing to scrape.`);
     return;
   }
 
@@ -548,15 +591,16 @@ async function main() {
       
       console.log(`\n✓ Proceeding with ${remainingAddresses} remaining addresses...\n`);
       
-      // Add test result to results if not already processed
-      if (!processedAddresses.has(testAddress.toLowerCase())) {
-        results.push(testResult);
-        processedCount++;
-        // Remove from addressesToProcess if it was there
-        const testIndexInToProcess = addressesToProcess.indexOf(testAddress);
-        if (testIndexInToProcess !== -1) {
-          addressesToProcess.splice(testIndexInToProcess, 1);
-        }
+      // Add test result to results (update or add)
+      updateOrAddResult(results, testResult);
+      // Update addressesWithVolume if we got volume data
+      if (testResult.volume !== null && testResult.volume !== undefined) {
+        addressesWithVolume.add(testAddress.toLowerCase());
+      }
+      // Remove from addressesToProcess if it was there
+      const testIndexInToProcess = addressesToProcess.indexOf(testAddress);
+      if (testIndexInToProcess !== -1) {
+        addressesToProcess.splice(testIndexInToProcess, 1);
       }
     }
 
@@ -565,11 +609,20 @@ async function main() {
       const address = addressesToProcess[i];
       const originalIndex = addresses.indexOf(address);
       const result = await scrapeAddressData(driver, address, originalIndex, false);
-      results.push(result);
+      
+      // Update or add result
+      updateOrAddResult(results, result);
+      
+      // Update addressesWithVolume if we got volume data
+      if (result.volume !== null && result.volume !== undefined) {
+        addressesWithVolume.add(address.toLowerCase());
+      }
+      
       processedCount++;
 
       // Save progress periodically (every 10 addresses)
       if (processedCount % 10 === 0) {
+        fs.writeFileSync(scrapedDataFile, JSON.stringify(results, null, 2));
         fs.writeFileSync(progressFile, JSON.stringify(results, null, 2));
         console.log(`\n💾 Progress saved (${processedCount}/${totalAddresses} processed)\n`);
       }
@@ -581,10 +634,9 @@ async function main() {
     }
 
     // Save final results
-    const outputFile = path.join(__dirname, 'scrapedData.json');
-    fs.writeFileSync(outputFile, JSON.stringify(results, null, 2));
+    fs.writeFileSync(scrapedDataFile, JSON.stringify(results, null, 2));
     fs.writeFileSync(progressFile, JSON.stringify(results, null, 2));
-    console.log(`\n✅ Scraping complete! Results saved to ${outputFile}`);
+    console.log(`\n✅ Scraping complete! Results saved to ${scrapedDataFile}`);
     console.log(`Total processed: ${processedCount}/${totalAddresses}`);
 
     // Print summary
@@ -600,10 +652,11 @@ async function main() {
     
     // Save progress even on error
     if (results.length > 0) {
+      fs.writeFileSync(scrapedDataFile, JSON.stringify(results, null, 2));
       fs.writeFileSync(progressFile, JSON.stringify(results, null, 2));
       const errorFile = path.join(__dirname, 'scrapedData_error.json');
       fs.writeFileSync(errorFile, JSON.stringify(results, null, 2));
-      console.log(`\n⚠️ Partial results saved to ${progressFile} and ${errorFile}`);
+      console.log(`\n⚠️ Partial results saved to ${scrapedDataFile}, ${progressFile}, and ${errorFile}`);
     }
   } finally {
     if (driver) {
