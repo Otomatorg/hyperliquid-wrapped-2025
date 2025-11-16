@@ -1,5 +1,15 @@
 {
     "rank": 634049,
+    "firstActivityDate" : "17th March",
+    "daysSinceFirstActivity": 283,
+    "gasSpent": 1.4,
+    "gasRank": "#191,154 (top 50%)",
+    "Nounce": 123,
+    "NounceRank": "#61,154 (top 15%)",
+    "EarlyRank": "#34,543 (top 7.5%)",
+    "HypercoreTrades" : 138,
+    "HypercoreVolume" : "1.2M $",
+    "numberOfProtcolsUsde" : 12,
     "protocolBadges": [
       "hyperlend",
       "hyperbeat",
@@ -15,11 +25,30 @@
       "hypurrfi",
       "prjx"
     ],
+    "userProfile" : {
+      "name": "LP enjoyooooor 🤙",
+      "description": "This user excels in providing concentrated liquidity on dexes"
+    },
     "topPoints": [
       { "label": "Top 10%", "icon": "hyperlend" },
       { "label": "Top 20%", "icon": "pendle" },
       { "label": "Top 30%", "icon": "ultrasolid" }
     ],
+    "allPoints": {
+      "hyperlend": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "hyperbeat": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "hyperliquid": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "pendle": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "ultrasolid": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "rysk": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "ventuals": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "nunchi": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "felix": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "gliquid": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "hybra": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "hypurrfi": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"},
+      "prjx": {"points": 100, "rank": "#23,643", "max_rank": "#100,000"}
+    },
     "avatar": "avatar1",
     "userBadge": "whale",
     "general": {
