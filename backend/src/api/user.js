@@ -6,6 +6,7 @@ import { getNFTs } from "../services/getNFTs.js";
 import { getNetworth } from "../services/getNetworth.js";
 import { getTotalRank } from "../services/getTotalRank.js";
 import { getArchetype } from "../services/getArchetype.js";
+import { getHypercoreStats } from "../services/getHypercoreStats.js";
 
 export default async function userRoute(req, res) {
   try {
@@ -14,15 +15,16 @@ export default async function userRoute(req, res) {
       return res.status(400).json({ error: "Address required" });
     }
 
-    // Fetch nonce, gas stats, protocols, points, NFTs, networth, and archetype in parallel
-    const [nonce, gasStats, protocols, points, nfts, networth, archetype] = await Promise.all([
+    // Fetch nonce, gas stats, protocols, points, NFTs, networth, archetype, and Hypercore stats in parallel
+    const [nonce, gasStats, protocols, points, nfts, networth, archetype, hypercoreStats] = await Promise.all([
       getNonceStats(address),
       getGasStats(address),
       getProtocol(address),
       getPoints(address),
       getNFTs(address),
       getNetworth(address),
-      getArchetype(address)
+      getArchetype(address),
+      getHypercoreStats(address)
     ]);
 
     // Calculate days since first activity
@@ -122,14 +124,10 @@ export default async function userRoute(req, res) {
       gas: gas,
       nonce: {value: nonce.value, rank: nonce.rank},
       EarlyRank: earlyRank,
-      HypercoreTrades: 42,
-      HypercoreVolume: "420k $",
+      HypercoreTrades: hypercoreStats.trades,
+      HypercoreVolume: hypercoreStats.volume,
       numberOfProtocolsUsed: protocols.length,
       protocolBadges: protocols,
-      userProfile: {
-        name: "DeFi Explorer 🧭",
-        description: "This user farmed points across many ecosystems."
-      },
       topPoints: topPoints,
       allPoints: points,
       avatar: nfts.profilePicture,
@@ -137,7 +135,8 @@ export default async function userRoute(req, res) {
       general: {
         transactions: gasStats.txCount.toString(),
         og: ogString,
-        archetype: archetype,
+        archetype: archetype.name,
+        archetypeDescription: archetype.description,
       }
     };
 

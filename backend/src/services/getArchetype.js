@@ -47,6 +47,17 @@ const ARCHETYPE_PRIORITY = [
 ];
 
 /**
+ * Archetype descriptions
+ */
+const ARCHETYPE_DESCRIPTIONS = {
+  "LP specialist": "Providing liquidity to the ecosystem",
+  "NFT collector": "NFTs don't have secrets for them",
+  "Yield alchemist": "This chad knows how to generate yield",
+  "Early digger": "Discovers new protocols before they get popular.",
+  "Newbie": "Just getting started on the Hyperliquid journey.",
+};
+
+/**
  * Normalize protocol name to lowercase for comparison
  */
 function normalizeProtocol(protocol) {
@@ -126,5 +137,15 @@ export async function getArchetype(address) {
 
   // Return the top category (or first if somehow no priority match)
   return topCategories[0] || "Newbie";
+}
+
+/**
+ * Get the description for an archetype.
+ * 
+ * @param {string} archetype - The archetype name
+ * @returns {string} - The archetype description, or empty string if not found
+ */
+export function getArchetypeDescription(archetype) {
+  return ARCHETYPE_DESCRIPTIONS[archetype] || "";
 }
 
