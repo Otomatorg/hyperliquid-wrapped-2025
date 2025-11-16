@@ -8,6 +8,44 @@ import { getTotalRank } from "../services/getTotalRank.js";
 import { getArchetype } from "../services/getArchetype.js";
 import { getHypercoreStats } from "../services/getHypercoreStats.js";
 
+/**
+ * Format percentile as "Top X%" with inverted value.
+ * Inverts the percentile (99% becomes "Top 1%") and formats with appropriate precision.
+ * Goes as deep as 0.001% for very high percentiles.
+ * 
+ * @param {number} percentile - The percentile value (0-100, where 100 = best)
+ * @returns {string} - Formatted string like "Top 1%", "Top 0.1%", "Top 0.001%"
+ */
+function formatTopPercentile(percentile) {
+  if (percentile === null || percentile === undefined || percentile < 0) {
+    return "Top 100%";
+  }
+
+  // Invert the percentile: 99% -> 1%, 99.9% -> 0.1%, etc.
+  const topPercent = 100 - percentile;
+
+  // Format with appropriate precision
+  if (topPercent >= 10) {
+    // For >= 10%, show as whole number
+    return `Top ${Math.round(topPercent)}%`;
+  } else if (topPercent >= 1) {
+    // For 1% to 9.9%, show 1 decimal place
+    return `Top ${topPercent.toFixed(1)}%`;
+  } else if (topPercent >= 0.1) {
+    // For 0.1% to 0.9%, show 1 decimal place
+    return `Top ${topPercent.toFixed(1)}%`;
+  } else if (topPercent >= 0.01) {
+    // For 0.01% to 0.09%, show 2 decimal places
+    return `Top ${topPercent.toFixed(2)}%`;
+  } else if (topPercent >= 0.001) {
+    // For 0.001% to 0.009%, show 3 decimal places
+    return `Top ${topPercent.toFixed(3)}%`;
+  } else {
+    // For < 0.001%, show 3 decimal places (minimum)
+    return `Top ${topPercent.toFixed(3)}%`;
+  }
+}
+
 export default async function userRoute(req, res) {
   try {
     const address = req.query.address;
@@ -110,9 +148,8 @@ export default async function userRoute(req, res) {
       .sort(([, a], [, b]) => (b.percentile || 0) - (a.percentile || 0))
       .slice(0, 3)
       .map(([protocol, data]) => {
-        const percentileRounded = Math.round(data.percentile);
         return {
-          label: `Top ${percentileRounded}%`,
+          label: formatTopPercentile(data.percentile),
           icon: protocol
         };
       });
