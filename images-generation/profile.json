@@ -4,26 +4,19 @@
     "daysSinceFirstActivity": 283,
     "gasSpent": 1.4,
     "gasRank": "#191,154 (top 50%)",
-    "Nounce": 123,
-    "NounceRank": "#61,154 (top 15%)",
+    "Nonce": 123,
+    "NonceRank": "#61,154 (top 15%)",
     "EarlyRank": "#34,543 (top 7.5%)",
     "HypercoreTrades" : 138,
     "HypercoreVolume" : "1.2M $",
     "numberOfProtcolsUsde" : 12,
     "protocolBadges": [
-      "hyperlend",
-      "hyperbeat",
-      "hyperliquid",
-      "pendle",
-      "ultrasolid",
       "rysk",
       "ventuals",
       "nunchi",
       "felix",
-      "gliquid",
-      "hybra",
-      "hypurrfi",
-      "prjx"
+      "HypioNFTS",
+      "hlnames"
     ],
     "userProfile" : {
       "name": "LP enjoyooooor 🤙",
@@ -54,7 +47,6 @@
     "general": {
       "transactions": "250+ (top 15%)",
       "og": "Joined before 92% of users",
-      "archetype": "Yield alchemist",
-      "gas": "Burned more gas than 99.2% of users"
+      "archetype": "Yield alchemist"
     }
   }
