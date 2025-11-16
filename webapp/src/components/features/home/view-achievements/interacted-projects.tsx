@@ -189,13 +189,13 @@ const InteractedProjects = () => {
   }, [allProtocols])
 
   return (
-    <div className="w-full h-full flex flex-col items-center gap-9 justify-center">
-      <div className="shrink relative">
+    <div className="w-full h-full flex flex-col items-center gap-6 sm:gap-9 justify-center px-4 sm:px-0">
+      <div className="shrink relative w-full">
         {/* Invisible full text to reserve space */}
         <div className="opacity-0 pointer-events-none" aria-hidden="true">
-          <p className="text-4xl font-bold leading-24">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 text-center">
             {headerText}
-            <span className={cn('text-4xl font-bold leading-24', HIGHLIGHT_STRUCTURE)}>
+            <span className={cn('text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24', HIGHLIGHT_STRUCTURE)}>
               {highlightText}
             </span>
           </p>
@@ -203,13 +203,13 @@ const InteractedProjects = () => {
 
         {/* Visible typewriter text positioned absolutely */}
         <div className="absolute top-0 left-0 w-full">
-          <p className="text-4xl font-bold leading-24">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 text-center">
             {visibleSegments.map((segment, index) =>
               segment.isHighlight ? (
                 <span
                   key={segment.id || index}
                   className={cn(
-                    'text-4xl font-bold leading-24 transition-all duration-500',
+                    'text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 transition-all duration-500',
                     HIGHLIGHT_VISUAL,
                     'bg-transparent',
                   )}
@@ -217,7 +217,7 @@ const InteractedProjects = () => {
                   {segment.visibleText}
                 </span>
               ) : (
-                <span key={index} className="text-4xl font-bold leading-24">
+                <span key={index} className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24">
                   {segment.visibleText}
                 </span>
               ),
@@ -226,12 +226,12 @@ const InteractedProjects = () => {
         </div>
       </div>
 
-      <div className="shrink flex flex-col gap-9 relative z-1">
+      <div className="shrink flex flex-col gap-4 sm:gap-6 md:gap-9 relative z-1 w-full">
         {[0, 1, 2].map((rowIndex) => (
           <div
             key={rowIndex}
             className={cn(
-              'flex gap-9 items-center justify-center transition-all duration-700',
+              'flex gap-3 sm:gap-5 md:gap-7 lg:gap-9 items-center justify-center transition-all duration-700 flex-wrap',
               visibleRows.includes(rowIndex)
                 ? 'opacity-100 translate-y-0'
                 : 'opacity-0 translate-y-4',
@@ -250,13 +250,13 @@ const InteractedProjects = () => {
                   classNames={{
                     base: 'backdrop-blur-md',
                     content:
-                      'bg-rgba55-55-55-170 rounded-lg text-white-fff px-3 py-2 font-semibold',
+                      'bg-rgba55-55-55-170 rounded-lg text-white-fff px-3 py-2 font-semibold text-xs sm:text-sm',
                     arrow: 'bg-rgba55-55-55-170',
                   }}
                 >
                   <div
                     className={cn(
-                      'w-25 h-25 rounded-full flex items-center border border-rgba255-300 bg-rgba55-55-55-100 justify-center overflow-hidden backdrop-blur-[1.5rem] cursor-pointer transition-all duration-500',
+                      'w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 lg:w-25 lg:h-25 rounded-full flex items-center border border-rgba255-300 bg-rgba55-55-55-100 justify-center overflow-hidden backdrop-blur-[1.5rem] cursor-pointer transition-all duration-500 shrink-0',
                       isActive ? 'shadow-lg' : 'opacity-19',
                     )}
                   >
@@ -277,27 +277,27 @@ const InteractedProjects = () => {
 
       <div
         className={cn(
-          'grow w-full flex flex-col items-center gap-9 transition-all duration-700',
+          'grow w-full flex flex-col items-center gap-6 sm:gap-9 transition-all duration-700',
           showBottomSection ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4',
         )}
       >
-        <div className="flex items-center gap-12 mt-auto relative z-99">
-          <div className="flex-1 flex flex-col gap-6">
-            <p className="text-2xl font-medium text-rgba255-600 text-center">Top Project</p>
-            <p className="text-3xl font-bold text-center">
+        <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8 md:gap-12 mt-auto relative z-99 w-full px-4 sm:px-0">
+          <div className="flex-1 flex flex-col gap-4 sm:gap-6 w-full sm:w-auto">
+            <p className="text-lg sm:text-xl md:text-2xl font-medium text-rgba255-600 text-center">Top Project</p>
+            <p className="text-xl sm:text-2xl md:text-3xl font-bold text-center">
               {topProjectDisplayName} you&apos;re in the <br />
-              <span className="text-3xl font-bold text-cyan-50d">
+              <span className="text-xl sm:text-2xl md:text-3xl font-bold text-cyan-50d">
                 {topProject?.label ? topProject.label.toLowerCase() : 'N/A'}
               </span>
             </p>
           </div>
 
-          <div className="flex-1 flex flex-col gap-2">
-            <p className="text-2xl font-medium text-rgba255-600 text-center">User Profile</p>
-            <p className="text-3xl font-bold text-center text-cyan-50d">
+          <div className="flex-1 flex flex-col gap-2 w-full sm:w-auto">
+            <p className="text-lg sm:text-xl md:text-2xl font-medium text-rgba255-600 text-center">User Profile</p>
+            <p className="text-xl sm:text-2xl md:text-3xl font-bold text-center text-cyan-50d">
               {userProfile.name} <br />
             </p>
-            <p className="text-lg font-medium leading-9 text-center">
+            <p className="text-sm sm:text-base md:text-lg font-medium leading-6 sm:leading-8 md:leading-9 text-center">
               {userProfile.description}
             </p>
           </div>

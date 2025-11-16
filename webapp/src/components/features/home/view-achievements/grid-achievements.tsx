@@ -84,11 +84,11 @@ const GridAchievements = () => {
   const visibleClass = 'opacity-100 scale-100 translate-y-0'
 
   return (
-    <div className="w-full h-auto grid grid-cols-4 grid-rows-4 gap-5">
+    <div className="w-full h-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 grid-rows-auto gap-3 sm:gap-4 md:gap-5 px-2 sm:px-0">
       {/* block1 - spans 2 cols and 3 rows */}
       <div
         className={cn(
-          'col-span-2 row-span-3 bg-rgba150-60-229-210 border border-rgba255-300 rounded-4xl overflow-hidden relative',
+          'col-span-2 sm:col-span-2 md:col-span-2 row-span-2 sm:row-span-2 md:row-span-3 bg-rgba150-60-229-210 border border-rgba255-300 rounded-2xl sm:rounded-3xl md:rounded-4xl overflow-hidden relative min-h-[150px] sm:min-h-[200px] md:min-h-[250px]',
           blockBaseClass,
           showBlocks ? visibleClass : hiddenClass,
         )}
@@ -121,7 +121,7 @@ const GridAchievements = () => {
       <div
         className={cn(
           COLUMN_CLASS,
-          'col-span-2',
+          'col-span-2 sm:col-span-1 md:col-span-2',
           blockBaseClass,
           showBlocks ? visibleClass : hiddenClass,
         )}
@@ -143,8 +143,8 @@ const GridAchievements = () => {
         className={cn(COLUMN_CLASS, blockBaseClass, showBlocks ? visibleClass : hiddenClass)}
         style={{ transitionDelay: '200ms' }}
       >
-        <p className="text-xl font-medium text-rgba255-500">Hypercore volume</p>
-        <p className="text-5xl font-bold mt-auto">{hypercoreVolume ? hypercoreVolume.toLocaleString() : '-'}</p>
+        <p className="text-xs sm:text-sm md:text-lg lg:text-xl font-medium text-rgba255-500">Hypercore volume</p>
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-auto break-words">{hypercoreVolume ? hypercoreVolume.toLocaleString() : '-'}</p>
       </div>
 
       {/* block5 */}
@@ -152,24 +152,24 @@ const GridAchievements = () => {
         className={cn(COLUMN_CLASS, blockBaseClass, showBlocks ? visibleClass : hiddenClass)}
         style={{ transitionDelay: '300ms' }}
       >
-        <p className="text-xl font-medium text-rgba255-500">Spot volume</p>
-        <p className="text-5xl font-bold mt-auto">{spotVolume ? spotVolume.toLocaleString() : '-'}</p>
+        <p className="text-xs sm:text-sm md:text-lg lg:text-xl font-medium text-rgba255-500">Spot volume</p>
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-auto break-words">{spotVolume ? spotVolume.toLocaleString() : '-'}</p>
       </div>
 
       {/* block6 */}
       <div
         className={cn(
           COLUMN_CLASS,
-          'col-span-2',
+          'col-span-2 sm:col-span-1 md:col-span-2',
           blockBaseClass,
           showBlocks ? visibleClass : hiddenClass,
         )}
         style={{ transitionDelay: '400ms' }}
       >
-        <p className="text-xl font-medium text-rgba255-500">Fees paid</p>
-        <p className="text-5xl font-bold flex items-center gap-2 mt-auto">
-          {feesPaid ? feesPaid.toLocaleString() : '-'}
-          <span className="text-3xl font-semibold">
+        <p className="text-xs sm:text-sm md:text-lg lg:text-xl font-medium text-rgba255-500">Fees paid</p>
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold flex flex-col sm:flex-row items-start sm:items-center gap-1 sm:gap-2 mt-auto">
+          <span>{feesPaid ? feesPaid.toLocaleString() : '-'}</span>
+          <span className="text-sm sm:text-base md:text-xl lg:text-3xl font-semibold">
             {userData?.gas?.rank?.rank != null
               ? `#${userData.gas.rank.rank.toLocaleString()} (top ${(100 - userData.gas.rank.percentile).toFixed(2)} %)`
               : '#61,154 (top 15%)'}
@@ -197,14 +197,14 @@ const GridAchievements = () => {
       <div
         className={cn(
           COLUMN_CLASS,
-          'col-span-2 bg-rgba0-240-255-470',
+          'col-span-2 sm:col-span-1 md:col-span-2 bg-rgba0-240-255-470',
           blockBaseClass,
           showBlocks ? visibleClass : hiddenClass,
         )}
         style={{ transitionDelay: '600ms' }}
       >
-        <p className="text-xl font-medium text-rgba255-500">Number of project used</p>
-        <p className="text-5xl font-bold flex items-center gap-2 mt-auto">
+        <p className="text-xs sm:text-sm md:text-lg lg:text-xl font-medium text-rgba255-500">Number of project used</p>
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold flex items-center gap-2 mt-auto">
           {numberOfProjects ? countProjects : '-'}{' '}
           {/* <span className="text-4xl font-semibold">
             {userData?.NonceRank
@@ -219,8 +219,8 @@ const GridAchievements = () => {
         className={cn(COLUMN_CLASS, blockBaseClass, showBlocks ? visibleClass : hiddenClass)}
         style={{ transitionDelay: '700ms' }}
       >
-        <p className="text-xl font-medium text-rgba255-500">Days active</p>
-        <p className="text-5xl font-bold mt-auto">{daysActive ? countDaysActive.toLocaleString() : '-'}</p>
+        <p className="text-xs sm:text-sm md:text-lg lg:text-xl font-medium text-rgba255-500">Days active</p>
+        <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mt-auto">{daysActive ? countDaysActive.toLocaleString() : '-'}</p>
       </div>
     </div>
   )

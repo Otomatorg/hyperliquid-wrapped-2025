@@ -261,7 +261,7 @@ export const HIGHLIGHT_VISUAL =
   'bg-rgba80-210-193-130 backdrop-blur-[1.375rem] text-cyan-50d border-rgba255-300'
 
 export const COLUMN_CLASS =
-  'flex flex-col gap-3 bg-rgba55-55-55-170 border border-rgba255-300 rounded-4xl px-6 pt-4 pb-6 backdrop-blur-[1.5rem]'
+  'flex flex-col gap-2 sm:gap-3 bg-rgba55-55-55-170 border border-rgba255-300 rounded-2xl sm:rounded-3xl md:rounded-4xl px-3 sm:px-4 md:px-6 pt-3 sm:pt-4 pb-3 sm:pb-4 md:pb-6 backdrop-blur-[1.5rem] min-h-[100px] sm:min-h-[120px]'
 
 export const getTextContent = () => {
   if (typeof window === 'undefined') {

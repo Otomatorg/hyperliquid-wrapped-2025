@@ -109,33 +109,33 @@ const GetStarted = ({ onSubmit }: GetStartedProps) => {
   }
 
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center gap-9">
+    <div className="w-full h-full flex flex-col items-center justify-center gap-6 sm:gap-9 px-4">
       <div className="shrink-0">
-        <Image src={OtomatoLogo} width="134" height="40" alt="otomato-logo" />
+        <Image src={OtomatoLogo} width="134" height="40" alt="otomato-logo" className="w-24 h-auto sm:w-[134px] sm:h-10" />
       </div>
 
-      <div className="flex flex-col gap-6">
-        <h1 className="text-center text-5xl font-bold gradient-text">Hyperliquid wrapped 2025</h1>
-        <p className="text-center text-xl leading-12 text-rgba255-630">
+      <div className="flex flex-col gap-4 sm:gap-6">
+        <h1 className="text-center text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold gradient-text px-4">Hyperliquid wrapped 2025</h1>
+        <p className="text-center text-base sm:text-lg md:text-xl leading-7 sm:leading-10 md:leading-12 text-rgba255-630 px-4">
           To celebrate Hype&apos;s 1 year anniversary, we decided to create a unique experience.
         </p>
       </div>
 
-      <div className="w-110 flex flex-col gap-3">
-        <div className="relative h-15 flex justify-center" suppressHydrationWarning>
+      <div className="w-full max-w-[27.5rem] sm:w-110 flex flex-col gap-3">
+        <div className="relative h-12 sm:h-15 flex justify-center" suppressHydrationWarning>
           {isMounted ? (
             <>
               <input
-                placeholder="Paste your address to start the experience"
+                placeholder="Paste your address to start"
                 value={form.value}
-                className="w-full h-full py-4 pl-6 pr-16 rounded-full text-base border border-rgba255-300 bg-rgba110-100 focus:border-cyan-50d focus:outline-none transition-all duration-300"
+                className="w-full h-full py-3 sm:py-4 pl-4 sm:pl-6 pr-12 sm:pr-16 rounded-full text-sm sm:text-base border border-rgba255-300 bg-rgba110-100 focus:border-cyan-50d focus:outline-none transition-all duration-300"
                 onChange={onInputChange}
                 suppressHydrationWarning
               />
               <Button
                 variant="cyan"
-                className="h-10 w-10 p-2 rounded-full absolute right-3 top-1/2 -translate-y-1/2"
-                leftIcon={<Image width={16} height={16} src={SendIcon} alt="send-icon" />}
+                className="h-8 w-8 sm:h-10 sm:w-10 p-2 rounded-full absolute right-2 sm:right-3 top-1/2 -translate-y-1/2"
+                leftIcon={<Image width={14} height={14} className="sm:w-4 sm:h-4" src={SendIcon} alt="send-icon" />}
                 onClick={() => {
                   // Store wallet address in localStorage before submitting
                   if (form.address) {
@@ -147,7 +147,7 @@ const GetStarted = ({ onSubmit }: GetStartedProps) => {
               />
             </>
           ) : (
-            <div className="w-full h-full py-4 pl-6 pr-16 rounded-full text-base border border-rgba255-300 bg-rgba110-100" />
+            <div className="w-full h-full py-3 sm:py-4 pl-4 sm:pl-6 pr-12 sm:pr-16 rounded-full text-sm sm:text-base border border-rgba255-300 bg-rgba110-100" />
           )}
         </div>
 
@@ -155,10 +155,10 @@ const GetStarted = ({ onSubmit }: GetStartedProps) => {
         <div className="min-h-8 overflow-hidden">
           {/* Display loading state */}
           {form.isLoading && (
-            <div className="px-6 text-sm text-rgba255-630 flex items-center gap-2 animate-slide-down">
-              <div className="w-4 h-4 border-2 border-rgba255-300 border-t-white-100 rounded-full animate-spin" />
-              <div>
-                Resolving <span className="text-green-100 font-medium">{form.value}</span> ...
+            <div className="px-4 sm:px-6 text-xs sm:text-sm text-rgba255-630 flex items-center gap-2 animate-slide-down">
+              <div className="w-3 h-3 sm:w-4 sm:h-4 border-2 border-rgba255-300 border-t-white-100 rounded-full animate-spin shrink-0" />
+              <div className="break-words">
+                Resolving <span className="text-green-100 font-medium break-all">{form.value}</span> ...
               </div>
             </div>
           )}
@@ -168,15 +168,15 @@ const GetStarted = ({ onSubmit }: GetStartedProps) => {
             form.value.endsWith('.hl') &&
             form.address &&
             form.address !== inValidAddress && (
-              <div className="px-6 text-sm text-rgba255-630 flex items-center gap-2 animate-slide-down">
-                <span className="text-rgba255-600">Address: </span>
-                <span className="text-green-100 text-sm font-medium">{form.address}</span>
+              <div className="px-4 sm:px-6 text-xs sm:text-sm text-rgba255-630 flex items-start sm:items-center gap-2 animate-slide-down flex-wrap">
+                <span className="text-rgba255-600 shrink-0">Address: </span>
+                <span className="text-green-100 text-xs sm:text-sm font-medium break-all">{form.address}</span>
               </div>
             )}
 
           {/* Display error message */}
           {!form.isLoading && form.errorMessage && (
-            <div className="px-6 text-red-100 animate-slide-down">{form.errorMessage}</div>
+            <div className="px-4 sm:px-6 text-xs sm:text-sm text-red-100 animate-slide-down break-words">{form.errorMessage}</div>
           )}
         </div>
       </div>

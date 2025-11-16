@@ -48,14 +48,15 @@ const ActiveAddresses = () => {
   const count = TOTAL_ADDRESSES - animatedValue
 
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative px-4 sm:px-0">
       {/* Left image with 3D animation */}
-      <div className="absolute left-0 top-45 animate-float-3d">
+      <div className="absolute left-0 sm:left-0 top-20 sm:top-45 animate-float-3d hidden sm:block">
         <Image
           src={OtomatoBlurV1}
           alt="otomato-blur-v1"
           width={124}
           height={124}
+          className="w-16 h-16 sm:w-[124px] sm:h-[124px]"
           style={{
             transform: 'perspective(1000px) rotateY(-15deg) rotateX(5deg)',
             transformStyle: 'preserve-3d',
@@ -64,12 +65,13 @@ const ActiveAddresses = () => {
       </div>
 
       {/* Right image with 3D animation */}
-      <div className="absolute right-6 top-45 animate-float-3d-reverse">
+      <div className="absolute right-0 sm:right-6 top-20 sm:top-45 animate-float-3d-reverse hidden sm:block">
         <Image
           src={OtomatoBlurV2}
           alt="otomato-blur-v2"
           width={174}
           height={174}
+          className="w-20 h-20 sm:w-[174px] sm:h-[174px]"
           style={{
             transform: 'perspective(1000px) rotateY(15deg) rotateX(-5deg)',
             transformStyle: 'preserve-3d',
@@ -79,14 +81,14 @@ const ActiveAddresses = () => {
 
       <div
         className={cn(
-          'w-full h-full flex flex-col items-center justify-center gap-6 transition-all duration-700',
+          'w-full h-full flex flex-col items-center justify-center gap-4 sm:gap-6 transition-all duration-700',
           showText ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4',
         )}
       >
-        <p className="text-3xl text-rgba255-600 text-center font-medium">
+        <p className="text-base sm:text-xl md:text-2xl lg:text-3xl text-rgba255-600 text-center font-medium px-4">
           Out of 634,049 active addresses, you are
         </p>
-        <p className="text-9xl text-center font-bold">#{count.toLocaleString()}</p>
+        <p className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl text-center font-bold">#{count.toLocaleString()}</p>
       </div>
     </div>
   )

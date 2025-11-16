@@ -21,14 +21,14 @@ export const Header = () => {
   }, [pathname])
 
   return (
-    <header className="shrink-0 w-full h-20 py-4 flex items-center backdrop-blur-[2.34375rem] sticky top-0 left-0 z-10">
-      <div className="container-2xl grid grid-cols-3 items-center">
+    <header className="shrink-0 w-full h-16 sm:h-20 py-3 sm:py-4 flex items-center backdrop-blur-[2.34375rem] sticky top-0 left-0 z-10">
+      <div className="container-2xl grid grid-cols-3 items-center w-full px-4 sm:px-0">
         <div className="flex justify-start">
-          <Link href={pathname} className="w-36 h-10 relative">
-            <Image src={headerLogo} fill alt="header-logo" priority sizes="144px" />
+          <Link href={pathname} className="w-24 h-6 sm:w-36 sm:h-10 relative">
+            <Image src={headerLogo} fill alt="header-logo" priority sizes="(max-width: 640px) 96px, 144px" />
           </Link>
         </div>
-        <div />
+        <div className="hidden sm:block" />
         <div className="flex items-center justify-end gap-2">
           <WalletConnection />
           {/* <DropdownCustom

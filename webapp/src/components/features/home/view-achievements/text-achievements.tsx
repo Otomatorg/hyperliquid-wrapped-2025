@@ -41,41 +41,41 @@ const TextAchievements = () => {
   })
 
   return (
-    <div className="flex flex-col gap-12 justify-center">
-      <div className="flex flex-col gap-6 relative">
+    <div className="flex flex-col gap-6 sm:gap-12 justify-center px-4 sm:px-0">
+      <div className="flex flex-col gap-4 sm:gap-6 relative">
         {/* Invisible full text to reserve space */}
         <div className="opacity-0 pointer-events-none" aria-hidden="true">
-          <p className="text-4xl font-bold leading-24">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24">
             You&apos;ve been active since{' '}
-            <span className={cn('text-4xl font-bold leading-24', HIGHLIGHT_STRUCTURE)}>
+            <span className={cn('text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24', HIGHLIGHT_STRUCTURE)}>
               17th mars (283 days)
             </span>{' '}
             have burned{' '}
-            <span className={cn('text-4xl font-bold leading-24', HIGHLIGHT_STRUCTURE)}>
+            <span className={cn('text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24', HIGHLIGHT_STRUCTURE)}>
               1.4 $Hype
             </span>{' '}
             in gas through transactions.
           </p>
-          <p className="text-4xl font-bold leading-24 mt-6">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 mt-4 sm:mt-6">
             You&apos;ve placed{' '}
-            <span className={cn('text-4xl font-bold leading-24', HIGHLIGHT_STRUCTURE)}>
+            <span className={cn('text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24', HIGHLIGHT_STRUCTURE)}>
               138 trades
             </span>{' '}
             on Hyperliquid, with a accumulated volume of{' '}
-            <span className={cn('text-4xl font-bold leading-24', HIGHLIGHT_STRUCTURE)}> 1.2M$ </span>
+            <span className={cn('text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24', HIGHLIGHT_STRUCTURE)}> 1.2M$ </span>
           </p>
         </div>
 
         {/* Visible typewriter text positioned absolutely */}
         <div className="absolute top-0 left-0 w-full">
-          <p className="text-4xl font-bold leading-24 whitespace-pre-line">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 whitespace-pre-line">
             {visibleSegments.map((segment, index) => {
               if (segment.isHighlight) {
                 return (
                   <span
                     key={index}
                     className={cn(
-                      'text-4xl font-bold leading-24 transition-all duration-500',
+                      'text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 transition-all duration-500',
                       HIGHLIGHT_STRUCTURE,
                       HIGHLIGHT_VISUAL,
                     )}
@@ -85,7 +85,7 @@ const TextAchievements = () => {
                 )
               }
               return (
-                <span key={index} className="text-4xl font-bold leading-24">
+                <span key={index} className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24">
                   {segment.visibleText}
                 </span>
               )

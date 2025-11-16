@@ -45,14 +45,14 @@ const TextAchievementsRanks = () => {
   ]
 
   return (
-    <div className="flex items-center gap-4">
+    <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4 w-full">
       {RANKS.map((rank) => (
         <div
           key={rank.title}
-          className="flex-1 flex flex-col gap-4 p-6 rounded-4xl border border-rgba255-300 bg-rgba80-210-193-170 backdrop-blur-[1.5rem]"
+          className="flex-1 flex flex-col gap-2 sm:gap-3 md:gap-4 p-4 sm:p-5 md:p-6 rounded-2xl sm:rounded-3xl md:rounded-4xl border border-rgba255-300 bg-rgba80-210-193-170 backdrop-blur-[1.5rem]"
         >
-          <p className="text-center text-xl font-medium">{rank.title}</p>
-          <p className="text-center text-2xl text-cyan-50d leading-12 font-bold">
+          <p className="text-center text-sm sm:text-base md:text-lg lg:text-xl font-medium">{rank.title}</p>
+          <p className="text-center text-base sm:text-lg md:text-xl lg:text-2xl text-cyan-50d leading-6 sm:leading-8 md:leading-10 lg:leading-12 font-bold break-words">
             {rank.description}
           </p>
         </div>

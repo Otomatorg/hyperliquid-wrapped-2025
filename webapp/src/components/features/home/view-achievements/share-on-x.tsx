@@ -250,18 +250,18 @@ const ShareOnX = () => {
   const hiddenClass = 'opacity-0 scale-95 translate-y-4'
   const visibleClass = 'opacity-100 scale-100 translate-y-0'
   return (
-    <div className="w-full h-auto flex flex-col gap-10 relative">
-      <div className="w-5xl shrink relative">
+    <div className="w-full h-auto flex flex-col gap-6 sm:gap-10 relative px-4 sm:px-0">
+      <div className="w-full max-w-full sm:max-w-5xl shrink relative">
         {/* Invisible full text to reserve space */}
         <div className="opacity-0 pointer-events-none" aria-hidden="true">
-          <p className="text-4xl text-center font-bold leading-16">{headerText}</p>
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl text-center font-bold leading-7 sm:leading-10 md:leading-14 lg:leading-16">{headerText}</p>
         </div>
 
         {/* Visible typewriter text positioned absolutely */}
         <div className="absolute top-0 left-0 w-full">
-          <p className="text-4xl text-center font-bold leading-16">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl text-center font-bold leading-7 sm:leading-10 md:leading-14 lg:leading-16">
             {visibleSegments.map((segment, index) => (
-              <span key={index} className="text-4xl font-bold leading-16">
+              <span key={index} className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-14 lg:leading-16">
                 {segment.visibleText}
               </span>
             ))}
@@ -269,10 +269,10 @@ const ShareOnX = () => {
         </div>
       </div>
 
-      <div className="grow flex items-stretch gap-20">
+      <div className="grow flex flex-col lg:flex-row items-stretch gap-6 sm:gap-10 lg:gap-20">
         <div
           className={cn(
-            'flex-[3] flex flex-col gap-10',
+            'flex-1 lg:flex-[3] flex flex-col gap-6 sm:gap-10',
             blockBaseClass,
             showContent ? visibleClass : hiddenClass,
           )}
@@ -281,8 +281,8 @@ const ShareOnX = () => {
 
           <div
             ref={cardRef}
-            className="w-full aspect-video relative rounded-4xl border border-cyan-50d overflow-hidden"
-            style={{ paddingTop: '100px', paddingBottom: '100px', paddingLeft: '100px', paddingRight: '100px' }}
+            className="w-full aspect-video relative rounded-2xl sm:rounded-3xl md:rounded-4xl border border-cyan-50d overflow-hidden"
+            style={{ paddingTop: 'clamp(40px, 8vw, 100px)', paddingBottom: 'clamp(40px, 8vw, 100px)', paddingLeft: 'clamp(40px, 8vw, 100px)', paddingRight: 'clamp(40px, 8vw, 100px)' }}
           >
             {isGeneratingImage ? (
               <div className="absolute inset-0 flex items-center justify-center bg-rgba80-80-80-210 rounded-4xl">
@@ -309,30 +309,31 @@ const ShareOnX = () => {
             )}
           </div>
 
-          <div className="flex items-center justify-center gap-2.5">
+          <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-2.5">
             <Button
               variant="secondary"
-              className="w-48 h-12 bg-rgba80-80-80-210 rounded-full text-base font-medium"
+              className="w-full sm:w-48 h-10 sm:h-12 bg-rgba80-80-80-210 rounded-full text-sm sm:text-base font-medium"
               leftIcon={
                 isDownloading ? (<></>) : (<Image
                   src={DownloadIcon}
-                  width={24}
-                  height={24}
+                  width={20}
+                  height={20}
                   alt="download-icon"
-                  className="w-6 h-6"
+                  className="w-5 h-5 sm:w-6 sm:h-6"
                 />)
               }
               onClick={handleDownload}
               disabled={isDownloading}
             >
-              {isDownloading ? 'Downloading...' : 'Download Image'}
+              <span className="hidden sm:inline">{isDownloading ? 'Downloading...' : 'Download Image'}</span>
+              <span className="sm:hidden">{isDownloading ? 'Downloading...' : 'Download'}</span>
             </Button>
 
             <Button
               variant="cyan"
-              className="w-36 h-12 rounded-full text-base font-medium"
+              className="w-full sm:w-36 h-10 sm:h-12 rounded-full text-sm sm:text-base font-medium"
               leftIcon={
-                <Image src={SendIcon} width={24} height={24} alt="send-icon" className="w-6 h-6" />
+                <Image src={SendIcon} width={20} height={20} alt="send-icon" className="w-5 h-5 sm:w-6 sm:h-6" />
               }
               onClick={handleShareOnX}
             >
@@ -343,13 +344,13 @@ const ShareOnX = () => {
         </div>
         <div
           className={cn(
-            'flex-[1] flex flex-col gap-10 justify-center items-center',
+            'flex-1 lg:flex-[1] flex flex-col gap-6 sm:gap-10 justify-center items-center',
             blockBaseClass,
             showContent ? visibleClass : hiddenClass,
           )}
           style={{ transitionDelay: '100ms' }}
         >
-          <div className="w-64 h-64 relative">
+          <div className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 relative">
             <Image src={NFTImage} alt="anime-image" fill className="object-cover rounded-4xl" />
             {/* {!hasSharedOnX && (
               <div className="absolute inset-0 bg-black/30 backdrop-blur-md rounded-4xl z-10" />

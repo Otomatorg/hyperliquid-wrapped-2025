@@ -12,10 +12,10 @@ interface LoadingProcessProps {
 
 const LoadingProcess = ({ message, progress }: LoadingProcessProps) => {
   return (
-    <div className="w-full h-full flex flex-col items-center justify-center gap-12">
-      <div className="w-full max-w-120 flex flex-col items-center gap-6">
+    <div className="w-full h-full flex flex-col items-center justify-center gap-6 sm:gap-12 px-4">
+      <div className="w-full max-w-full sm:max-w-120 flex flex-col items-center gap-4 sm:gap-6">
         <div className="shrink-0">
-          <Image src={OtomatoLogo} width="134" height="40" alt="otomato-logo" />
+          <Image src={OtomatoLogo} width="134" height="40" alt="otomato-logo" className="w-24 h-auto sm:w-[134px] sm:h-10" />
         </div>
 
         <Progress
@@ -30,7 +30,7 @@ const LoadingProcess = ({ message, progress }: LoadingProcessProps) => {
         />
 
         <p
-          className="text-white font-medium text-center leading-9 animate-slide-down"
+          className="text-white font-medium text-center text-sm sm:text-base leading-6 sm:leading-9 animate-slide-down px-4"
           key={message}
         >
           {message}

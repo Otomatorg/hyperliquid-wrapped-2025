@@ -37,18 +37,18 @@ const ViewArchives = () => {
 
   return (
     <>
-      <div className="w-full h-screen flex items-center gap-10 py-12">
-        <div className="shrink">
+      <div className="w-full h-screen flex flex-col sm:flex-row items-center gap-4 sm:gap-10 py-4 sm:py-12 px-4 sm:px-0">
+        <div className="shrink-0 order-2 sm:order-1">
           <Button
             variant="cyan"
-            className="w-15 h-15 rounded-full"
+            className="w-12 h-12 sm:w-15 sm:h-15 rounded-full"
             disabled={step === EAchievementStep.TEXT_ACHIEVEMENTS}
-            leftIcon={<ChevronLeft />}
+            leftIcon={<ChevronLeft className="w-4 h-4 sm:w-5 sm:h-5" />}
             onClick={() => setStep(step - 1)}
           />
         </div>
 
-        <div className="grow max-w-75rem h-full flex items-center">
+        <div className="grow max-w-full sm:max-w-75rem h-full flex items-center order-1 sm:order-2 w-full">
           {(() => {
             switch (step) {
               case EAchievementStep.TEXT_ACHIEVEMENTS:
@@ -83,11 +83,11 @@ const ViewArchives = () => {
           })()}
         </div>
 
-        <div className="shrink">
+        <div className="shrink-0 order-3">
           <Button
             variant="cyan"
-            className="w-15 h-15 rounded-full"
-            leftIcon={<ChevronRight />}
+            className="w-12 h-12 sm:w-15 sm:h-15 rounded-full"
+            leftIcon={<ChevronRight className="w-4 h-4 sm:w-5 sm:h-5" />}
             disabled={step === TOTAL_STEP}
             onClick={() => handleStepChange(step + 1)}
           />

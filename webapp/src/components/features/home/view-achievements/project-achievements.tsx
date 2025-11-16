@@ -214,13 +214,13 @@ const ProjectAchievements = () => {
   }, [showAllItems])
 
   return (
-    <div className="w-full h-full flex flex-col gap-6">
+    <div className="w-full h-full flex flex-col gap-4 sm:gap-6 px-4 sm:px-0">
       <div className="shrink-0 relative">
         {/* Invisible full text to reserve space */}
         <div className="opacity-0 pointer-events-none" aria-hidden="true">
-          <p className="text-4xl font-bold leading-24">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 text-center sm:text-left">
             {headerFullText}{' '}
-            <span className={cn('text-4xl font-bold leading-24', HIGHLIGHT_STRUCTURE)}>
+            <span className={cn('text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24', HIGHLIGHT_STRUCTURE)}>
               {highlightFullText}
             </span>
           </p>
@@ -228,14 +228,14 @@ const ProjectAchievements = () => {
 
         {/* Visible typewriter text positioned absolutely */}
         <div className="absolute top-0 left-0 w-full">
-          <p className="text-4xl font-bold leading-24">
+          <p className="text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 text-center sm:text-left">
             {headerText}
             {headerText === headerFullText && highlightText && (
               <>
                 {' '}
                 <span
                   className={cn(
-                    'text-4xl font-bold leading-24 transition-all duration-500',
+                    'text-lg sm:text-2xl md:text-3xl lg:text-4xl font-bold leading-7 sm:leading-10 md:leading-16 lg:leading-24 transition-all duration-500',
                     HIGHLIGHT_STRUCTURE,
                     HIGHLIGHT_VISUAL,
                   )}
@@ -264,12 +264,12 @@ const ProjectAchievements = () => {
             <div
               key={point.key || point.name}
               className={cn(
-                'flex gap-8 transition-all duration-700 ease-out',
+                'flex gap-4 sm:gap-6 md:gap-8 transition-all duration-700 ease-out',
                 showAllItems ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4',
               )}
               style={{ transitionDelay: `${delay}ms` }}
             >
-              <div className="w-16 h-16 shrink rounded-full border border-rgba255-300 bg-rgba55-55-55-170 flex items-center justify-center">
+              <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 shrink-0 rounded-full border border-rgba255-300 bg-rgba55-55-55-170 flex items-center justify-center">
                 <Image
                   src={point.image}
                   className="rounded-full object-cover"
@@ -279,8 +279,8 @@ const ProjectAchievements = () => {
                 />
               </div>
 
-              <div className="grow flex flex-col gap-3">
-                <div className="text-xl font-semibold">
+              <div className="grow flex flex-col gap-2 sm:gap-3 min-w-0">
+                <div className="text-sm sm:text-base md:text-lg lg:text-xl font-semibold truncate">
                   {isFirstItem ? firstItemText : point.name}
                 </div>
                 <div className="w-full">
@@ -300,7 +300,7 @@ const ProjectAchievements = () => {
                 </div>
                 <div
                   className={cn(
-                    'text-lg text-rgba255-700 transition-opacity duration-500',
+                    'text-xs sm:text-sm md:text-base lg:text-lg text-rgba255-700 transition-opacity duration-500',
                     animateProgress ? 'opacity-100' : 'opacity-0',
                   )}
                 >
@@ -310,7 +310,7 @@ const ProjectAchievements = () => {
 
               <div
                 className={cn(
-                  'text-2xl font-bold leading-20 transition-opacity duration-500',
+                  'text-base sm:text-lg md:text-xl lg:text-2xl font-bold leading-6 sm:leading-8 md:leading-16 lg:leading-20 transition-opacity duration-500 shrink-0',
                   animateProgress ? 'opacity-100' : 'opacity-0',
                 )}
               >

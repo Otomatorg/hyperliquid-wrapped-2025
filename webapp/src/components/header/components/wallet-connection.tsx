@@ -170,9 +170,13 @@ const WalletConnection = () => {
           disabled={isLoggingIn || !ready}
           isLoading={isLoggingIn}
           onClick={login}
+          className="text-xs sm:text-sm"
         >
-          <span className="font-medium text-sm rounded-xl">
+          <span className="font-medium rounded-xl hidden sm:inline">
             {isLoggingIn ? 'Connecting...' : 'Connect Wallet'}
+          </span>
+          <span className="font-medium rounded-xl sm:hidden">
+            {isLoggingIn ? 'Connecting...' : 'Connect'}
           </span>
         </Button>
       )}

@@ -236,11 +236,13 @@ const Home = () => {
       {/* <GetStarted onSubmit={handleSubmit} /> */}
 
       {/* Made with love section */}
-      <div className="absolute bottom-4 right-4 flex items-center gap-2 text-sm text-rgba255-600">
-        <span>Made with</span>
-        <Heart className="w-4 h-4 fill-red-500 text-red-500" />
-        <span>Thanks to</span>
-        <Image src={LavaLogo} alt="Lava logo" width={100} height={30} />
+      <div className="absolute bottom-2 sm:bottom-4 right-2 sm:right-4 flex items-center gap-1 sm:gap-2 text-xs sm:text-sm text-rgba255-600">
+        <span className="hidden sm:inline">Made with</span>
+        <span className="sm:hidden">Made w/</span>
+        <Heart className="w-3 h-3 sm:w-4 sm:h-4 fill-red-500 text-red-500" />
+        <span className="hidden sm:inline">Thanks to</span>
+        <span className="sm:hidden">by</span>
+        <Image src={LavaLogo} alt="Lava logo" width={60} height={18} className="sm:w-[100px] sm:h-[30px]" />
 
       </div>
     </div>
