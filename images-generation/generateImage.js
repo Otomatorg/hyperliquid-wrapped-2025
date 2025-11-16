@@ -1,17 +1,7 @@
 const fs = require("fs");
 const path = require("path");
-const { createCanvas, loadImage, registerFont } = require("canvas");
+const { createCanvas, loadImage } = require("canvas");
 const sharp = require("sharp");
-
-/* ---------------------------------------------------------
-   OPTIONAL — Load Manrope Medium (recommended for your UI)
-   Place font file in ./fonts/Manrope-Medium.ttf
-
-registerFont(path.join(__dirname, "fonts/Manrope-Medium.ttf"), {
-  family: "Manrope",
-  weight: "500",
-});
---------------------------------------------------------- */
 
 // Helper function handling WebP via sharp
 async function loadImageSafe(imagePath, baseDir = __dirname) {
@@ -73,7 +63,7 @@ async function generateProfileImage(jsonPath, outputPath) {
   /* ---------------------------------------------------------
    Background 
   --------------------------------------------------------- */
-  const background = await loadImageSafe(data.background, baseDir);
+  const background = await loadImageSafe(`images/background.png`, baseDir);
   ctx.drawImage(background, 0, 0, width, height);
 
   /* ---------------------------------------------------------
@@ -94,20 +84,21 @@ async function generateProfileImage(jsonPath, outputPath) {
   --------------------------------------------------------- */
   const avatarBoxX = cardX + 40;
   const avatarBoxY = cardY + 40;
-  const avatarBoxSize = 420;
+  const avatarHeight = 550;
+  const avatarWidth = 440
 
   // Background behind avatar
   ctx.fillStyle = "#3F6279";
   ctx.beginPath();
   ctx.fill();
 
-  const avatar = await loadImageSafe(data.avatar, baseDir);
-  ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarBoxSize, avatarBoxSize);
+  const avatar = await loadImageSafe(`images/${data.avatar}.png`, baseDir);
+  ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
 
   /* ---------------------------------------------------------
    Top Points
   --------------------------------------------------------- */
-  let tpY = avatarBoxY + avatarBoxSize + 30;
+  let tpY = avatarBoxY + avatarHeight + 40;
   ctx.fillStyle = "#A2BDC7";
   ctx.font = "32px Manrope";
   ctx.fillText("Top points", avatarBoxX, tpY);
@@ -120,10 +111,11 @@ async function generateProfileImage(jsonPath, outputPath) {
     const icon = await loadImageSafe(`badges/${tp.icon}.webp`, baseDir);
 
     // Rounded padded icon
-    drawRoundedIcon(ctx, icon, tpX, tpY + 20, tpIconSize, 20);
+    drawRoundedIcon(ctx, icon, tpX, tpY + 20, tpIconSize, 20, true);
 
+    ctx.fillStyle = "#A2BDC7";
     ctx.font = "28px Manrope";
-    ctx.fillText(tp.label, tpX, tpY + 20 + tpIconSize + 35);
+    ctx.fillText(tp.label, tpX + 12, tpY + 45 + tpIconSize + 45);
 
     tpX += tpSpacing;
   }
@@ -131,8 +123,8 @@ async function generateProfileImage(jsonPath, outputPath) {
   /* ---------------------------------------------------------
    User Badge (shrimp) top-right
   --------------------------------------------------------- */
-  const shrimp = await loadImageSafe(data.userBadge, baseDir);
-  const shrimpSize = 120;
+  const shrimp = await loadImageSafe(`images/${data.userBadge}.png`, baseDir);
+  const shrimpSize = 170;
   const shrimpPadding = 40;
 
   ctx.drawImage(
@@ -146,7 +138,7 @@ async function generateProfileImage(jsonPath, outputPath) {
   /* ---------------------------------------------------------
    Right Section — Rank
   --------------------------------------------------------- */
-  const rightSectionX = avatarBoxX + avatarBoxSize + 60;
+  const rightSectionX = avatarBoxX + avatarWidth + 60;
   let currentY = avatarBoxY + 20;
 
   ctx.fillStyle = "#A2BDC7";
@@ -154,7 +146,7 @@ async function generateProfileImage(jsonPath, outputPath) {
   ctx.fillText("Overall Rank", rightSectionX, currentY);
 
   ctx.fillStyle = "#FFFFFF";
-  ctx.font = "bold 90px Manrope";
+  ctx.font = "700 110px Outfit";
   ctx.fillText(`#${data.rank.toLocaleString()}`, rightSectionX, currentY + 100);
 
   /* ---------------------------------------------------------
@@ -163,7 +155,7 @@ async function generateProfileImage(jsonPath, outputPath) {
   ctx.fillStyle = "#A2BDC7";
   ctx.font = "32px Manrope";
 
-  currentY += 210;
+  currentY += 170;
   ctx.fillText("Badges", rightSectionX, currentY);
 
   const badgeSize = 80;
@@ -174,8 +166,8 @@ async function generateProfileImage(jsonPath, outputPath) {
   let badgeY = currentY + 40;
   let badgeCount = 0;
 
-  for (let badgePath of data.badges) {
-    const badgeImg = await loadImageSafe(badgePath, baseDir);
+  for (let badgePath of data.protocolBadges) {
+    const badgeImg = await loadImageSafe(`badges/${badgePath}.webp`, baseDir);
 
     drawRoundedIcon(ctx, badgeImg, badgeX, badgeY, badgeSize, 20, true);
 
@@ -188,61 +180,80 @@ async function generateProfileImage(jsonPath, outputPath) {
     }
   }
 
-  /* ---------------------------------------------------------
-   General Stats
-  --------------------------------------------------------- */
-  if (data.general) {
-    const stats = data.general;
+/* ---------------------------------------------------------
+   General Stats — styled cards (like screenshot)
+--------------------------------------------------------- */
+if (data.general) {
+  const stats = data.general;
 
-    let gX = rightSectionX;
-    let gY = badgeY + badgeSize + 60;
+  // Position under badges
+  let gX = rightSectionX;
+  let gY = badgeY + badgeSize + 90;
 
-    ctx.font = "bold 32px Manrope";
-    ctx.fillStyle = "white";
-    ctx.fillText("General", gX, gY);
+  // Title
+  ctx.font = "32px Manrope";
+  ctx.fillStyle = "#A2BDC7";
+  ctx.fillText("General", gX, gY);
 
-    gY += 50;
-    ctx.font = "28px Manrope";
+  gY += 40;
 
-    const drawStat = (label, value, y) => {
-      ctx.fillStyle = "white";
-      ctx.fillText(`${label}: `, gX, y);
+  // --- card styling ---
+  const cardPaddingX = 20;
+  const cardPaddingY = 20;
+  const cardRadius = 22;
+  const cardSpacingX = 20;
 
-      const labelWidth = ctx.measureText(`${label}: `).width;
-      const valueX = gX + labelWidth;
+  // Function to draw a stat card
+  const drawCard = (title, value, x, y) => {
+    ctx.font = "24px Manrope";
 
-      ctx.fillStyle = "#5B9BD5";
-      const padding = 8;
+    // Measure card width
+    const titleWidth = ctx.measureText(title).width;
+    const valueWidth = ctx.measureText(value).width;
+    const maxWidth = Math.max(titleWidth, valueWidth);
 
-      const valueWidth = ctx.measureText(value).width;
-      const boxWidth = valueWidth + padding * 2;
-      const boxHeight = 35;
+    const cardWidth = maxWidth + cardPaddingX * 2;
+    const cardHeight = 95;
 
-      ctx.beginPath();
-      ctx.roundRect(valueX - padding, y - boxHeight + 5, boxWidth, boxHeight, 6);
-      ctx.fill();
+    // Background
+    ctx.fillStyle = "rgba(255, 255, 255, 0.1)";
+    ctx.beginPath();
+    ctx.roundRect(x, y, cardWidth, cardHeight, cardRadius);
+    ctx.fill();
 
-      ctx.fillStyle = "white";
-      ctx.fillText(value, valueX, y);
-    };
+    // Title
+    ctx.fillStyle = "#A6B9C5";
+    ctx.font = "20px Manrope";
+    ctx.fillText(title, x + cardPaddingX, y + 32);
 
-    if (stats.transactions) {
-      drawStat("Transactions", stats.transactions, gY);
-      gY += 60;
-    }
-    if (stats.og) {
-      drawStat("OG score", stats.og, gY);
-      gY += 60;
-    }
-    if (stats.archetype) {
-      drawStat("Archetype", stats.archetype, gY);
-      gY += 60;
-    }
-    if (stats.gas) {
-      drawStat("Gas burner", stats.gas, gY);
-    }
+    // Value
+    ctx.fillStyle = "#FFFFFF";
+    ctx.font = "24px Manrope";
+    ctx.fillText(
+      value,
+      x + cardPaddingX,
+      y + 32 + 34
+    );
+
+    return cardWidth; // return width to chain cards horizontally
+  };
+
+  // Draw cards in order (max 4)
+  let cx = rightSectionX;
+
+  if (stats.transactions) {
+    cx += drawCard("Transactions", stats.transactions, cx, gY) + cardSpacingX;
   }
-
+  if (stats.og) {
+    cx += drawCard("OG score", stats.og, cx, gY) + cardSpacingX;
+  }
+  if (stats.archetype) {
+    cx += drawCard("Archetype", stats.archetype, cx, gY) + cardSpacingX;
+  }
+  if (stats.gas) {
+    drawCard("Gas burner", stats.gas, rightSectionX, gY + 120);
+  }
+}
   /* ---------------------------------------------------------
    Export
   --------------------------------------------------------- */
