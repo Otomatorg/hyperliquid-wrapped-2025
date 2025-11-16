@@ -4,7 +4,6 @@ import { useTypewriter } from '@/hooks/use-typewriter'
 import BackgroundImage from '@/public/images/img-hyperevm-background.png'
 import OtomatoLogo from '@/public/images/img-otomato-logo-v3@2x.png'
 import Image from 'next/image'
-import { useEffect } from 'react'
 
 /**
  * Global loading component that waits for:

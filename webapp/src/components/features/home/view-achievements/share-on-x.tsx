@@ -3,19 +3,13 @@ import { useTypewriter } from '@/hooks/use-typewriter'
 import { cn } from '@/lib/utils'
 import DownloadIcon from '@/public/icons/ic-download.svg'
 import SendIcon from '@/public/icons/ic-send.svg'
-import SubLogo from '@/public/icons/ic-sub-logo.svg'
-import AnimeImage from '@/public/images/img-anime@2x.png'
 import NFTImage from '@/public/images/HyperliquidXOtomato.png'
-import UserAvatar from '@/public/images/img-user-avatar@2x.png'
 import Image from 'next/image'
 import { memo, useRef, useState, useEffect, useMemo } from 'react'
-import { ACTIVE_PROTOCOLS, ALL_PROTOCOLS_FOR_BADGES } from '../constants'
 import { MintButton } from '@/components/ui/mint-button'
 import { Spinner } from '@heroui/react'
 
 const HEADER_TEXT = 'Share on X to mint the Otomato x HyperEVM commemorative NFT'
-
-let userType = 'whale'
 
 const ShareOnX = () => {
   const [showContent, setShowContent] = useState(false)
@@ -295,6 +289,7 @@ const ShareOnX = () => {
                 <Spinner size="lg" />
               </div>
             ) : generatedImageUrl ? (
+              // eslint-disable-next-line @next/next/no-img-element
               <img
                 src={generatedImageUrl}
                 alt="background-image"

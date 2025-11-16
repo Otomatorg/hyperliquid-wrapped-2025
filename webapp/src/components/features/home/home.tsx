@@ -85,8 +85,6 @@ const Home = () => {
           }
         }
         if (walletAddress) {
-          const errorMessage =
-            error instanceof Error ? error.message : 'API call failed'
           // localStorage.setItem(
           //   `wallet-${walletAddress}`,
           //   JSON.stringify({ error: errorMessage }),

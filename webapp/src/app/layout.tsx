@@ -1,4 +1,3 @@
-import Footer from '@/components/footer/footer'
 import Providers from '@/providers'
 import BackgroundImage from '@/public/images/img-hyperevm-background.png'
 import type { Metadata, Viewport } from 'next'

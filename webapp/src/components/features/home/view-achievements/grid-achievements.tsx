@@ -95,6 +95,7 @@ const GridAchievements = () => {
         style={{ transitionDelay: '0ms' }}
       >
         {isExternalUrl ? (
+          // eslint-disable-next-line @next/next/no-img-element
           <img
             src={avatarImageSrc as string}
             alt="avatar-image"

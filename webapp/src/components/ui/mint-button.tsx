@@ -20,7 +20,7 @@ interface MintButtonProps {
 
 export function MintButton({ disabled = false }: MintButtonProps) {
   const [mounted, setMounted] = useState(false);
-  const { address, isConnected } = useAccount();
+  const { isConnected } = useAccount();
 
   const {
     data: hash,

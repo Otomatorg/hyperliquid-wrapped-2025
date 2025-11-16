@@ -96,12 +96,29 @@ const getDisplayName = (protocolKey: string): string => {
 
 const InteractedProjects = () => {
   const headerText = "You've interacted with "
-  const userData = JSON.parse(
-    typeof window !== 'undefined'
-      ? localStorage.getItem(`wallet-${localStorage.getItem('wallet')}`) || '{}'
-      : '{}'
-  )
-  const protocolBadges = userData.protocolBadges || []
+  
+  // Get user data from localStorage
+  const userData = useMemo(() => {
+    if (typeof window === 'undefined') {
+      return {}
+    }
+    const walletAddress = localStorage.getItem('wallet')
+    if (!walletAddress) {
+      return {}
+    }
+    const userDataStr = localStorage.getItem(`wallet-${walletAddress}`)
+    if (!userDataStr) {
+      return {}
+    }
+    try {
+      return JSON.parse(userDataStr)
+    } catch (error) {
+      console.error('Failed to parse user data from localStorage:', error)
+      return {}
+    }
+  }, [])
+
+  const protocolBadges = useMemo(() => userData.protocolBadges || [], [userData])
   const highlightText = `${protocolBadges.length}/21 projects`
 
   // Get top project data from localStorage
