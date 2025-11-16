@@ -15,3 +15,4 @@ Rysk -> Done
 Pendle -> 
 ventuals -> Done
 Nunchi -> Done
+Kinetiq -> Done
