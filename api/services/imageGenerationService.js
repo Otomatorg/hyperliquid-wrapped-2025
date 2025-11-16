@@ -1,6 +1,7 @@
 const path = require("path");
 const { createCanvas, loadImage } = require("canvas");
 const sharp = require("sharp");
+const axios = require("axios");
 
 const protocolsList = [
   "catbal",
@@ -43,6 +44,37 @@ async function loadImageSafe(imagePath, baseDir = IMAGES_BASE_DIR) {
   }
 
   return loadImage(fullPath);
+}
+
+// Helper function to load image from URL (handles WebP conversion)
+async function loadImageFromURL(url) {
+  try {
+    // Fetch image using axios
+    const response = await axios.get(url, {
+      responseType: 'arraybuffer',
+      timeout: 10000, // 10 second timeout
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (compatible; ImageLoader/1.0)'
+      }
+    });
+    
+    const buffer = Buffer.from(response.data);
+    
+    // Check if it's WebP by trying to process it with sharp
+    try {
+      const metadata = await sharp(buffer).metadata();
+      if (metadata.format === 'webp') {
+        const pngBuffer = await sharp(buffer).png().toBuffer();
+        return loadImage(pngBuffer);
+      }
+    } catch (e) {
+      // If sharp can't process it, try loading directly
+    }
+    
+    return loadImage(buffer);
+  } catch (error) {
+    throw new Error(`Error loading image from URL: ${error.message}`);
+  }
 }
 
 /* ---------------------------------------------------------
@@ -122,8 +154,43 @@ async function generateProfileImage(data) {
   ctx.beginPath();
   ctx.fill();
 
-  const avatar = await loadImageSafe(`images/${data.avatar}.png`, baseDir);
-  ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
+  let avatar;
+  
+  // Check if avatar is a URL starting with http:// or https://
+  if (data.avatar && typeof data.avatar === 'string' && (data.avatar.startsWith('http://') || data.avatar.startsWith('https://'))) {
+    try {
+      avatar = await loadImageFromURL(data.avatar);
+      ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
+    } catch (error) {
+      console.error(`Error loading avatar from URL ${data.avatar}:`, error.message);
+      // Fall back to default avatar or skip if URL fails
+      const defaultAvatar = await loadImageSafe(`images/default_catbal.png`, baseDir);
+      ctx.drawImage(defaultAvatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
+    }
+  } else if (data.avatar == "catbal") {
+    avatar = await loadImageSafe(`images/default_catbal.png`, baseDir);
+    ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
+  } else if (data.avatar == "hypio") {
+    avatar = await loadImageSafe(`images/default_hypio.png`, baseDir);
+    ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
+  } else if (data.avatar == "hypurr") {
+    avatar = await loadImageSafe(`images/default_hypurr.png`, baseDir);
+    ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
+  } else if (data.avatar) {
+    // Fallback to loading from local path
+    try {
+      avatar = await loadImageSafe(`${data.avatar}`, '');
+      ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
+    } catch (error) {
+      console.error(`Error loading avatar from path ${data.avatar}:`, error.message);
+      // Fall back to default avatar
+      const defaultAvatar = await loadImageSafe(`images/default_catbal.png`, baseDir);
+      ctx.drawImage(defaultAvatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
+    }
+  }
+
+  // const avatar = await loadImageSafe(`images/${data.avatar}.png`, baseDir);
+  // ctx.drawImage(avatar, avatarBoxX, avatarBoxY, avatarWidth, avatarHeight);
 
   /* ---------------------------------------------------------
      Top Points
