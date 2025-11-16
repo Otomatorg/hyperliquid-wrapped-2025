@@ -118,7 +118,7 @@ export default async function userRoute(req, res) {
       });
 
     const response = {
-      rank: rankData.score,
+      rank: rankData.rank,
       firstActivityDate: firstActivityDate || "Unknown",
       daysSinceFirstActivity: daysSinceFirstActivity || 0,
       gas: gas,

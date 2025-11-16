@@ -83,7 +83,9 @@ function getProtocolCategory(protocol) {
  * Get the user's archetype based on the protocols they've interacted with.
  * 
  * @param {string} address - The user's Ethereum address
- * @returns {Promise<string>} - The archetype name, or "Newbie" as default if no protocols match
+ * @returns {Promise<object>} - Object containing:
+ *   - name: string - The archetype name, or "Newbie" as default if no protocols match
+ *   - description: string - The archetype description
  */
 export async function getArchetype(address) {
   if (!address) {
@@ -93,50 +95,55 @@ export async function getArchetype(address) {
   // Get the list of protocols the user has used
   const protocols = await getProtocol(address);
 
-  if (!protocols || protocols.length === 0) {
-    return "Newbie"; // Default archetype
-  }
+  let archetypeName = "Newbie"; // Default archetype
 
-  // Count protocols by category
-  const categoryCounts = {
-    "LP specialist": 0,
-    "NFT collector": 0,
-    "Yield alchemist": 0,
-    "Early digger": 0,
-  };
+  if (protocols && protocols.length > 0) {
+    // Count protocols by category
+    const categoryCounts = {
+      "LP specialist": 0,
+      "NFT collector": 0,
+      "Yield alchemist": 0,
+      "Early digger": 0,
+    };
 
-  // Count each protocol's category
-  for (const protocol of protocols) {
-    const category = getProtocolCategory(protocol);
-    if (category && categoryCounts.hasOwnProperty(category)) {
-      categoryCounts[category]++;
+    // Count each protocol's category
+    for (const protocol of protocols) {
+      const category = getProtocolCategory(protocol);
+      if (category && categoryCounts.hasOwnProperty(category)) {
+        categoryCounts[category]++;
+      }
     }
-  }
 
-  // Find the maximum count
-  const maxCount = Math.max(...Object.values(categoryCounts));
+    // Find the maximum count
+    const maxCount = Math.max(...Object.values(categoryCounts));
 
-  // If no protocols match any category, return default
-  if (maxCount === 0) {
-    return "Newbie";
-  }
+    // If protocols match categories, determine the archetype
+    if (maxCount > 0) {
+      // Find all categories with the maximum count
+      const topCategories = Object.entries(categoryCounts)
+        .filter(([, count]) => count === maxCount)
+        .map(([category]) => category);
 
-  // Find all categories with the maximum count
-  const topCategories = Object.entries(categoryCounts)
-    .filter(([, count]) => count === maxCount)
-    .map(([category]) => category);
-
-  // If there's a tie, use priority order
-  if (topCategories.length > 1) {
-    for (const priorityArchetype of ARCHETYPE_PRIORITY) {
-      if (topCategories.includes(priorityArchetype)) {
-        return priorityArchetype;
+      // If there's a tie, use priority order
+      if (topCategories.length > 1) {
+        for (const priorityArchetype of ARCHETYPE_PRIORITY) {
+          if (topCategories.includes(priorityArchetype)) {
+            archetypeName = priorityArchetype;
+            break;
+          }
+        }
+      } else {
+        // Return the top category
+        archetypeName = topCategories[0] || "Newbie";
       }
     }
   }
 
-  // Return the top category (or first if somehow no priority match)
-  return topCategories[0] || "Newbie";
+  // Return object with name and description
+  return {
+    name: archetypeName,
+    description: getArchetypeDescription(archetypeName)
+  };
 }
 
 /**

@@ -1,113 +1,162 @@
-import path from "path";
-import { fileURLToPath } from "url";
-import fs from "fs/promises";
+// --- Config ---
+const API_URL = "https://api-ui.hyperliquid.xyz/info";
+const MAX_RETRIES = 4;
+const BASE_BACKOFF_MS = 800;
 
-// --- __dirname ESM equivalent ---
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+// Helper functions
+function sleep(ms) {
+  return new Promise((r) => setTimeout(r, ms));
+}
 
-// Path to the Hypercore data JSON file
-const HYPERCORE_DATA_FILE_PATH = path.resolve(
-  __dirname,
-  "../../../src/hypercore/hypercoreVolumeAndTrades.json"
-);
-
-// Cache for Hypercore data (loaded once)
-let hypercoreDataCache = null;
+function toNum(x, d = 0) {
+  const n = Number(x);
+  return Number.isFinite(n) ? n : d;
+}
 
 /**
- * Load and cache the Hypercore data.
- * This is called once on first use.
+ * Fetch user fills from Hyperliquid API
  */
-async function loadHypercoreData() {
-  if (hypercoreDataCache !== null) {
-    return; // Already loaded
-  }
+async function fetchUserFills(address) {
+  const body = { aggregateByTime: true, type: "userFills", user: address };
 
-  try {
-    console.log("📊 Loading Hypercore data from JSON file...");
-    const fileContent = await fs.readFile(HYPERCORE_DATA_FILE_PATH, "utf-8");
-    const rawData = JSON.parse(fileContent);
-    
-    // Normalize all keys to lowercase for consistent lookup
-    // This handles both lowercase and checksummed addresses
-    hypercoreDataCache = {};
-    for (const [key, value] of Object.entries(rawData)) {
-      hypercoreDataCache[key.toLowerCase()] = value;
+  let attempt = 0;
+  while (true) {
+    attempt++;
+    const res = await fetch(API_URL, {
+      method: "POST",
+      headers: {
+        Accept: "application/json, text/plain, */*",
+        "Content-Type": "application/json",
+        Origin: "https://app.dextrabot.com",
+        Referer: "https://app.dextrabot.com/",
+      },
+      body: JSON.stringify(body),
+    });
+
+    if (res.ok) {
+      const json = await res.json().catch(() => null);
+      if (!json) throw new Error("Invalid JSON from API");
+
+      let fills = Array.isArray(json)
+        ? json
+        : Array.isArray(json?.data)
+        ? json.data
+        : Array.isArray(json?.fills)
+        ? json.fills
+        : null;
+
+      if (!Array.isArray(fills)) {
+        const nested =
+          (json?.result && Array.isArray(json.result) && json.result) ||
+          (json?.response && Array.isArray(json.response) && json.response);
+        if (nested) fills = nested;
+      }
+
+      if (!Array.isArray(fills)) {
+        throw new Error("Could not find fills array in API response");
+      }
+      return fills;
     }
-    
-    console.log(`✅ Loaded Hypercore data for ${Object.keys(hypercoreDataCache).length} addresses.`);
-  } catch (error) {
-    console.warn(`⚠️ Error loading Hypercore data: ${error.message}`);
-    // Don't throw - return default values if file doesn't exist yet
-    hypercoreDataCache = {};
+
+    if ((res.status === 429 || res.status >= 500) && attempt <= MAX_RETRIES) {
+      const backoff = BASE_BACKOFF_MS * Math.pow(2, attempt - 1);
+      const text = await res.text().catch(() => "");
+      console.warn(
+        `API ${res.status} (attempt ${attempt}/${MAX_RETRIES}). Backing off ${backoff}ms. Body: ${text.slice(0, 200)}`
+      );
+      await sleep(backoff);
+      continue;
+    }
+
+    const bodyText = await res.text().catch(() => "");
+    throw new Error(`API HTTP ${res.status} ${res.statusText} — ${bodyText}`);
   }
 }
 
 /**
- * Format volume in USD to a human-readable string (e.g., "420k $", "1.2M $")
+ * Calculate Hypercore stats from trades/fills
+ */
+function calculateHypercoreStats(trades) {
+  let totalTrades = 0;
+  let totalVolumeUSD = 0;
+
+  for (const t of trades) {
+    const szAbs = Math.abs(toNum(t.sz));
+    const px = toNum(t.px);
+    const notional = szAbs * px;
+
+    totalTrades += 1;
+    totalVolumeUSD += notional;
+  }
+
+  return {
+    trades: totalTrades,
+    volumeUSD: Number(totalVolumeUSD.toFixed(2)),
+  };
+}
+
+/**
+ * Format volume in USD to a human-readable string (e.g., "420k$", "1.2M$")
  */
 function formatVolume(volumeUSD) {
   if (!volumeUSD || volumeUSD === 0) {
-    return "0 $";
+    return "0$";
   }
 
   if (volumeUSD >= 1000000) {
     const millions = volumeUSD / 1000000;
     if (millions >= 10) {
-      return `${Math.round(millions)}M $`;
+      return `${Math.round(millions)}M$`;
     }
-    return `${millions.toFixed(1)}M $`;
+    return `${millions.toFixed(1)}M$`;
   }
 
   if (volumeUSD >= 1000) {
     const thousands = volumeUSD / 1000;
     if (thousands >= 100) {
-      return `${Math.round(thousands)}k $`;
+      return `${Math.round(thousands)}k$`;
     }
-    return `${thousands.toFixed(1)}k $`;
+    return `${thousands.toFixed(1)}k$`;
   }
 
-  return `${Math.round(volumeUSD)} $`;
+  return `${Math.round(volumeUSD)}$`;
 }
 
 /**
  * Get Hypercore stats (trades and volume) for a user.
+ * Fetches data directly from Hyperliquid API.
  * 
  * @param {string} address - The user's Ethereum address
  * @returns {Promise<object>} - Object containing Hypercore stats
- *   - trades: number - Total number of trades (0 if not found)
- *   - volume: string - Formatted volume string (e.g., "420k $")
+ *   - trades: number - Total number of trades (0 if not found or error)
+ *   - volume: string - Formatted volume string (e.g., "420k$")
  */
 export async function getHypercoreStats(address) {
   if (!address) {
     throw new Error("Address is required");
   }
 
-  // Ensure data is loaded
-  await loadHypercoreData();
+  try {
+    // Fetch user fills from Hyperliquid API
+    const fills = await fetchUserFills(address);
+    
+    // Calculate stats from fills
+    const stats = calculateHypercoreStats(fills);
+    
+    const volume = formatVolume(stats.volumeUSD);
 
-  // Normalize address to lowercase for lookup (cache is already normalized)
-  const normalizedAddress = address.toLowerCase();
-
-  // Get user data from cache (already normalized on load)
-  const userData = hypercoreDataCache[normalizedAddress] || null;
-
-  if (!userData || userData.error) {
-    // Return default values if user not found or has error
+    return {
+      trades: stats.trades,
+      volume,
+    };
+  } catch (error) {
+    // Log error but return default values instead of throwing
+    // This ensures the API endpoint doesn't fail if Hypercore data is unavailable
+    console.warn(`⚠️ Error fetching Hypercore stats for ${address}: ${error.message}`);
     return {
       trades: 0,
-      volume: "0 $",
+      volume: "0$",
     };
   }
-
-  const trades = userData.trades || 0;
-  const volumeUSD = userData.volumeUSD || 0;
-  const volume = formatVolume(volumeUSD);
-
-  return {
-    trades,
-    volume,
-  };
 }
 

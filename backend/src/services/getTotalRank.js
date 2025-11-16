@@ -383,6 +383,82 @@ function calculateProtocolPoints(protocols, pointsData = {}) {
 }
 
 /**
+ * Convert a score to a rank based on known data points.
+ * Uses piecewise linear interpolation between known score-rank pairs.
+ * 
+ * Known data points:
+ * - Score 1,000,000 → Rank 1
+ * - Score 250,000 → Rank 1,000
+ * - Score 143,797.5 → Rank 2,500
+ * - Score 100,000 → Rank 5,000
+ * - Score 50,000 → Rank 7,500
+ * - Score 25,000 → Rank 10,000
+ * - Score 1,000 → Rank 20,000
+ * 
+ * @param {number} score - The calculated score
+ * @returns {number} - The corresponding rank (lower is better)
+ */
+function scoreToRank(score) {
+  if (!score || score <= 0) {
+    return 20000; // Default to worst rank for 0 or negative scores
+  }
+
+  // Define known score-rank pairs (sorted by score descending)
+  const dataPoints = [
+    { score: 1000000, rank: 1 },
+    { score: 250000, rank: 1000 },
+    { score: 143797.5, rank: 2500 },
+    { score: 100000, rank: 5000 },
+    { score: 50000, rank: 7500 },
+    { score: 25000, rank: 10000 },
+    { score: 1000, rank: 20000 },
+  ];
+
+  // Handle scores above the maximum
+  if (score >= dataPoints[0].score) {
+    return 1; // Top rank
+  }
+
+  // Handle scores below the minimum
+  if (score <= dataPoints[dataPoints.length - 1].score) {
+    // Extrapolate below 1000 using the last two points
+    const lastPoint = dataPoints[dataPoints.length - 1];
+    const secondLastPoint = dataPoints[dataPoints.length - 2];
+    
+    // Linear extrapolation: rank = lastRank + (scoreDiff / scoreRange) * rankRange
+    const scoreRange = secondLastPoint.score - lastPoint.score;
+    const rankRange = secondLastPoint.rank - lastPoint.rank;
+    const scoreDiff = lastPoint.score - score;
+    
+    const extrapolatedRank = lastPoint.rank + (scoreDiff / scoreRange) * rankRange;
+    return Math.round(extrapolatedRank);
+  }
+
+  // Find the two points to interpolate between
+  for (let i = 0; i < dataPoints.length - 1; i++) {
+    const upperPoint = dataPoints[i]; // Higher score, lower rank
+    const lowerPoint = dataPoints[i + 1]; // Lower score, higher rank
+
+    if (score <= upperPoint.score && score >= lowerPoint.score) {
+      // Linear interpolation
+      // Calculate how far along the score range we are (0 = at upperPoint, 1 = at lowerPoint)
+      const scoreRange = upperPoint.score - lowerPoint.score;
+      const scoreDiff = upperPoint.score - score; // Distance from upper point
+      const scoreRatio = scoreDiff / scoreRange; // Ratio (0 to 1)
+      
+      // Interpolate rank: higher scores = lower ranks, so we go from upperRank to lowerRank
+      const rankRange = lowerPoint.rank - upperPoint.rank; // Positive (lower rank to higher rank)
+      const rank = upperPoint.rank + scoreRatio * rankRange;
+      
+      return Math.round(rank);
+    }
+  }
+
+  // Fallback (shouldn't reach here)
+  return 20000;
+}
+
+/**
  * Get multiplier based on the number of unique protocols used.
  * 
  * @param {number} protocolCount - Number of unique protocols
@@ -426,10 +502,12 @@ function getProtocolCountMultiplier(protocolCount) {
 }
 
 /**
- * Calculate total rank score from already-fetched data.
+ * Calculate total rank from already-fetched data.
  * 
  * The score is calculated as:
  * (noncePoints + earlyRankPoints + protocolPoints) * networthMultiplier * protocolCountMultiplier
+ * 
+ * The score is then converted to a rank using the scoreToRank function.
  * 
  * Protocol points are now multiplied based on percentile rank within each protocol.
  * 
@@ -440,7 +518,8 @@ function getProtocolCountMultiplier(protocolCount) {
  *   - points: object - Object mapping protocol names to {point, rank, percentile} (optional)
  *   - networth: number - Networth in USD
  * @returns {object} - Object containing:
- *   - score: number - Total calculated score
+ *   - rank: number - Total calculated rank (lower is better)
+ *   - score: number - Total calculated score (for reference)
  *   - noncePoints: number - Points from nonce rank
  *   - earlyRankPoints: number - Points from early rank
  *   - protocolPoints: number - Total points from protocols (with percentile multipliers)
@@ -460,7 +539,7 @@ export function getTotalRank(data) {
   const { nonce, gasStats, protocols, points, networth } = data;
 
   console.log("\n" + "=".repeat(80));
-  console.log("📊 CALCULATING TOTAL RANK SCORE");
+  console.log("📊 CALCULATING TOTAL RANK");
   console.log("=".repeat(80));
 
   // Extract percentiles
@@ -524,11 +603,18 @@ export function getTotalRank(data) {
   console.log(`   × ${networthMultiplier.toFixed(2)} (networth multiplier)`);
   console.log(`   × ${protocolCountMultiplier.toFixed(2)} (protocol count multiplier)`);
   console.log(`   = ${totalScore.toFixed(2)}`);
-  console.log(`\n✅ FINAL SCORE: ${Math.round(totalScore * 100) / 100}`);
+  
+  // Convert score to rank
+  const finalScore = Math.round(totalScore * 100) / 100;
+  const rank = scoreToRank(finalScore);
+  
+  console.log(`\n✅ FINAL SCORE: ${finalScore}`);
+  console.log(`🏆 FINAL RANK: ${rank.toLocaleString()}`);
   console.log("=".repeat(80) + "\n");
 
   return {
-    score: Math.round(totalScore * 100) / 100, // Round to 2 decimal places
+    rank, // Primary return value - the calculated rank
+    score: finalScore, // Keep score for reference
     noncePoints,
     earlyRankPoints,
     protocolPoints,
