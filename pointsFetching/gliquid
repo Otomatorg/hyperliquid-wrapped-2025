@@ -1,6 +1,0 @@
-curl 'https://api.goldsky.com/api/public/project_cm6j9e07kfo3x01tng1d70l6q/subgraphs/gliquid-non-dex-mainnet/1.0.0/gn' \
-  -H 'accept: */*' \
-  -H 'content-type: application/json' \
-  -H 'origin: https://www.gliquid.xyz' \
-  -H 'referer: https://www.gliquid.xyz/' \
-  --data-raw '{"query":"query ParticipantByAddress($id: ID!) {\n  participant(id: $id) {\n    address\n    id\n    points\n    __typename\n  }\n}","variables":{"id":"0xbfb7e7327bbb888eb1e220dcfbee0c53ba6a5ba3"}}'
