@@ -170,7 +170,7 @@ const GridAchievements = () => {
           {feesPaid ? feesPaid.toLocaleString() : '-'}
           <span className="text-3xl font-semibold">
             {userData?.gas?.rank?.rank != null
-              ? `#${userData.gas.rank.rank.toLocaleString()} (top ${userData.gas.rank.percentile ?? 'N/A'} %)`
+              ? `#${userData.gas.rank.rank.toLocaleString()} (top ${(100 - userData.gas.rank.percentile).toFixed(2)} %)`
               : '#61,154 (top 15%)'}
           </span>
         </p>

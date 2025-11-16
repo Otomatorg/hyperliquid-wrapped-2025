@@ -27,19 +27,19 @@ const TextAchievementsRanks = () => {
     {
       title: 'Gas Rank',
       description: userData?.gas?.rank?.rank != null
-        ? `#${userData.gas.rank.rank.toLocaleString()} (top ${userData.gas.rank.percentile ?? 'N/A'} %)`
+        ? `#${userData.gas.rank.rank.toLocaleString()} (top ${(100 - userData.gas.rank.percentile).toFixed(2)} %)`
         : 'N/A',
     },
     {
       title: 'Nonce Rank',
       description: userData?.nonce?.rank?.rank != null
-        ? `#${userData.nonce.rank.rank.toLocaleString()} (top ${userData.nonce.rank.percentile ?? 'N/A'} %)`
+        ? `#${userData.nonce.rank.rank.toLocaleString()} (top ${(100 - userData.nonce.rank.percentile).toFixed(2)} %)`
         : 'N/A',
     },
     {
       title: 'Early Rank',
       description: userData?.EarlyRank?.rank != null
-        ? `#${userData.EarlyRank.rank.toLocaleString()} (top ${userData.EarlyRank.percentile ?? 'N/A'} %)`
+        ? `#${userData.EarlyRank.rank.toLocaleString()} (top ${(100 - userData.EarlyRank.percentile).toFixed(2)} %)`
         : 'N/A',
     },
   ]

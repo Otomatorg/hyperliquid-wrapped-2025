@@ -136,7 +136,7 @@ const ProjectAchievements = () => {
 
         // Prioritize percentile from allPoints data, fallback to topPoints map, or empty string
         const topProject = data.percentile !== undefined && data.percentile !== null
-          ? String(data.percentile)
+          ? (100 - data.percentile).toFixed(2)
           : topPointsMap.get(normalizedKey) || ''
 
         const points = data.point || 0
