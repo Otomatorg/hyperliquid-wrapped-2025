@@ -23,6 +23,12 @@ const nextConfig: NextConfig = {
       }
     }
 
+    // Ignore React Native modules that MetaMask SDK tries to import
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      '@react-native-async-storage/async-storage': false,
+    }
+
     // Optimize chunk splitting for HeroUI
     config.optimization = {
       ...config.optimization,
