@@ -1,0 +1,7718 @@
+{
+    "topUsersByProtocol": {
+      "felix": [
+        {
+          "address": "0x63af859d7b4717bd4d3705f15b6d4caad6cf4b36",
+          "points": 130219.52588616955
+        },
+        {
+          "address": "0x007d76eec0ba411ce873a8819df50dd443d967a0",
+          "points": 83576.73559114334
+        },
+        {
+          "address": "0x00071360d75385c4c25dd8f217465693ffe91a69",
+          "points": 79726.86018484212
+        },
+        {
+          "address": "0x29f95aecc3d5ad0c8698dd6dccad71cacb087d2c",
+          "points": 79258.78841962795
+        },
+        {
+          "address": "0xaeae3319f670f1f7aa18b42f9d5f3452f4ee69e6",
+          "points": 77371.81276317156
+        },
+        {
+          "address": "0x920fa68300c8aa95c4563e0daf79a0b0e51f0cfe",
+          "points": 63166.291437452695
+        },
+        {
+          "address": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+          "points": 60617.42049960595
+        },
+        {
+          "address": "0x5064d3e2906317905f1d59663d5fa257c15a704a",
+          "points": 59729.00604539586
+        },
+        {
+          "address": "0x4352cc849b33a936ad93bb109afdec1c89653b4f",
+          "points": 55199.5534271296
+        },
+        {
+          "address": "0xd1abe5db14d073883f2084c2af105652102bdefc",
+          "points": 47732.78133772362
+        },
+        {
+          "address": "0xfb5146803b7dde661aab84915cc1435697caf896",
+          "points": 47666.64285252565
+        },
+        {
+          "address": "0x93d2f4f3a0445aa808c99cbd6ba05236a895379f",
+          "points": 46187.26189892372
+        },
+        {
+          "address": "0xbdfa4f4492dd7b7cf211209c4791af8d52bf5c50",
+          "points": 43551.37812867303
+        },
+        {
+          "address": "0x45ab58a2034f03aa446baf3bb1d236706f866cbc",
+          "points": 39721.40877888655
+        },
+        {
+          "address": "0x76c2164fc79492401db1890db0d17d16b9155aa0",
+          "points": 36333.287373990286
+        },
+        {
+          "address": "0x0068ebb362048f1041f30176de5c958061f2a78f",
+          "points": 35533.3768267174
+        },
+        {
+          "address": "0x656c8da58d738295e03550796dd83900aa7c6525",
+          "points": 34987.14853387086
+        },
+        {
+          "address": "0x2326ad5530c12cf9f0b32415fc53dbdfe6459cbf",
+          "points": 33606.5682555556
+        },
+        {
+          "address": "0x5db201ae15f9702f0a0ff9f00b8c1c18355373d0",
+          "points": 30087.466659877333
+        },
+        {
+          "address": "0x6d7823cd5c3d9dcd63e6a8021b475e0c7c94b291",
+          "points": 28131.632917757677
+        },
+        {
+          "address": "0x5ff3ba9084e89151866f80f05a14a27e03e8bd74",
+          "points": 27872.69092208145
+        },
+        {
+          "address": "0x580809c0dfe56287e933f99e347cd5385a645ee3",
+          "points": 26502.16042871762
+        },
+        {
+          "address": "0xff43c5727fbfc31cb96e605dfd7546eb8862064c",
+          "points": 25860.180436561208
+        },
+        {
+          "address": "0x33d60caf7c70fc4cb5aff3ae7f31fcde74398d13",
+          "points": 25620.435103350726
+        },
+        {
+          "address": "0x17a4ce9320bec0ac79420f0af19848044a469d8d",
+          "points": 25096.813851974457
+        },
+        {
+          "address": "0xd87a9fc25130c68c3ea25437c34e0b9317cd7a3d",
+          "points": 24459.335145007895
+        },
+        {
+          "address": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+          "points": 23950.462200999315
+        },
+        {
+          "address": "0xa7938a22fee8e98e19e930df45cb588a178efb9c",
+          "points": 23735.84374984905
+        },
+        {
+          "address": "0x549e6dd8453ed87fccdcf4f8b37162b10edc0533",
+          "points": 23369.902060203443
+        },
+        {
+          "address": "0x9f5362c5ad18e5a3f9c06e9cf26d5ae0c5833f3f",
+          "points": 23090.34373336712
+        },
+        {
+          "address": "0x36e285138b9b81eb72d2cdd65ca320111fd42da1",
+          "points": 22570.675471321112
+        },
+        {
+          "address": "0xc6877a65349b0fa45cc61a267ee682c7abf2b369",
+          "points": 22233.071938503137
+        },
+        {
+          "address": "0x6e93ebc8302890ff1d1befd779d1db131ef30d4d",
+          "points": 22171.24854074617
+        },
+        {
+          "address": "0xbbcb0c0aef0b28125af2f719f81d6a5b76f56f30",
+          "points": 21956.167692235907
+        },
+        {
+          "address": "0xb99a2c4c1c4f1fc27150681b740396f6ce1cbcf5",
+          "points": 21664.68842567391
+        },
+        {
+          "address": "0xb62aba8182bcd9d86c1cf85f995d6078663fba78",
+          "points": 21030.84534280652
+        },
+        {
+          "address": "0x7c976f00e84db0b44f945fc6d7fad34b43150a1a",
+          "points": 21001.32753806574
+        },
+        {
+          "address": "0xb4caaff781251594911cc76aec61cef46ba00894",
+          "points": 20186.692685502836
+        },
+        {
+          "address": "0x0a0b4d654d967a00407f5329588a258b68a4f615",
+          "points": 19949.99487152838
+        },
+        {
+          "address": "0x4de03ca1f02591b717495cfa19913ad56a2f5858",
+          "points": 19466.985708364115
+        },
+        {
+          "address": "0x13d032655aca891fad353e19424d2a087eccfa8a",
+          "points": 19354.718987471242
+        },
+        {
+          "address": "0x0871deb34bfd2052b1c10dc4f6c0912a2a47e927",
+          "points": 18870.105927162687
+        },
+        {
+          "address": "0xa2242f29ed5d097431c743173cbe5acec87a0c46",
+          "points": 18109.65036662713
+        },
+        {
+          "address": "0xf005093464e14cbacf0f9b9a371269fc118776dd",
+          "points": 17839.765204893676
+        },
+        {
+          "address": "0x5e5d46747100a6d10797d9432f78380aefc6eebe",
+          "points": 17409.881833853582
+        },
+        {
+          "address": "0x6ae827976e8e8ad41a5c43f90cc9e0cad521202c",
+          "points": 16534.25964745785
+        },
+        {
+          "address": "0x72dae3560e7f4c59a305e2e739d6bd6777f738b5",
+          "points": 16416.297636216874
+        },
+        {
+          "address": "0xace0a4c087f7f199328fb1e38d8d27bd237b03fd",
+          "points": 15970.3056078558
+        },
+        {
+          "address": "0x308fd47d492cf32d0f504c2a3e82bc25583b455b",
+          "points": 15700.965500677814
+        },
+        {
+          "address": "0x7258d00a24d6829ac4bf355127bfbc9e2303aed4",
+          "points": 15193.369965963166
+        },
+        {
+          "address": "0x872ea3fe1a064a4f739fa897ec3f81404b352092",
+          "points": 14992.349261308407
+        },
+        {
+          "address": "0x9b422e571eb2cb9837efdc4f9087194d65fb070a",
+          "points": 14797.936027691758
+        },
+        {
+          "address": "0xceec48581b3145a575508719f45da07dc57fa7ce",
+          "points": 14406.07817520999
+        },
+        {
+          "address": "0xa2ceebd0ff814499b471df714f5a7e720c2ad858",
+          "points": 14278.815045679403
+        },
+        {
+          "address": "0x46a83dc1a264bff133db887023d2884167094837",
+          "points": 14256.509134329926
+        },
+        {
+          "address": "0xbbfb6566ad064c233af6314aeb1eee4c26a5f921",
+          "points": 14196.741717714942
+        },
+        {
+          "address": "0xac306c1a40792ce021bdc72eaac7f4e83e675ac5",
+          "points": 13972.188274320955
+        },
+        {
+          "address": "0xba474ab1642101968633525fb117fa12c5bcb4e6",
+          "points": 13897.716781578472
+        },
+        {
+          "address": "0x77375a8c9d13bf79afb2a87f1b0ac1dfd5f5bf66",
+          "points": 13216.52444541971
+        },
+        {
+          "address": "0x4937c6b353864c7586198eb42b1c91dc917e0bd6",
+          "points": 13028.761415561765
+        },
+        {
+          "address": "0xc5ea2f344d5648d95e96e2b8c9e955e77e74099c",
+          "points": 12855.884889686144
+        },
+        {
+          "address": "0xaf0fdd39e5d92499b0ed9f68693da99c0ec1e92e",
+          "points": 12791.828416380524
+        },
+        {
+          "address": "0x2ea6bbf8eaf9f73589c347067c7c43ff637b6fc5",
+          "points": 12675.232192864589
+        },
+        {
+          "address": "0x0e05f17d4e24527d66ab28dc61b316356548cb53",
+          "points": 12184.180889955753
+        },
+        {
+          "address": "0xead5b7d86c681c036c59cd00a0390541061c69f2",
+          "points": 11575.982894095241
+        },
+        {
+          "address": "0x8c2826e0783ba361eae59f35af12f340df014697",
+          "points": 11519.83666308059
+        },
+        {
+          "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+          "points": 11430.961806200503
+        },
+        {
+          "address": "0x358a2c0ccc467eaae57d07ade9fa3d4fb8257e58",
+          "points": 11343.996213608638
+        },
+        {
+          "address": "0xf6ebfce2b97366f143a3b6fc2bf911765761ceae",
+          "points": 10912.97120588337
+        },
+        {
+          "address": "0x21c107520fb69ab1eed094b67516f6c5cb3f9700",
+          "points": 10908.524562121718
+        },
+        {
+          "address": "0x482b0f4dad512fe086e121882a81e34c374acae4",
+          "points": 10695.471686593688
+        },
+        {
+          "address": "0x7d60b021dc8f95b17e58a7f1ffdff364eabeec0d",
+          "points": 10641.889944999826
+        },
+        {
+          "address": "0x28c01b64f2492d82fd58feecf8c71603c769bb4a",
+          "points": 10585.523589062568
+        },
+        {
+          "address": "0x564bbf08f4c190e12fb8317776925120c8305296",
+          "points": 10502.801312748874
+        },
+        {
+          "address": "0x1d7afab94d57b7af40142ac422e088ab3c138144",
+          "points": 10360.196174894973
+        },
+        {
+          "address": "0x6cd68e8f04490cd1a5a21cc97cc8bc15b47dc9eb",
+          "points": 10348.55151013186
+        },
+        {
+          "address": "0xa1048865df890837812919da9b73d7fd76d4427c",
+          "points": 10163.347514543819
+        },
+        {
+          "address": "0x11d67fa925877813b744abc0917900c2b1d6eb81",
+          "points": 10092.061127191086
+        },
+        {
+          "address": "0xa8349546fd68e7531f8426851e09574756c1e441",
+          "points": 9973.12348994185
+        },
+        {
+          "address": "0xad83d8fffa448e913d2795efdb868356e4291d99",
+          "points": 9711.99351143733
+        },
+        {
+          "address": "0xaf7fd67ae6b3e25f83291d5600fbe3b776eea4d3",
+          "points": 9503.449060737188
+        },
+        {
+          "address": "0xa40ee97b4352307b7745a2cb12bb475b80faef13",
+          "points": 9443.42519461986
+        },
+        {
+          "address": "0x9836e286fbf4f71998827d4bd6ea3b470c26457e",
+          "points": 9429.581587159775
+        },
+        {
+          "address": "0x563bf0731cf71ad7cea05b9c48a802d8c53e7dc4",
+          "points": 9399.18671957879
+        },
+        {
+          "address": "0x7fe8cfe481ec2f702692a9152e3f002f3e417ac6",
+          "points": 9346.598923162448
+        },
+        {
+          "address": "0x7c27b31bd0032cac34f868f0f293341c91d48727",
+          "points": 9309.973528196912
+        },
+        {
+          "address": "0x5748ae796ae46a4f1348a1693de4b50560485562",
+          "points": 9273.781604278354
+        },
+        {
+          "address": "0xd2edcc4bac1e8f1f4c6a0da3239706cf270674d6",
+          "points": 9260.287161658785
+        },
+        {
+          "address": "0xd791427e372186e90637caf1d6d6afb054beec7a",
+          "points": 9230.942742984118
+        },
+        {
+          "address": "0xa23190045c4aebeb724844ce622465475e539bae",
+          "points": 9224.827826196632
+        },
+        {
+          "address": "0xf96bf52a54ca6ac18d83aa3572835693229f48c5",
+          "points": 9095.202597423466
+        },
+        {
+          "address": "0x8607a7d180de23645db594d90621d837749408d5",
+          "points": 9043.2028969818
+        },
+        {
+          "address": "0x9b09c1f83250a436278fd96f80054e414556a7dd",
+          "points": 8960.644535790168
+        },
+        {
+          "address": "0x7be19059fa7337d8ff76aeda43c893ecdb119adb",
+          "points": 8941.68624318428
+        },
+        {
+          "address": "0x52e755a831d08a7b4d7b6846b1015daa5f31883d",
+          "points": 8888.783620924894
+        },
+        {
+          "address": "0x7a35bbc1de0b86e11aea964956807e08317f3803",
+          "points": 8862.81641207409
+        },
+        {
+          "address": "0x6572d48041935ac7e644392f5338f47f2b85c900",
+          "points": 8817.661197934785
+        },
+        {
+          "address": "0x4d6d99390c456bae07b2f16fc0f2651d9f293e69",
+          "points": 8799.666395622302
+        },
+        {
+          "address": "0xa656a158fdd934e8a78bf16777ea0303f1067149",
+          "points": 8556.623891542013
+        },
+        {
+          "address": "0xb041569b6ffac3b2cb6d289e85458e90b62d6ecb",
+          "points": 8475.800286202988
+        }
+      ],
+      "hyperbeat": [
+        {
+          "address": "0x007d76eec0ba411ce873a8819df50dd443d967a0",
+          "points": 1199818.50355334
+        },
+        {
+          "address": "0xd048870caa5a3037f507583b4762a7598251a2fc",
+          "points": 886076.8031532
+        },
+        {
+          "address": "0xaf7fd67ae6b3e25f83291d5600fbe3b776eea4d3",
+          "points": 755903.19736946
+        },
+        {
+          "address": "0x8d4d699abf3044306008c6bea8e78632f999c281",
+          "points": 692058.09289919
+        },
+        {
+          "address": "0x8484fbedae4e9b2e26df44b92cd5f81b71c8150e",
+          "points": 679903.0616873
+        },
+        {
+          "address": "0x6d7823cd5c3d9dcd63e6a8021b475e0c7c94b291",
+          "points": 497853.77960398
+        },
+        {
+          "address": "0xbdfa4f4492dd7b7cf211209c4791af8d52bf5c50",
+          "points": 497203.2668371
+        },
+        {
+          "address": "0x9f5362c5ad18e5a3f9c06e9cf26d5ae0c5833f3f",
+          "points": 496291.19658300997
+        },
+        {
+          "address": "0x7a35bbc1de0b86e11aea964956807e08317f3803",
+          "points": 435228.40835656
+        },
+        {
+          "address": "0xaa0e2529f9c33e3ad86346fe26fefc4bc635fc67",
+          "points": 396816.90390527
+        },
+        {
+          "address": "0x6adbdaae3f9fa8761b83aef4aeb0bf1352a451be",
+          "points": 388358.98547658
+        },
+        {
+          "address": "0xd1abe5db14d073883f2084c2af105652102bdefc",
+          "points": 379121.03455826
+        },
+        {
+          "address": "0x5db201ae15f9702f0a0ff9f00b8c1c18355373d0",
+          "points": 343996.38052233
+        },
+        {
+          "address": "0x77375a8c9d13bf79afb2a87f1b0ac1dfd5f5bf66",
+          "points": 338937.12842783
+        },
+        {
+          "address": "0x18faacc6d6a9665eb1058cea20081bfec4c21abc",
+          "points": 320475.61100305
+        },
+        {
+          "address": "0x15df5732c5d5ecb1d448667d88f6023593b55e96",
+          "points": 304017.82291279
+        },
+        {
+          "address": "0x863e2e6404a9bde75fbaed8c70fa2c177d1378de",
+          "points": 299172.21739018
+        },
+        {
+          "address": "0x11bb1b49e120840652c88577818f98a057b948b8",
+          "points": 279999.29457278
+        },
+        {
+          "address": "0x82b95e2d44f257be248fc957db17702188fdcb77",
+          "points": 278007.39056555
+        },
+        {
+          "address": "0xd25a100d719f024d183d8b49d25cabf668ac4a41",
+          "points": 273876.99587751
+        },
+        {
+          "address": "0x7bfee91193d9df2ac0bfe90191d40f23c773c060",
+          "points": 272222.73802175
+        },
+        {
+          "address": "0x93d2f4f3a0445aa808c99cbd6ba05236a895379f",
+          "points": 258101.63861224
+        },
+        {
+          "address": "0xd507eeef2152d54b8c00cba499340f7b7a59c948",
+          "points": 248991.70879275
+        },
+        {
+          "address": "0xd2b2a8ab7a8c903501f4db4ee45c67522a4511ed",
+          "points": 242767.31629821
+        },
+        {
+          "address": "0xa66b5862fd471a1b1eec8710071f3d085f79d5e4",
+          "points": 242334.02860312
+        },
+        {
+          "address": "0x8838d88514dc65fcdc24b63eb608636d406020a5",
+          "points": 225047.19806064002
+        },
+        {
+          "address": "0x8463d6ffcbfb56bf20ab2e1111f9a0e8359533f2",
+          "points": 218922.85594169
+        },
+        {
+          "address": "0x324e0b53cefa84cf970833939249880f814557c6",
+          "points": 212221.45281961
+        },
+        {
+          "address": "0x6d910bea79aaf318e7170c6fb8318d9c466b2164",
+          "points": 207457.50782068
+        },
+        {
+          "address": "0xb4caaff781251594911cc76aec61cef46ba00894",
+          "points": 194580.183744
+        },
+        {
+          "address": "0x76c2164fc79492401db1890db0d17d16b9155aa0",
+          "points": 189483.02424538
+        },
+        {
+          "address": "0x47dcb6e3490426c1b045ae2ca87117f59f134d7c",
+          "points": 189328.26591338
+        },
+        {
+          "address": "0x308fd47d492cf32d0f504c2a3e82bc25583b455b",
+          "points": 186118.18416345
+        },
+        {
+          "address": "0xfc7eca54f07f5fcf94661b10a2fed2851f3c7abf",
+          "points": 185167.83103512
+        },
+        {
+          "address": "0x407cff84eeaacda390fe302c99fa5dd32521bc53",
+          "points": 176304.64041392
+        },
+        {
+          "address": "0x3e8734ec146c981e3ed1f6b582d447dde701d90c",
+          "points": 170905.07596854
+        },
+        {
+          "address": "0x62865d9318ec2dd2717ff9bfb81fa4dc7dfed7cc",
+          "points": 170130.54003688
+        },
+        {
+          "address": "0x8ebb6cfff65c4dc8b72b55cdff740a4cb12f0cbc",
+          "points": 169502.4803009
+        },
+        {
+          "address": "0x82efd2dfa4ba0d384d73b4df4cd0c3d71dd98d6c",
+          "points": 168281.57788664
+        },
+        {
+          "address": "0x1258e58519f4a2fe918259724d7856563db20430",
+          "points": 165337.50691389
+        },
+        {
+          "address": "0x8c2826e0783ba361eae59f35af12f340df014697",
+          "points": 164445.56797017
+        },
+        {
+          "address": "0x430f09841d65beb3f27765503d0f850b8bce7713",
+          "points": 158542.32494738
+        },
+        {
+          "address": "0x1e48f1007fa133f643941d58cb6b080dc621e773",
+          "points": 157688.29902083
+        },
+        {
+          "address": "0x57f2819c959abbcf22623d5ec1d3164b213e9711",
+          "points": 156977.02108915
+        },
+        {
+          "address": "0x7669ea2a0c0edbcdd505246a991c3afdbbdfface",
+          "points": 155692.44717048
+        },
+        {
+          "address": "0x1e4c0a10aa9a09b8ebca323bbfa22dd11f6f7edd",
+          "points": 150871.38177951
+        },
+        {
+          "address": "0x6b166e874c4935602a612787998592980e8f4531",
+          "points": 144729.53256058
+        },
+        {
+          "address": "0x6e0333619223bf023746a62ac26d6fc1c6ce78fd",
+          "points": 139512.14503489
+        },
+        {
+          "address": "0x39506b30bebb9aa4825d4b5b7b3305bb77b6e3c1",
+          "points": 136956.23314949
+        },
+        {
+          "address": "0xced2986f5cfa2ba7285decf9863b18d293081d8e",
+          "points": 135062.46551124
+        },
+        {
+          "address": "0x27a3144d9d1acdec3b6bcef17693f7bdbc3d044b",
+          "points": 130759.22420985
+        },
+        {
+          "address": "0x6d603a8ad44980dca040a1720c38a509814d73af",
+          "points": 128957.30111646
+        },
+        {
+          "address": "0xe02b82fdbcc4b090f3ad58ad1e22f7c6a5bbfa83",
+          "points": 128073.70525137
+        },
+        {
+          "address": "0x49eb6e3a951937b9e45dcb29ebdaa8859156d3b5",
+          "points": 126529.65555324
+        },
+        {
+          "address": "0x38e481367e0c50f4166ad2a1c9fde0e3c662cfba",
+          "points": 123838.57235898
+        },
+        {
+          "address": "0x98e073b579fd483eac8f10d5bd0b32c8c3bbd7e0",
+          "points": 120488.99753296
+        },
+        {
+          "address": "0xeae8f93cafb5a280cc0060fb1733d6a28a81bc14",
+          "points": 119722.22471506
+        },
+        {
+          "address": "0xae2586e76c8a4d8dc1ff3d9ab70bec760ae143c2",
+          "points": 111224.38088681
+        },
+        {
+          "address": "0xa9ba779a31bdd70b6296b22a9614b63412f463df",
+          "points": 108231.56177437
+        },
+        {
+          "address": "0xa567501abf12f401c9e613b6323c43cf29b0f92c",
+          "points": 106911.47685349
+        },
+        {
+          "address": "0x98abb17006aaa4f29f60cb8c9c3db70b174eba24",
+          "points": 103200.93865980001
+        },
+        {
+          "address": "0x09577f21f0a971f3b78f0a33432c8611856c75bb",
+          "points": 101628.97978247
+        },
+        {
+          "address": "0x572b4de5be467f6e7210f77940d462b9b8ef3ea5",
+          "points": 98967.82200572
+        },
+        {
+          "address": "0xf08214cbe3527cf4fd65bfce128e32c6eedd2174",
+          "points": 97209.64948366
+        },
+        {
+          "address": "0x04cc5be7baef93144c6a1f06846d26f808b44ab5",
+          "points": 95146.4754932
+        },
+        {
+          "address": "0xfb5146803b7dde661aab84915cc1435697caf896",
+          "points": 94844.79000785
+        },
+        {
+          "address": "0xc2c060e3309461ec7c4291b1aac6c89aa228727e",
+          "points": 93986.89079793
+        },
+        {
+          "address": "0x2326ad5530c12cf9f0b32415fc53dbdfe6459cbf",
+          "points": 93695.88623065
+        },
+        {
+          "address": "0x671dd102d1b9adfd54fd365769afc37705a3ce68",
+          "points": 92834.33060018
+        },
+        {
+          "address": "0xd791427e372186e90637caf1d6d6afb054beec7a",
+          "points": 91758.74733659
+        },
+        {
+          "address": "0x250b6caa76cf8c72b8ecd546d78dc096fa8eb824",
+          "points": 90883.05503684
+        },
+        {
+          "address": "0xc95c0894adbab0e0db403b8f5db843742f3fef37",
+          "points": 88587.6333119
+        },
+        {
+          "address": "0x42d02f4cd48bdac116b7e3a4895f586777948fae",
+          "points": 88329.25301799
+        },
+        {
+          "address": "0x9b422e571eb2cb9837efdc4f9087194d65fb070a",
+          "points": 87929.92007553
+        },
+        {
+          "address": "0x16f037a3ddf53da1b047a926e1833219f0a8e1fc",
+          "points": 84370.14185081
+        },
+        {
+          "address": "0x1989611c9d36a44170c6864d4673d1c16f753a73",
+          "points": 84255.69748882
+        },
+        {
+          "address": "0xe04903ea0da52680520903dadc84f5adbef35e9f",
+          "points": 82247.28316126
+        },
+        {
+          "address": "0x94eea001d92ccbe00b446282fd32d2c5edb4ab7c",
+          "points": 81228.72669369
+        },
+        {
+          "address": "0x87743f2fcf5515467d544d28dc64beb6b4a3cd7c",
+          "points": 81030.94771124
+        },
+        {
+          "address": "0x5b236d19f680ff47e7bf2a9eb88fc5cc03d443a8",
+          "points": 79657.88383674
+        },
+        {
+          "address": "0x5064d3e2906317905f1d59663d5fa257c15a704a",
+          "points": 78701.65074607
+        },
+        {
+          "address": "0x11a8a48795b01f828116062e72a663ca69b71c31",
+          "points": 78205.721726
+        },
+        {
+          "address": "0x1eabeb93f940cba798b62162d72d49f90b8029f1",
+          "points": 76565.95534732
+        },
+        {
+          "address": "0x1597e4b7cf6d2877a1d690b6088668afdb045763",
+          "points": 75192.09869006
+        },
+        {
+          "address": "0x36e285138b9b81eb72d2cdd65ca320111fd42da1",
+          "points": 74994.71235871
+        },
+        {
+          "address": "0x4066375a481d055c5a4080a5c6d57a552a7d9052",
+          "points": 72636.506586
+        },
+        {
+          "address": "0xfda1215797d29414e588b2e62fc390ee2949aaaa",
+          "points": 71961.876644
+        },
+        {
+          "address": "0x37b9de93bbe9747c7fc48913417a9aade1e59fa2",
+          "points": 71709.98062897
+        },
+        {
+          "address": "0xa2fd6b0a7935dec166e4f050f323a1cdf3b5f91f",
+          "points": 71672.97066218
+        },
+        {
+          "address": "0xf3ff8db5b15b2ea226fbdcd297749822c9666e5b",
+          "points": 71514.40694752
+        },
+        {
+          "address": "0x00897e2d7168165b81558c3cd9257efb007f2410",
+          "points": 71164.62306878
+        },
+        {
+          "address": "0xf1ca0933d1a7d639bdffba8003c52657f0322f69",
+          "points": 68620.171837
+        },
+        {
+          "address": "0x99460c6b44fd9d93528b3b6e3365793acb40bb46",
+          "points": 68464.89619524
+        },
+        {
+          "address": "0x93b05fa4dbf106f90dc6d1c7d6a37c537ff93bef",
+          "points": 67971.55656389
+        },
+        {
+          "address": "0x9b3062e8910bc148264a3c761363d5fb2c7e9a06",
+          "points": 67739.12963437999
+        },
+        {
+          "address": "0xefba0f56eef05f6a7d614ce519d2e284b46d3583",
+          "points": 66235.53740805
+        },
+        {
+          "address": "0x8e32736429d2f0a39179214c826deef5b8a37861",
+          "points": 65840.34166242
+        },
+        {
+          "address": "0x79f49449a106d290e697c3492694b80171052a8c",
+          "points": 65730.09464406001
+        },
+        {
+          "address": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+          "points": 65548.95690059
+        },
+        {
+          "address": "0x7ec6095d83fb471f021ff3b9d26ab3915f73615e",
+          "points": 64764.51468711
+        }
+      ],
+      "hypurrfi": [
+        {
+          "address": "0x5748ae796ae46a4f1348a1693de4b50560485562",
+          "points": 419950597
+        },
+        {
+          "address": "0xf517639a8872e756ac98d3c65507d2ebc25cc032",
+          "points": 219157106
+        },
+        {
+          "address": "0xe4178ba889ac1c931861533b98bb86cb9d4858c7",
+          "points": 129923116
+        },
+        {
+          "address": "0x197f1a807c3188dd6ce38759acc796721fc35292",
+          "points": 104654478
+        },
+        {
+          "address": "0x5db201ae15f9702f0a0ff9f00b8c1c18355373d0",
+          "points": 77313395
+        },
+        {
+          "address": "0xceec48581b3145a575508719f45da07dc57fa7ce",
+          "points": 69845501
+        },
+        {
+          "address": "0x64aa4bb7bca951cc0914fc920d3b3dcb81f77eac",
+          "points": 69373702
+        },
+        {
+          "address": "0x7bfee91193d9df2ac0bfe90191d40f23c773c060",
+          "points": 51054922
+        },
+        {
+          "address": "0xaeae3319f670f1f7aa18b42f9d5f3452f4ee69e6",
+          "points": 44622566
+        },
+        {
+          "address": "0x7a35bbc1de0b86e11aea964956807e08317f3803",
+          "points": 36204314
+        },
+        {
+          "address": "0xbdfa4f4492dd7b7cf211209c4791af8d52bf5c50",
+          "points": 35577111
+        },
+        {
+          "address": "0xb1ec7febea4f841d525785955b7fe0e812d6e86a",
+          "points": 35458058
+        },
+        {
+          "address": "0xd6714799e791e945a13fa415023ea02bc412285b",
+          "points": 35440414
+        },
+        {
+          "address": "0x353567c23fcc251eb8be96eb6580fcf2e7bdebac",
+          "points": 35211214
+        },
+        {
+          "address": "0x4cae5bed586f6e73ae54ebd40a4ac4ed2c477c34",
+          "points": 32150237
+        },
+        {
+          "address": "0x9f4dff2c118728ace31117c8016458f954fdd5dd",
+          "points": 27866303
+        },
+        {
+          "address": "0x9b422e571eb2cb9837efdc4f9087194d65fb070a",
+          "points": 27840073
+        },
+        {
+          "address": "0x39065f52a71b40bf6f4ee8c852b41c677875b01f",
+          "points": 26829842
+        },
+        {
+          "address": "0x9f5362c5ad18e5a3f9c06e9cf26d5ae0c5833f3f",
+          "points": 26746230
+        },
+        {
+          "address": "0x580809c0dfe56287e933f99e347cd5385a645ee3",
+          "points": 26617257
+        },
+        {
+          "address": "0xa28ae105f60b9ddf4bbcc67ad1b1bc760d0d8925",
+          "points": 26225680
+        },
+        {
+          "address": "0x300b7ba0cbf10661f886a4d3696ee3e942852b4e",
+          "points": 25697630
+        },
+        {
+          "address": "0x6363f3da9d28c1310c2eabdd8e57593269f03ff8",
+          "points": 23596526
+        },
+        {
+          "address": "0x69423c20cb04da697996534507f8541fdb3e9aa9",
+          "points": 23519573
+        },
+        {
+          "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
+          "points": 23252434
+        },
+        {
+          "address": "0x564bbf08f4c190e12fb8317776925120c8305296",
+          "points": 22265718
+        },
+        {
+          "address": "0xb06eed04d817e56e09502c1a7b54e04940047108",
+          "points": 22090583
+        },
+        {
+          "address": "0x1c438d8dc804929e5380121af1d78ff6cdae4c2d",
+          "points": 20224322
+        },
+        {
+          "address": "0xee7ada00c9e5f654c8f8ea0f355a1f3c50942732",
+          "points": 19422093
+        },
+        {
+          "address": "0x86d3ee9ff0983bc33b93cc8983371a500f873446",
+          "points": 18772835
+        },
+        {
+          "address": "0x05f11b22d790fe64f7984fa4e5926c8f37216f10",
+          "points": 18050741
+        },
+        {
+          "address": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
+          "points": 17979980
+        },
+        {
+          "address": "0x482b0f4dad512fe086e121882a81e34c374acae4",
+          "points": 17654643
+        },
+        {
+          "address": "0xf2ce1b504205557e9ae700ea480ce2d633430be1",
+          "points": 17594009
+        },
+        {
+          "address": "0x8d659132fd19558250121dc86abd3c1b200a3947",
+          "points": 17556471
+        },
+        {
+          "address": "0x6a64167f066117eae736226b3b132fa925169a35",
+          "points": 16865155
+        },
+        {
+          "address": "0x7d60b021dc8f95b17e58a7f1ffdff364eabeec0d",
+          "points": 16842910
+        },
+        {
+          "address": "0x606b48d6b2f4b168f99e1bd47b382c8e403f15ba",
+          "points": 16729089
+        },
+        {
+          "address": "0x2326ad5530c12cf9f0b32415fc53dbdfe6459cbf",
+          "points": 16388224
+        },
+        {
+          "address": "0x8f25818ff64be1abee91abca70c306b33b602062",
+          "points": 16112259
+        },
+        {
+          "address": "0xe706f6b5e7f9e2320b02a77758c9a0bc3397e0e5",
+          "points": 15827588
+        },
+        {
+          "address": "0x251c1075cce19f67a91471f13dbabaa1217d5c8f",
+          "points": 15763668
+        },
+        {
+          "address": "0x6368d2865246f2b680680657736238aaa10955a1",
+          "points": 14327654
+        },
+        {
+          "address": "0x06579f206257a7079eee4b0106846745f6be955a",
+          "points": 13327317
+        },
+        {
+          "address": "0x76c2164fc79492401db1890db0d17d16b9155aa0",
+          "points": 13167518
+        },
+        {
+          "address": "0x76fe28b803eeba445c34afc2f914e6bcb71112fd",
+          "points": 13053032
+        },
+        {
+          "address": "0x5c0e276ff0c3aa3e0a47f3847a052d409bfc7fc7",
+          "points": 12043601
+        },
+        {
+          "address": "0x2e32935bfd5b2718f99bc8fdf8b37c16811f7d97",
+          "points": 11845662
+        },
+        {
+          "address": "0x2ea6bbf8eaf9f73589c347067c7c43ff637b6fc5",
+          "points": 11760486
+        },
+        {
+          "address": "0xa13ffcb0c59cb62293363b18ac506bcec79c4022",
+          "points": 11749550
+        },
+        {
+          "address": "0x11bb1b49e120840652c88577818f98a057b948b8",
+          "points": 11610540
+        },
+        {
+          "address": "0x8838d88514dc65fcdc24b63eb608636d406020a5",
+          "points": 11561645
+        },
+        {
+          "address": "0x0fca969d5093eaf1e14abc9f02d42915d8bfb38d",
+          "points": 11387114
+        },
+        {
+          "address": "0x2fe21fc5130e953b862d4a6048cfd016ecf3974d",
+          "points": 11365580
+        },
+        {
+          "address": "0x524f7d39d1a1a24aa315f101b3a8b9a82daf932f",
+          "points": 11109343
+        },
+        {
+          "address": "0x94ae94cee83e08fdece672e253f3b7a3ced9f8a4",
+          "points": 11013492
+        },
+        {
+          "address": "0xd048870caa5a3037f507583b4762a7598251a2fc",
+          "points": 10811562
+        },
+        {
+          "address": "0x022e3ce4eda264b3e3fef62036c8182ceb88e6ce",
+          "points": 10770895
+        },
+        {
+          "address": "0x45d3730a8f811519f3cc310d54ffc4d2142b3773",
+          "points": 10159528
+        },
+        {
+          "address": "0x98e073b579fd483eac8f10d5bd0b32c8c3bbd7e0",
+          "points": 10062551
+        },
+        {
+          "address": "0x4937c6b353864c7586198eb42b1c91dc917e0bd6",
+          "points": 9794621
+        },
+        {
+          "address": "0xff2c13a2d71a4d3b70f4086dc17b4aa6c075efde",
+          "points": 9664683
+        },
+        {
+          "address": "0x049752d7cc26c855b50c2e4905c665ab2333bff2",
+          "points": 9403169
+        },
+        {
+          "address": "0xef4a52d5483049b37cb883539d1b380eed80a598",
+          "points": 9370428
+        },
+        {
+          "address": "0x28c01b64f2492d82fd58feecf8c71603c769bb4a",
+          "points": 9116001
+        },
+        {
+          "address": "0x872ea3fe1a064a4f739fa897ec3f81404b352092",
+          "points": 8877810
+        },
+        {
+          "address": "0xb3b45cbc7b4650035a15c4e858bf7c21667a4741",
+          "points": 8690316
+        },
+        {
+          "address": "0xacee3f5bfdf6bfc8ac03f534059252b14204b330",
+          "points": 8524936
+        },
+        {
+          "address": "0x3c2573b002cf51e64ab6d051814648eb3a305363",
+          "points": 8481006
+        },
+        {
+          "address": "0x0dc9dc050975f3136a7142a056d8332931745dec",
+          "points": 8175717
+        },
+        {
+          "address": "0x7c6db5dcfab3be735ac65e019b1ffb2bda214ff9",
+          "points": 8004216
+        },
+        {
+          "address": "0x7258d00a24d6829ac4bf355127bfbc9e2303aed4",
+          "points": 7947760
+        },
+        {
+          "address": "0xb3db8d23a98780002b10da5fb082e47b2d22e4f3",
+          "points": 7863250
+        },
+        {
+          "address": "0x34fd5c719d068e4015b8edcb77dd2f0d7eb8109a",
+          "points": 7747524
+        },
+        {
+          "address": "0x7d4c4d5380ca2f9c7a091bb622b80613da7eae8c",
+          "points": 7421930
+        },
+        {
+          "address": "0x7451d7dc1570f2be4aa3eca8d482dff117570ab7",
+          "points": 7327452
+        },
+        {
+          "address": "0x09577f21f0a971f3b78f0a33432c8611856c75bb",
+          "points": 6973700
+        },
+        {
+          "address": "0xaf7fd67ae6b3e25f83291d5600fbe3b776eea4d3",
+          "points": 6746175
+        },
+        {
+          "address": "0x7a639f6dc5361a3e8c998c9d0aac55e33d34d2ff",
+          "points": 6712877
+        },
+        {
+          "address": "0x5064d3e2906317905f1d59663d5fa257c15a704a",
+          "points": 6686580
+        },
+        {
+          "address": "0xaf5f1905e182ef4d8397f0c756de8b0df3b98532",
+          "points": 6666065
+        },
+        {
+          "address": "0x20c56e5b70a44fbdcbaca6265f9c848e59bf7c39",
+          "points": 6652230
+        },
+        {
+          "address": "0x095c938780605911df64dc66342c3260989e68a9",
+          "points": 6616813
+        },
+        {
+          "address": "0x4f7dd098060f64e698efde35d5e4eda655f65f07",
+          "points": 6501267
+        },
+        {
+          "address": "0xc5d263c097b36df802ce9e030ff6c96c202fa028",
+          "points": 6432214
+        },
+        {
+          "address": "0xa656a158fdd934e8a78bf16777ea0303f1067149",
+          "points": 6414375
+        },
+        {
+          "address": "0x27f96bd4157a1a1d1dc56927fb6454b4c01ad839",
+          "points": 6277914
+        },
+        {
+          "address": "0x9899db38f2a1197c0bb13494a9360a01c45a28cd",
+          "points": 6268270
+        },
+        {
+          "address": "0x3d21aa55ed1fa6eac46a594f439a64f6bca9a695",
+          "points": 6241919
+        },
+        {
+          "address": "0x1e913c94f4b2575a8becb6c8388146e4daf54016",
+          "points": 6210981
+        },
+        {
+          "address": "0x6891ed9ee6a9d0649ffac2bcee814e6899a0e075",
+          "points": 6135190
+        },
+        {
+          "address": "0x9d8cad2c91b3bfda773ee7bf6ddb47a8984d51ef",
+          "points": 6055240
+        },
+        {
+          "address": "0x31b3505945e5e4386c7cf955c552fdb2048a5563",
+          "points": 6015423
+        },
+        {
+          "address": "0xbd9c944dcfb31cd24c81ebf1c974d950f44e42b8",
+          "points": 6010315
+        },
+        {
+          "address": "0xd398632b14e7da9f3553219f1a4fcccf8f928fcb",
+          "points": 5973914
+        },
+        {
+          "address": "0xa3a15567ee4e8a483fabfda28ff309045537dd84",
+          "points": 5933123
+        },
+        {
+          "address": "0x6d7823cd5c3d9dcd63e6a8021b475e0c7c94b291",
+          "points": 5771940
+        },
+        {
+          "address": "0x86338ffec5212f153378d8f3c7d2b30b4779d0be",
+          "points": 5666405
+        },
+        {
+          "address": "0x863e2e6404a9bde75fbaed8c70fa2c177d1378de",
+          "points": 5501894
+        },
+        {
+          "address": "0x3c2c0b452b465c595fe106ef40c55bf4383d2453",
+          "points": 5487752
+        }
+      ],
+      "hyperlend": [
+        {
+          "address": "0x5748ae796ae46a4f1348a1693de4b50560485562",
+          "points": 39597121.063
+        },
+        {
+          "address": "0x63af859d7b4717bd4d3705f15b6d4caad6cf4b36",
+          "points": 17827328.749
+        },
+        {
+          "address": "0x5de5fc77fa43dda4155ce70edb0be683c0cc03c3",
+          "points": 8397175.838
+        },
+        {
+          "address": "0x197f1a807c3188dd6ce38759acc796721fc35292",
+          "points": 7701224.985
+        },
+        {
+          "address": "0x2326ad5530c12cf9f0b32415fc53dbdfe6459cbf",
+          "points": 6876282.114
+        },
+        {
+          "address": "0x76c2164fc79492401db1890db0d17d16b9155aa0",
+          "points": 5624290.563
+        },
+        {
+          "address": "0x555187752ef6d73758862b5d364aab362c996d0e",
+          "points": 4398687.883
+        },
+        {
+          "address": "0x6d910bea79aaf318e7170c6fb8318d9c466b2164",
+          "points": 4073857.363
+        },
+        {
+          "address": "0xaeae3319f670f1f7aa18b42f9d5f3452f4ee69e6",
+          "points": 3596798.796
+        },
+        {
+          "address": "0x7bfee91193d9df2ac0bfe90191d40f23c773c060",
+          "points": 2800930.616
+        },
+        {
+          "address": "0x7258d00a24d6829ac4bf355127bfbc9e2303aed4",
+          "points": 2437755.632
+        },
+        {
+          "address": "0x5064d3e2906317905f1d59663d5fa257c15a704a",
+          "points": 2263476.986
+        },
+        {
+          "address": "0x6d7823cd5c3d9dcd63e6a8021b475e0c7c94b291",
+          "points": 2190544.449
+        },
+        {
+          "address": "0xa9ed0db00e5c29e7e18a55db159ea33fb5fea60a",
+          "points": 2175087.284
+        },
+        {
+          "address": "0x37b9de93bbe9747c7fc48913417a9aade1e59fa2",
+          "points": 2165510.241
+        },
+        {
+          "address": "0xcc49ffdf3d8f62562319cfc7ead9e6e52df3ffc2",
+          "points": 2156713.043
+        },
+        {
+          "address": "0x28c01b64f2492d82fd58feecf8c71603c769bb4a",
+          "points": 2049910.964
+        },
+        {
+          "address": "0xf08d17632e7a83582677456159a1158101e69e07",
+          "points": 1659090.802
+        },
+        {
+          "address": "0xf04a274173cde34bf5b7e28f48b3f469510c3aab",
+          "points": 1652751.836
+        },
+        {
+          "address": "0xab59403c721eaa64a850474e63919573c0f0b767",
+          "points": 1499910.101
+        },
+        {
+          "address": "0xaf0fdd39e5d92499b0ed9f68693da99c0ec1e92e",
+          "points": 1428158.308
+        },
+        {
+          "address": "0x549e6dd8453ed87fccdcf4f8b37162b10edc0533",
+          "points": 1322720.38
+        },
+        {
+          "address": "0x2326d4fb2737666dda96bd6314e3d4418246cfe8",
+          "points": 1227196.353
+        },
+        {
+          "address": "0xf763d7c28ce6a5df1068fdda9627ae19dff65dee",
+          "points": 1223326.782
+        },
+        {
+          "address": "0x11a8a48795b01f828116062e72a663ca69b71c31",
+          "points": 1220432.396
+        },
+        {
+          "address": "0x9f5362c5ad18e5a3f9c06e9cf26d5ae0c5833f3f",
+          "points": 1209298.203
+        },
+        {
+          "address": "0x9321d8117e73b0c79035f0e87debcfd8dbb1d75a",
+          "points": 1196583.946
+        },
+        {
+          "address": "0x0e3f5bb797e3953fed2a319544d0e821b4a11e1c",
+          "points": 1192532.983
+        },
+        {
+          "address": "0x5db201ae15f9702f0a0ff9f00b8c1c18355373d0",
+          "points": 1171416.728
+        },
+        {
+          "address": "0xa66b5862fd471a1b1eec8710071f3d085f79d5e4",
+          "points": 1125699.265
+        },
+        {
+          "address": "0x7648cd14da5d391422e5d7509313cec3d309f4a3",
+          "points": 1078566.682
+        },
+        {
+          "address": "0xb99a2c4c1c4f1fc27150681b740396f6ce1cbcf5",
+          "points": 1040224.257
+        },
+        {
+          "address": "0xd048870caa5a3037f507583b4762a7598251a2fc",
+          "points": 1033267.355
+        },
+        {
+          "address": "0xaf7fd67ae6b3e25f83291d5600fbe3b776eea4d3",
+          "points": 1028857.959
+        },
+        {
+          "address": "0xbdfa4f4492dd7b7cf211209c4791af8d52bf5c50",
+          "points": 1022827.445
+        },
+        {
+          "address": "0x4c6452f18d5967f1f7e9884bc5cdfc60452e015a",
+          "points": 993928.423
+        },
+        {
+          "address": "0x936fd56488293f0b4a18531af73a7ba3eacbdd91",
+          "points": 987910.82
+        },
+        {
+          "address": "0x9ba2edc44e0a4632eb4723e81d4142353e1bb160",
+          "points": 973196.998
+        },
+        {
+          "address": "0xed16a3fa47875df66501071d6fc1d808c436d7e6",
+          "points": 953727.524
+        },
+        {
+          "address": "0x8d8b9c79196f32161bcb2a9728d274b3b45eb9af",
+          "points": 950288.128
+        },
+        {
+          "address": "0x2e32935bfd5b2718f99bc8fdf8b37c16811f7d97",
+          "points": 919161.76
+        },
+        {
+          "address": "0xa2242f29ed5d097431c743173cbe5acec87a0c46",
+          "points": 900092.478
+        },
+        {
+          "address": "0x13c50dcdee4bbcba71baf578b345cdd35c7928be",
+          "points": 886589.598
+        },
+        {
+          "address": "0xeebac1c06c3b6125eec0fc233bd0fabb0dd23690",
+          "points": 874669.664
+        },
+        {
+          "address": "0xee7ada00c9e5f654c8f8ea0f355a1f3c50942732",
+          "points": 831764.416
+        },
+        {
+          "address": "0x47dcb6e3490426c1b045ae2ca87117f59f134d7c",
+          "points": 829228.778
+        },
+        {
+          "address": "0x5405450cae1b86581f017d1c35ad954d8703f802",
+          "points": 792829.224
+        },
+        {
+          "address": "0x895bbeafe599f27c6abb3b917cfd226fa3077e01",
+          "points": 791646.971
+        },
+        {
+          "address": "0x0fffab764a78d2cf36a9f6079ad0e8361fa2eb94",
+          "points": 761073.804
+        },
+        {
+          "address": "0x18faacc6d6a9665eb1058cea20081bfec4c21abc",
+          "points": 758179.664
+        },
+        {
+          "address": "0x300b7ba0cbf10661f886a4d3696ee3e942852b4e",
+          "points": 723005.043
+        },
+        {
+          "address": "0xf0574ef2d971f9318bed6f1a1ba7a8f351143e0d",
+          "points": 710868.91
+        },
+        {
+          "address": "0x6cd68e8f04490cd1a5a21cc97cc8bc15b47dc9eb",
+          "points": 694057.557
+        },
+        {
+          "address": "0x9c1915f821912f5bbcbbd07ef92cee9cf28068d4",
+          "points": 683144.033
+        },
+        {
+          "address": "0xfc7eca54f07f5fcf94661b10a2fed2851f3c7abf",
+          "points": 679836.256
+        },
+        {
+          "address": "0xd87a9fc25130c68c3ea25437c34e0b9317cd7a3d",
+          "points": 672250.4
+        },
+        {
+          "address": "0xa2ceebd0ff814499b471df714f5a7e720c2ad858",
+          "points": 670440.221
+        },
+        {
+          "address": "0xceec48581b3145a575508719f45da07dc57fa7ce",
+          "points": 650566.488
+        },
+        {
+          "address": "0x76fe28b803eeba445c34afc2f914e6bcb71112fd",
+          "points": 632551.875
+        },
+        {
+          "address": "0x800b0f324e4a7fbbdf99d1a793e2582bf3844976",
+          "points": 621700.093
+        },
+        {
+          "address": "0x93b05fa4dbf106f90dc6d1c7d6a37c537ff93bef",
+          "points": 618788.437
+        },
+        {
+          "address": "0x8e84ee2fb242ef42e5313fc2d132a3d52e179c18",
+          "points": 591888.04
+        },
+        {
+          "address": "0x27ab6308d7ea73f82c0cce159400ac3f8fe9cf44",
+          "points": 582738.046
+        },
+        {
+          "address": "0xff43c5727fbfc31cb96e605dfd7546eb8862064c",
+          "points": 581463.945
+        },
+        {
+          "address": "0x280ad235da0f30599051d5fb4f7e53040b47c46a",
+          "points": 575895.936
+        },
+        {
+          "address": "0x100af508937704c05980209974faa86817175940",
+          "points": 571181.025
+        },
+        {
+          "address": "0x98e073b579fd483eac8f10d5bd0b32c8c3bbd7e0",
+          "points": 563960.465
+        },
+        {
+          "address": "0x8c35b0b65fc680dac8719b79d01b4c46590d4d8b",
+          "points": 562579.58
+        },
+        {
+          "address": "0xa4f7d6a008401a608476199a01dcc5487130987a",
+          "points": 557493.941
+        },
+        {
+          "address": "0xe04903ea0da52680520903dadc84f5adbef35e9f",
+          "points": 544429.482
+        },
+        {
+          "address": "0xe706f6b5e7f9e2320b02a77758c9a0bc3397e0e5",
+          "points": 538285.536
+        },
+        {
+          "address": "0xed0c6079229e2d407672a117c22b62064f4a4312",
+          "points": 534689.265
+        },
+        {
+          "address": "0x20b7807939c774a152b396beb704acac68fa10fe",
+          "points": 529498.464
+        },
+        {
+          "address": "0x4461d605a73f4f0ea2d52b89c8b36ec78d7f56fd",
+          "points": 525968.393
+        },
+        {
+          "address": "0x9d6086239968f79c0c4a6883653f5c3270331692",
+          "points": 508811.127
+        },
+        {
+          "address": "0x78b68763294b86d451958dc01c8e6b3057645f67",
+          "points": 505113.005
+        },
+        {
+          "address": "0xa99767ff6874018935af8924eeb3de3c7b578edc",
+          "points": 502188.208
+        },
+        {
+          "address": "0xd3017943cd7fe1d7d3ee9bad909d182639f95ed0",
+          "points": 500627.199
+        },
+        {
+          "address": "0x2e20df63f5ffb0578cf4ccc223cb3003a50200b1",
+          "points": 492155.867
+        },
+        {
+          "address": "0x36e285138b9b81eb72d2cdd65ca320111fd42da1",
+          "points": 488553.194
+        },
+        {
+          "address": "0xcac1f1c3e4599e044dc2a9d38a9b6ef1af1bdae8",
+          "points": 470613.516
+        },
+        {
+          "address": "0x4937c6b353864c7586198eb42b1c91dc917e0bd6",
+          "points": 466707.138
+        },
+        {
+          "address": "0xc3cdb57c1169fd641ef5d08d9a5828e5a8bcefcf",
+          "points": 464223.422
+        },
+        {
+          "address": "0x09714a3282fca963a8da97c72a4226bdcec3814d",
+          "points": 460206.817
+        },
+        {
+          "address": "0xa7545718d645b0a187a2e57813f1843572992afc",
+          "points": 458898.092
+        },
+        {
+          "address": "0x183d0567c33e7591c22540e45d2f74730b42a0ca",
+          "points": 457971.612
+        },
+        {
+          "address": "0x39f720fc069a2d255c5fc369aa03b3b8cf3b8a77",
+          "points": 449355.311
+        },
+        {
+          "address": "0x8d659132fd19558250121dc86abd3c1b200a3947",
+          "points": 444627.151
+        },
+        {
+          "address": "0x8607a7d180de23645db594d90621d837749408d5",
+          "points": 444262.321
+        },
+        {
+          "address": "0x24a44aef48aeb27c7708dabfccda14b41fbf0ae1",
+          "points": 435776.42
+        },
+        {
+          "address": "0x2ae2519036ba86b7d08a70cb30a3a34a6c3a78ae",
+          "points": 432329.404
+        },
+        {
+          "address": "0xaa6c184d118767f34f91b9e3cd51b7222f99f072",
+          "points": 429695.483
+        },
+        {
+          "address": "0x052c405b0291dbac72c6a106db8c65580c53241f",
+          "points": 424025.369
+        },
+        {
+          "address": "0x2ea6bbf8eaf9f73589c347067c7c43ff637b6fc5",
+          "points": 423102.198
+        },
+        {
+          "address": "0xb79bb6cca7bdada005f5f6715f781656c464898d",
+          "points": 418253.625
+        },
+        {
+          "address": "0x7a02387196305d4e7dc3263458c330ba0763e423",
+          "points": 413448.453
+        },
+        {
+          "address": "0x9377482ecb4e4f8d7c55d93016e076d286e2bedb",
+          "points": 411942.398
+        },
+        {
+          "address": "0xc0c44b69d91ea0b26f5be8afedc18a8cee281ad7",
+          "points": 410185.884
+        },
+        {
+          "address": "0xf63867ea18a33318fbc1d4b0eaf908875f796b66",
+          "points": 407214.636
+        },
+        {
+          "address": "0x9cbf099ff424979439dfba03f00b5961784c06ce",
+          "points": 404139.973
+        }
+      ],
+      "gLiquid": [
+        {
+          "address": "0xc8d3b9b4678ece75586a1521a5133ccb71e56d99",
+          "points": 3349100.1338589466
+        },
+        {
+          "address": "0xbbbdbbfa1f754aea323af6cc56153e0605e89227",
+          "points": 1568762.4945862507
+        },
+        {
+          "address": "0x87e4393fb6d07e728bc3831233359df740907f9e",
+          "points": 1006041.7041669218
+        },
+        {
+          "address": "0x954b6de2e9c58b0ca7b21e9a048fd0a6cea6f92c",
+          "points": 994473.4147342305
+        },
+        {
+          "address": "0x31b3505945e5e4386c7cf955c552fdb2048a5563",
+          "points": 772380.0181238877
+        },
+        {
+          "address": "0x8b2c0cb8ebd280b58a7c374cdc04666aa62a8331",
+          "points": 696240.2801077577
+        },
+        {
+          "address": "0x4c588869b3b7f4c9870e808076bc21c31ee8560b",
+          "points": 575372.4435723774
+        },
+        {
+          "address": "0x9e7657662159369b30c5bc63009f110c984b4fd4",
+          "points": 387174.7677157766
+        },
+        {
+          "address": "0x2799ed2d37ba10efdff139df0cb314251a657ce0",
+          "points": 384096.1113055627
+        },
+        {
+          "address": "0x8cbcbaa074974a7ba6626f8d6ad8d27aaa4b3e80",
+          "points": 361156.8684842387
+        },
+        {
+          "address": "0x962f50ab412045eb92bf304f8127eed12f14fb68",
+          "points": 279254.1781279147
+        },
+        {
+          "address": "0x5cd5d929327f6e098617ec09d1250eaba052023e",
+          "points": 199638.42804876235
+        },
+        {
+          "address": "0xd42cbc05975e1403f2c234821f26f54cca60740c",
+          "points": 151040.4190768036
+        },
+        {
+          "address": "0x895daff2fbe528aa544b66e23c7af9a99af586ad",
+          "points": 78021.63827650875
+        },
+        {
+          "address": "0xbdc7e56b00bfd2df3a728c06969bf7aad5d5c0ca",
+          "points": 76909.91506421291
+        },
+        {
+          "address": "0x92ae5f02f7ec6c6f1536fb45046ff8c47c202286",
+          "points": 70588.03697086575
+        },
+        {
+          "address": "0xb7fb475d4648bdd74a1c34bedb7b8f9a94730629",
+          "points": 65612.59078660051
+        },
+        {
+          "address": "0x9ef85267e9d0a1305c2b0daa44d7e4ee3815dfd3",
+          "points": 59410.578659714105
+        },
+        {
+          "address": "0x20b277c9197ea3bde15932bcf89f0de3a0836135",
+          "points": 59085.192204643114
+        },
+        {
+          "address": "0x33374aea77aec21b8e0304035905c33fde845b44",
+          "points": 55266.72107549872
+        },
+        {
+          "address": "0xd152926beefd40caef59040a2144980e481a59e3",
+          "points": 52843.76361437095
+        },
+        {
+          "address": "0x8ed6339fb3034422e79643aa68493ea30b8cd24d",
+          "points": 51235.86827813183
+        },
+        {
+          "address": "0x9bf0ea70fa1f3db7fc78acb56069e9c260c3db99",
+          "points": 46493.80666154522
+        },
+        {
+          "address": "0x8060ff2a0b3115a3741967eecb7b1632a96f0bf2",
+          "points": 44824.50126325408
+        },
+        {
+          "address": "0xcac2edcd082628ba3ba31b3b74537792550319e6",
+          "points": 35850.00683018597
+        },
+        {
+          "address": "0x119b4c18babe327b35247be89e2a598cbb1d069f",
+          "points": 34727.89998382657
+        },
+        {
+          "address": "0xe84b0443b8341d9c215a150ff208c0ce5d2d9a74",
+          "points": 31182.134193703332
+        },
+        {
+          "address": "0x56224cae20defa107d553ad11c7d591681ffe8d7",
+          "points": 31073.632440914014
+        },
+        {
+          "address": "0x064cb0bb4c8abe11935134aee670c032d6833556",
+          "points": 30736.287251993
+        },
+        {
+          "address": "0x0370b8f543a2c5095dc17198a723d692e244e711",
+          "points": 29671.249837664087
+        },
+        {
+          "address": "0x5d353b76cf970da520a59213c270865fb2c60db6",
+          "points": 29019.133309923647
+        },
+        {
+          "address": "0x47930c76790c865217472f2ddb4d14c640ee450a",
+          "points": 28731.804311069733
+        },
+        {
+          "address": "0xbb5f12ff71ac9b52955828fb8eb394bb441abefd",
+          "points": 28459.077489036397
+        },
+        {
+          "address": "0x907d8e9b66b06fc96fcd58caacb113cbdd586b43",
+          "points": 27153.764393981415
+        },
+        {
+          "address": "0xdfeec3df8593c9d9178e31a47d27f5e4ad555287",
+          "points": 25567.42996714314
+        },
+        {
+          "address": "0x96149ac2472ae7b53e3e500f98374a20303a60b8",
+          "points": 24715.73975169776
+        },
+        {
+          "address": "0xef5eda43d5acf021c22a487aa442c5ff93a13cb0",
+          "points": 24289.376346342266
+        },
+        {
+          "address": "0x85204a5e932b69455822033f33e378dff4bb8960",
+          "points": 22513.007099901526
+        },
+        {
+          "address": "0xb08cd8d53c9463935faf555a1ee53e847d98a61a",
+          "points": 22027.29960653576
+        },
+        {
+          "address": "0x649c92a98b8c163de6bba53effd55ad2d89553b7",
+          "points": 21320.49228707478
+        },
+        {
+          "address": "0x64cee6e52dfa59fbea2d9e5384165788382d80d4",
+          "points": 20186.118981562864
+        },
+        {
+          "address": "0x331fcd79878b84865a210bb25b207146acae60ed",
+          "points": 19870.469600245997
+        },
+        {
+          "address": "0xfce2d9151861f0b0ea0f68631659ffc48f613219",
+          "points": 19658.619769899393
+        },
+        {
+          "address": "0xd407c6c9204ea4afe302b554e0a1f220e573765d",
+          "points": 18843.79424543712
+        },
+        {
+          "address": "0xa4e0a87cd07a4275c6a91450d5058f984ac3f8f5",
+          "points": 17251.00185702391
+        },
+        {
+          "address": "0x3deb9d0c8e21761247770241e279c85b4f1f0a55",
+          "points": 16038.63000395849
+        },
+        {
+          "address": "0xb2005b30735d7f3eaad7ea762b54b85b4b39754f",
+          "points": 15816.619586343544
+        },
+        {
+          "address": "0xadddd342c62b4be551d5759cf3e4b16612daa038",
+          "points": 15712.21166714608
+        },
+        {
+          "address": "0xfb68e99a10c7179cb31c54f2efa2020bc1b5ea8b",
+          "points": 14902.904361690396
+        },
+        {
+          "address": "0x6031f8cc24cdafd6e9445706617ac28466a6ea4c",
+          "points": 14899.193285173214
+        },
+        {
+          "address": "0x4857ad420a2b2641a53886f7745cdd365f7ac32e",
+          "points": 14850.019024616327
+        },
+        {
+          "address": "0x0e67ce7da06875ec116654bdbea4727e5fa49d47",
+          "points": 14472.823663990886
+        },
+        {
+          "address": "0xcbabffd50df3f6d25828ba4c6de1497092a22825",
+          "points": 14253.282698246017
+        },
+        {
+          "address": "0xe9b71f2246d6f559bf4a0ebb7d2694da6fa56bfa",
+          "points": 12902.545666490649
+        },
+        {
+          "address": "0xdefdae6c629e7c06f5728b2c3ae39aec63d44fe9",
+          "points": 12706.420595368185
+        },
+        {
+          "address": "0x85c10a8d6e154ed51ab0a20f9ae02996c40a3266",
+          "points": 12281.144456192314
+        },
+        {
+          "address": "0x1dd07dc0a6c67ad5f7d463566db0eb6f82b02a7f",
+          "points": 12277.451937390964
+        },
+        {
+          "address": "0x0fc88a9236cfbb95fc6c79ab1b0662f38cadc437",
+          "points": 12200.63865112274
+        },
+        {
+          "address": "0xb3418bc275900395cd6f6e6f066e4bdfb7244293",
+          "points": 11968.272470824846
+        },
+        {
+          "address": "0xed20bc9f8be737572d7e40237023c7a8fea3449e",
+          "points": 11861.629014766098
+        },
+        {
+          "address": "0x09f80bed3148b724d9193e3cee8e6a56fad40c7b",
+          "points": 11423.722455647294
+        },
+        {
+          "address": "0xe8c8c9c5e0d0db7a49c9747f4d53537818614755",
+          "points": 11386.486839878684
+        },
+        {
+          "address": "0x934c8b08a12a2c06641de0e5755fcf77ef609db8",
+          "points": 11362.699059177137
+        },
+        {
+          "address": "0xebd1abb07ff91092bbe1fe254ad60f78d16aa66a",
+          "points": 11297.25729758462
+        },
+        {
+          "address": "0xe69d0325cf478d99e8fb64be77230561e77b88b2",
+          "points": 10922.435982914327
+        },
+        {
+          "address": "0xfd7429b10b6678b5755decf52c21b289fcbdb3b9",
+          "points": 10218.601345843266
+        },
+        {
+          "address": "0xbed58fa67bd966a40460b42f065dcccb0fd4fe4f",
+          "points": 10217.121344698413
+        },
+        {
+          "address": "0x70a99c4127620129d0ca30827e0fc9b75ec2891b",
+          "points": 9930.065611172435
+        },
+        {
+          "address": "0x9b09b9226832ea1ea25abe53fcfdd2ae55fd9c5a",
+          "points": 9888.627373637213
+        },
+        {
+          "address": "0x55b32845a77f53c681267c56d7101e21bc2b0b88",
+          "points": 9580.886769329458
+        },
+        {
+          "address": "0x0fd1f80dd88904528b32dfe5051aef0e693bbdb1",
+          "points": 9296.394697448291
+        },
+        {
+          "address": "0x97869fa3ec5c181257dc17aff4c8e937bf013225",
+          "points": 9164.125851825303
+        },
+        {
+          "address": "0x24ebd728baf57a0641e78a715b8b7c2dd26d9647",
+          "points": 9130.033484355508
+        },
+        {
+          "address": "0x8966d8acbb4b0d5830fca4b0dd3b134e41049b19",
+          "points": 9045.371593963715
+        },
+        {
+          "address": "0x086a4d9e07b08eb2f356e75e150f527922a6f27a",
+          "points": 8835.965797210974
+        },
+        {
+          "address": "0x6376e21fef600c53ea6e10cdc473e584c8382521",
+          "points": 8799.274094509587
+        },
+        {
+          "address": "0xd10b15ea09d667f322814b04212dabb86b71fd28",
+          "points": 8672.914139070403
+        },
+        {
+          "address": "0xba47506f1652f5ce93f42494aefdc916dc285300",
+          "points": 8532.192093545369
+        },
+        {
+          "address": "0xa3a15567ee4e8a483fabfda28ff309045537dd84",
+          "points": 8447.4241957912
+        },
+        {
+          "address": "0x61ce51e1dd511df9fc098e074149153dce6377cc",
+          "points": 8273.685931756485
+        },
+        {
+          "address": "0x5fd776a1da57aa0a3f22c9b8b2fb7f79b56fa26a",
+          "points": 8164.3816547242595
+        },
+        {
+          "address": "0xd7c629d7bb1b7d5fcc7375809ad5ff29392c03e9",
+          "points": 7865.672868477717
+        },
+        {
+          "address": "0xab3a85cec70bcc14247707b6531ba902f12a566c",
+          "points": 7726.430613658444
+        },
+        {
+          "address": "0xc15dd30c03d83dd56a5ffb901eb1c8b6f99eec4a",
+          "points": 7556.035076775941
+        },
+        {
+          "address": "0x275f16513119f0f9ab75146ffd97697ac0aec459",
+          "points": 7180.720608916433
+        },
+        {
+          "address": "0xde04d894d48cb9596abfa80f5b4a343f6f239464",
+          "points": 6885.383868382772
+        },
+        {
+          "address": "0xe441abc7f5091a22ab3a1436e2af3c6cbfd3d616",
+          "points": 6806.12694047944
+        },
+        {
+          "address": "0x923cd36115817d59c51f33e0b5832d7b70ef2530",
+          "points": 6771.599458692768
+        },
+        {
+          "address": "0x98d6e7a785a5db7e42caf61e06406722ed949b9b",
+          "points": 6583.637547508138
+        },
+        {
+          "address": "0xecb345270c14273c7374b38677f2d018e4ee2175",
+          "points": 6580.808334157115
+        },
+        {
+          "address": "0x97062bb44e2810f7b181135aa0a3d6abae4bd94e",
+          "points": 6558.137329957841
+        },
+        {
+          "address": "0x03f873e351c7708f2611479b4bc33818c3a015be",
+          "points": 6520.111766130074
+        },
+        {
+          "address": "0xe21d57a255e66e1912414be5378afdab3516d269",
+          "points": 6470.302609970945
+        },
+        {
+          "address": "0x8e6371957aab7e89f974fb785e221f1b76a52aae",
+          "points": 5784.232775857894
+        },
+        {
+          "address": "0x1813dfb29192f0842cfeb4ec6a7fc800ae9a2a86",
+          "points": 5730.790364037781
+        },
+        {
+          "address": "0xc052369aa762adbce160770367fb333b59ebe650",
+          "points": 5722.7573323102
+        },
+        {
+          "address": "0xba6e046fddcfc8ae8f91a9d12ff8ad04090cdac7",
+          "points": 5629.44133113371
+        },
+        {
+          "address": "0xaa04e410add2d662e33cbdfbb5320764d39b1486",
+          "points": 5539.3872979467915
+        },
+        {
+          "address": "0xf0695ca5066ac05d5f7ce59facf9cc046a4e4a9b",
+          "points": 5393.568408224714
+        },
+        {
+          "address": "0xf60fd90fc72e1eb4d2054a24f5dcf7658f166eda",
+          "points": 5297.69876015264
+        }
+      ]
+    },
+    "randomUsersByProtocol": {
+      "Hypio": [
+        {
+          "address": "0x0c5db96100873da86a2c4e764d490532198a274c"
+        },
+        {
+          "address": "0xd7efae6e8e0556ebb5e77a499a34fce6a4d8c722"
+        },
+        {
+          "address": "0x77607aa8f2125dd32d2cdc96f579b8e7ad36db43"
+        },
+        {
+          "address": "0x21ad7541a1f6bf714cc90ffba8cf0d2a0d366bd0"
+        },
+        {
+          "address": "0x826fa6a0673daf7db9ff16eb652e1866708d2281"
+        },
+        {
+          "address": "0x7e69aa5c7a4a9f7e37594c3da71a918c218ea401"
+        },
+        {
+          "address": "0x7f326ea697ef0dd2bbd628b62f569017c1d43fcb"
+        },
+        {
+          "address": "0x7c846e2487a8b6ab7a4ceec6a2073c5ce388e2ff"
+        },
+        {
+          "address": "0x7e75a7fb231a9d118ffbe7ac7b571dd694adfa2f"
+        },
+        {
+          "address": "0x1112039d083c6dbe13a87a20e566047dd906fdbf"
+        }
+      ],
+      "hybrafinance": [
+        {
+          "address": "0xa8ab2aa6595a60dc235905302d5dd4f121989f5a"
+        },
+        {
+          "address": "0xef431484193d62fbdf8f96a944dae21b261dc232"
+        },
+        {
+          "address": "0xecf3f98772111d8198de1794b757903352a76950"
+        },
+        {
+          "address": "0xf55f86597348a6cf3b1ae881f197ed2e922dd34b"
+        },
+        {
+          "address": "0xed7646046603f5f661d789964ea86233dce0e297"
+        },
+        {
+          "address": "0xe1ab85e458ebea43c5302ce84f5a89cb22fe351a"
+        },
+        {
+          "address": "0xe85774bb8c31e06a546e5ec3c6457a41a684778e"
+        },
+        {
+          "address": "0xe8467f301914785adca96230d1b13287e6869239"
+        },
+        {
+          "address": "0xed01a241dcad5217a0be3fcded8f6b22514b82ab"
+        },
+        {
+          "address": "0xe87600f29e4f4df4a1f1195870b182ca611ff13a"
+        }
+      ],
+      "hyperswap": [
+        {
+          "address": "0x3f418869b5086023b1f2826dcf6c15ea5fdd321c"
+        },
+        {
+          "address": "0x3e87d66908cf66557e43c3664bea98a267d46846"
+        },
+        {
+          "address": "0x3d0e2776ab8f879c1a77e7ea899de05062bafc65"
+        },
+        {
+          "address": "0xb7c8aab6690d0318173e93a7b23d982a7726514e"
+        },
+        {
+          "address": "0x3f7b254e3319cce10858d3bb422317cb9b72fd4e"
+        },
+        {
+          "address": "0x3c5fef431eec1f8583fba782fd2764b890304ded"
+        },
+        {
+          "address": "0x3dd471f262b1c011ecc3b525796d4f338a754a45"
+        },
+        {
+          "address": "0x3c251ff96b0ed12914fdc5b7e852b3a848270049"
+        },
+        {
+          "address": "0x3e5ee2cf004b1866760d1fe8777f132f65d33b34"
+        },
+        {
+          "address": "0x3e0906a6184e0556c250f27d6507de1abaef2168"
+        }
+      ],
+      "kinetiq": [
+        {
+          "address": "0xdff4712bf886b746363af5d339e6bb1ec2677c91"
+        },
+        {
+          "address": "0x4b3e074fa04bd56cf72cc6b7b5267088f54ee031"
+        },
+        {
+          "address": "0x17e566d94b9e9471eaaa1fd48fed92666fe0e6c0"
+        },
+        {
+          "address": "0x3397c33b64cd9f5330bc66c92bf08a1631650666"
+        },
+        {
+          "address": "0x0a352179a107122943f6e0d6d09638acccdb7fa5"
+        },
+        {
+          "address": "0x04913d8fc34f3aeb5ce3876007e02d06005c6825"
+        },
+        {
+          "address": "0x1a7bc3953662bff98cd90dc5929f61c5b8892e14"
+        },
+        {
+          "address": "0x2f054d822a80f7387998c4de552ec758b949295d"
+        },
+        {
+          "address": "0x12d9bdedb79cb521d49484a8bd462ee83a0b270e"
+        },
+        {
+          "address": "0x2c1fbaf225d030e2558faec06b51ab07f1630894"
+        }
+      ],
+      "projectx": [
+        {
+          "address": "0x81c36612a265f9ba66d8c444423dc5e65753c69f"
+        },
+        {
+          "address": "0x39a629c1544d37cc63e064682b256447dda8312d"
+        },
+        {
+          "address": "0x5c03e510e8aba15c82f9268ffb32b717bcc4e0fb"
+        },
+        {
+          "address": "0x496b6e79f4561706f5625903eabcf36744ec2c2e"
+        },
+        {
+          "address": "0x4a2e56d61c2e44c582bf925cf5e57312db99edb1"
+        },
+        {
+          "address": "0x480789ef3f917c1e3016c3aaa0071e8b0745eefc"
+        },
+        {
+          "address": "0x48ed913f48b853e91fda55cef5c63c35ca602491"
+        },
+        {
+          "address": "0x48342feca1ddb475274ec44f88671c92354d5291"
+        },
+        {
+          "address": "0x734ec9d3734668ebb318e604c603b01258ff0eff"
+        },
+        {
+          "address": "0x6827d58147523c36e6faec356477e388fcf39d92"
+        }
+      ],
+      "ultrasolid": [
+        {
+          "address": "0x53c1e717973682801ef176455dee59298e86d78a"
+        },
+        {
+          "address": "0xaf767130cbf41c09e86b60247cf0ac14f056815b"
+        },
+        {
+          "address": "0x3c21f3efc1e1f2c5205fc3b99f6eaab1d80d4967"
+        },
+        {
+          "address": "0x38b0fb000792568a897638a54a1a10bed7768233"
+        },
+        {
+          "address": "0x349826e6467cef7888bd98b86bd3b811266137f4"
+        },
+        {
+          "address": "0x26c09f131840050e2c165c29a2cf2bc23b474a97"
+        },
+        {
+          "address": "0x31a4d42f522c7638045011e61913487dc709de33"
+        },
+        {
+          "address": "0x380755468cc72ade4e537ca9a90044956f6c1195"
+        },
+        {
+          "address": "0x2672ce4507559f63d38e648ec721f906ee6aa23e"
+        },
+        {
+          "address": "0x3f55951b378b865563da957254b5df88d21ea2cf"
+        }
+      ],
+      "ventuals": [
+        {
+          "address": "0xeecc42050ed0ee5027b09fdeee03b56055404c09"
+        },
+        {
+          "address": "0x121d6990e624cfa09e3b785a2d13935941b29bfc"
+        },
+        {
+          "address": "0x11855eaff01eb0a3fa3d976df65948e2e3e40302"
+        },
+        {
+          "address": "0x17f22a22ef90ed431fdc45ac1a64b591f5e807c2"
+        },
+        {
+          "address": "0x46ab27a4d7e84fa349faddfb66430622095c983c"
+        },
+        {
+          "address": "0x725e4bff61f65ad18e0e39821daa73355175408f"
+        },
+        {
+          "address": "0x024a197fb686e796c3407d8397c239faffcd6b87"
+        },
+        {
+          "address": "0x69082cfb7ebf083dbdaeebbef3f776d09c10a976"
+        },
+        {
+          "address": "0x4715ce2078233e08012f639701f2b579a64e49e4"
+        },
+        {
+          "address": "0x1ab8aa28ae574654d494956e5d5cc8ce7c0bdcad"
+        }
+      ],
+      "hlNames": [
+        {
+          "address": "0xa920db7180ec7ef20c42963137271e3f9739142a"
+        },
+        {
+          "address": "0x1716824aaab9a9b7f8fcc4bc9a66228246d8a036"
+        },
+        {
+          "address": "0x337c8f57be536a4848a8b69d3d66199a404b9b4e"
+        },
+        {
+          "address": "0x04bc73226aad9024ba55c961ea968046f592df57"
+        },
+        {
+          "address": "0x002748db885d4ccfe3c7c92143f0805f4ebeec01"
+        },
+        {
+          "address": "0x2b5c944b623f52b133ebfc3b419bbe927433e01d"
+        },
+        {
+          "address": "0x070e40ab53f900d5fad46fd76cd12e63c8e0536a"
+        },
+        {
+          "address": "0x05941c397545b80cc196fe139b989ab1be63197c"
+        },
+        {
+          "address": "0x7a3234c044d788844bc0be34adfce82b6121fb8f"
+        },
+        {
+          "address": "0x0369dc82fd66127bc23062c99b76b6cf910f3058"
+        }
+      ],
+      "HypurrNFT": [
+        {
+          "address": "0x0e024cdba8377acf2d83e23090e27f5f8f490497"
+        },
+        {
+          "address": "0xf35e3868367332e890f9c0bbb86e5448d959722c"
+        },
+        {
+          "address": "0xc00a6614b8030ce216302016e11c6b4140b5e499"
+        },
+        {
+          "address": "0xcb58b8f5ec6d47985f0728465c25a08ef9ad2c7b"
+        },
+        {
+          "address": "0xcd4001eff47680b55ba0efee3ce58c570e9da1cf"
+        },
+        {
+          "address": "0xcaece3b91dcf7be7fbb47783a3e3772096cb8db8"
+        },
+        {
+          "address": "0xdbbdee771e62ab57894e8b8bdefbe094d3135ddd"
+        },
+        {
+          "address": "0xd2d4867b8886c0cfc3de5ccd5203ec66c6183764"
+        },
+        {
+          "address": "0xd1579caf5a3f06de82aee78becb61f470cbf5279"
+        },
+        {
+          "address": "0xd87262c913e3d3e34dc9c2c0150f0646fdcd0e9c"
+        }
+      ],
+      "morpho": [
+        {
+          "address": "0x15f8166cc9a16d8ef42dbde6db66db5f5d1e88b6"
+        },
+        {
+          "address": "0xb52a80d8ddbfe5c784b2e89fd379dd085c956c03"
+        },
+        {
+          "address": "0x3b86d3d28928a7ceba410db1f236883929f3b8d2"
+        },
+        {
+          "address": "0x3922bf5084fb9abda908d703760754aa9da4b70e"
+        },
+        {
+          "address": "0x3d0c9f864751fd73158210caba258d0eea22ccb1"
+        },
+        {
+          "address": "0x20a7b077dbb2b780993fbb28e206baabdc5191fa"
+        },
+        {
+          "address": "0x3c76a2ea4e3618fa538aea0054c1d61fe9717069"
+        },
+        {
+          "address": "0x20693cc64751626216c4c8cfd603386c01531091"
+        },
+        {
+          "address": "0x3085f098d532683e99dd98f8a2767559a85ef6e6"
+        },
+        {
+          "address": "0x25250faf6ca6a7c068d6a661a8a086b8a83a95be"
+        }
+      ],
+      "pendle": [
+        {
+          "address": "0xa04fd0679b1aed0b6ad4a06c761ec63a38af6e9e"
+        },
+        {
+          "address": "0x76183e4930888d02dfbe61e387a3982bfb136874"
+        },
+        {
+          "address": "0x7b20a66b7b002289149a5173a66161a47a6fdb4a"
+        },
+        {
+          "address": "0x7b3d8e228055af8ce39af00114855f3b183f97c2"
+        },
+        {
+          "address": "0x7e378459e9e5c1f759af5a8707288189cccd4c60"
+        },
+        {
+          "address": "0x8118bf416788683bd068426a8b837aeef6fc40da"
+        },
+        {
+          "address": "0x7e9fc755ca672c2f8c71d23130ddb2baea20a574"
+        },
+        {
+          "address": "0x7c2091ec91e22086aa516958aa57d58416b8f15a"
+        },
+        {
+          "address": "0x7ed36f4abab423b92d34b11812b0d0a749fab7cf"
+        },
+        {
+          "address": "0x79f5bae9fe015a5097a3895a0a6a4c316c0ba10e"
+        }
+      ],
+      "rysk": [
+        {
+          "address": "0xb20ca576d1159b537a7187a5e83000fc33b27997"
+        },
+        {
+          "address": "0x362429059f7f6d1b0aa74324cf28939d19708023"
+        },
+        {
+          "address": "0x7f5a7050a049ab8745df83358f78fea1593dcbdf"
+        },
+        {
+          "address": "0x07dd7ab84aebc3a769a603ca50c2b8438434e1ea"
+        },
+        {
+          "address": "0x1875a8631dffb3f54f6f9f1d45e3abacdc6331fa"
+        },
+        {
+          "address": "0x369fd6445f24d84dd4b82293389bc5d727380180"
+        },
+        {
+          "address": "0x3beb0613a3a920402fee4a1f5e5ba4126f91764f"
+        },
+        {
+          "address": "0x2ebd77c7ed59ea27f543780af7998497f84a0cef"
+        },
+        {
+          "address": "0x0ce048fe42c170e41740ee392e187f19515f339d"
+        },
+        {
+          "address": "0x21f26a2d7d8516de4bf356e0854db66ab5beae0b"
+        }
+      ],
+      "Nunchi": [
+        {
+          "address": "0x2437574b63021bdd21988c4bb35c0cf1b2314ff3"
+        },
+        {
+          "address": "0x4da4a2f69cb2f61a49efb7423b1f093b79c6f1f2"
+        },
+        {
+          "address": "0x1331560e76aba4f42b406d4ddc95c510d723f2d8"
+        },
+        {
+          "address": "0x382a3656989eca7adf883cf2ce857d9b8bbcc005"
+        },
+        {
+          "address": "0x27c400919e2bc9eacefeb0d0a85c5b9d3c8e310d"
+        },
+        {
+          "address": "0x3a5dc57baa3bccf10e2bc2bd1b700bd625b9822e"
+        },
+        {
+          "address": "0x2f49a5dcf4b62e53ef69f3e0f91b05518c1c36e2"
+        },
+        {
+          "address": "0x0bf7fb51211b4842bad8e831ba2f42fcb836c7e1"
+        },
+        {
+          "address": "0x29741e496ff434cb484dff721a65a422c35b5b4b"
+        },
+        {
+          "address": "0x3e77c4fec7bcf4a5ea4a6369abcb1b36e6308068"
+        }
+      ],
+      "Catbal": [
+        {
+          "address": "0x5c2e60d582070241c14016843b8058cd4dd36ffc"
+        },
+        {
+          "address": "0x62c5b75f295a3f14c8b6e48d0e613fe9c1742d80"
+        },
+        {
+          "address": "0x4267352f7ee7b06ab54100bca0f101a05f93a941"
+        },
+        {
+          "address": "0x18e09f4b88b52966dec5a3639e197918c4b65d72"
+        },
+        {
+          "address": "0x05d80f459f0a6b919083f51f8ec83133a263943a"
+        },
+        {
+          "address": "0x50f9cc9bac386dd99624662135187713f1744bd4"
+        },
+        {
+          "address": "0x75895dee1c1a5bb7e91c18af2625d343b52e9235"
+        },
+        {
+          "address": "0x97670c23534393a7984df5dea811f0c3dbae30b7"
+        },
+        {
+          "address": "0x41ed2b2e97046efcac1a3ab01917812ec40dc8f8"
+        },
+        {
+          "address": "0x1c758039582c9c19454055653ed000ebaae41e69"
+        }
+      ],
+      "hypersurface": [
+        {
+          "address": "0xb6f6bc3a1cd32e549199be771c387edfc53ece9e"
+        },
+        {
+          "address": "0x8eeaa9069fde5a7dacf4154c4a00e046e05f36d6"
+        },
+        {
+          "address": "0xdc0054d9962fb4adf760f669dc3e02c07aa5af95"
+        },
+        {
+          "address": "0xd63946b12168e53c1e032492a3a24ba96f8bf26c"
+        },
+        {
+          "address": "0xf6069ba4cb83d3a3fea8a1100dd8ac3d54cd2793"
+        },
+        {
+          "address": "0xd5edbcc2dd0c912aaf49b8e9bdd838672dcd1d0d"
+        },
+        {
+          "address": "0x5111fa46b34a5a89e76d0dab7993c0c28292f3a6"
+        },
+        {
+          "address": "0xdaed957ed3d5870b3c28aa31082e5e5ee15a4e0f"
+        },
+        {
+          "address": "0xe0c47f73642920c723a9ccc9c75984f707d4dc88"
+        },
+        {
+          "address": "0x30d83d444e230f652e2c62cb5697c8dad503987b"
+        }
+      ]
+    },
+    "noPointsSingleProtocol": [
+      "0x1fadc1bd81cc4cd35a7667477f978c3c93d97e7c",
+      "0x59fa1c65b931103ec4a329fdc6b65016f0798832",
+      "0x7bdc1a1305b9a62b74f2ddd9a4e79fc5c1729050",
+      "0xa9a0e25f9b5c9f79bc3605c427eda7536f904c3b",
+      "0x00951c1d1241f9be0ef5a55a1755fa49c5629ebd",
+      "0x03312dbfc1648bd886b91693dbec1acf4bde1845",
+      "0x338b352f9ad08eaed7869844e983fd199845e323",
+      "0x026a3b8c0f6e0db4c401f771b752440ad514f12d",
+      "0x2b1a3709ddb0ec477427c1cfc4162ba8ac0a410c",
+      "0x05741158e26ed559f0916855c2e8d2c2ec48bd04"
+    ],
+    "topUsersByProtocolCount": [
+      {
+        "address": "0x1196cd2e4ed4b7847de3c3b57b7cc4bb62528371",
+        "protocolCount": 19,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x7a35bbc1de0b86e11aea964956807e08317f3803",
+        "protocolCount": 18,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xca09d245a82ff9a44cb57d9c2c5cd6b202448d60",
+        "protocolCount": 18,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xcbb4833c7dd35d991c1bcf410c635bdf61ccb409",
+        "protocolCount": 18,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xf0394ffbe760c225dbc37695e870ee3db6eaee0b",
+        "protocolCount": 18,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x47930c76790c865217472f2ddb4d14c640ee450a",
+        "protocolCount": 17,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x736dde3e0f5c588ddc53ad7f0f65667c0cca2801",
+        "protocolCount": 17,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8c8fca584072353a32c83b5229b5d104a608030f",
+        "protocolCount": 17,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x98e073b579fd483eac8f10d5bd0b32c8c3bbd7e0",
+        "protocolCount": 17,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xa495ff84d8778182007f00fcd80272dd56a6517b",
+        "protocolCount": 17,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xa92746512789aed57bc1b30083dc5d17e527077e",
+        "protocolCount": 17,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xbb34666407e47f87a44e4540ee765909506cb105",
+        "protocolCount": 17,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xe0e8c1d735698060477e79a8e4c20276fc2ec7a7",
+        "protocolCount": 17,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xe5e26755418bb65c6bead0dd7dda17a57cb64cce",
+        "protocolCount": 17,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x00d415404751c5baac56eadd9dd6d618fc521c58",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x13937d2c1d4b3d96ada88e265e6ce73eeb691869",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x14d1eeee79428eda74fb10d943479468d419a3ee",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x1633090139689acf26bc44c7dc9c5f2d4e320526",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x21631f6fd0b8c3bf02d889bacea679fca93cd555",
+        "protocolCount": 16,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x28893320e3ec737271510b92b3efe948144a396e",
+        "protocolCount": 16,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x2d143e6b43c030b7a4c35eec667bbb3c16dc7245",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x44aa16d6c715e343539e794a69feb41210c2f7f5",
+        "protocolCount": 16,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x46bbf0edba51ae50088284daa5616868d94b9fb8",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x470d235ca1caff614abee02d98ac3aa89a6758bd",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x565bd78c043a28c665d1056e10f595d7a8f36f0f",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6ecba7527448bb56caba8ca7768d271deaea72a9",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6f00bd723f4765ff3e03aed81e2aad4ae70882f4",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x79f49449a106d290e697c3492694b80171052a8c",
+        "protocolCount": 16,
+        "protocols": [
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x7bfee91193d9df2ac0bfe90191d40f23c773c060",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x83742faddde0b5b2b307ac46f24a1c118d332549",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x894b5854f1f566b50b5f890b2a07fe01f8cd2f62",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8bd31f540fb105cfd23120177074131265cc82d2",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8f27fd6533ca194ceea7c8c22eac214280e192c5",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x926f3027a146b1635a858d1f300ee4199ac2bcde",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xaf1dfdd58edbb7fdf18315db5bfcfd2c8a261e22",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xaf7fd67ae6b3e25f83291d5600fbe3b776eea4d3",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xb4ff197c59044d4579991668c071762bc66f997e",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xb99104be06a52d973d369056c11a9d958211e563",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xc7a4d962888ea92702a38ad1e3aebf05d56d561b",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xc9739116b8759b5a0b5834ed62e218676ea9776f",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xccddcc9869456afbdee89d302e064d63e4132406",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xd073275d5ff8f83de887c1f62ffdc6556351398d",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xdbe452f1a0d0190e161b5fae8ee3a530f099d9a3",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xdea1f188c9b2b49527adebe9002f35955b2e8c1f",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xe8b55fd62045d51274812e5c3ab803055c0e3eaa",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xeb9cba51ae67516d60e778f0a253ce4222dcdfff",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xec12c87aaebc0006b4954ef38f922527d29816e3",
+        "protocolCount": 16,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xec133e1274574c91cce51a0c76122588563aa90d",
+        "protocolCount": 16,
+        "protocols": [
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xff2c7c7e10bbdd5024f924a2278ed6999b53c26e",
+        "protocolCount": 16,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x05525cde529c5212f1eab7f033146c8cc103cd5d",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x07dd7ab84aebc3a769a603ca50c2b8438434e1ea",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x0bcdc87fd9ea388824fed910ea148763ff8c2440",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x0eb0ddfb4350bae7435acd27504926204235a9de",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0x10f02822485fd2d8dc7aba28922a5304369b77bd",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x1241de051c6c822809e405806418c0211fd027ca",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x1c0ec596303ce6666f5a4d24c29e78cf881cb5d3",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x28c01b64f2492d82fd58feecf8c71603c769bb4a",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x2c1259a2c764dcc66241edfbdfd281afcb6d870a",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x2cd84c5a739c12202fe92b7ce488abf643578a3d",
+        "protocolCount": 15,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x2e20df63f5ffb0578cf4ccc223cb3003a50200b1",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x2e32935bfd5b2718f99bc8fdf8b37c16811f7d97",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x30f58e4036cafb8609193a6d17baffe29cdfc7c9",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x31b3505945e5e4386c7cf955c552fdb2048a5563",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "projectx",
+          "rysk",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x330d2a845d2df4e329034d72719c7c53f9c1f87a",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x3426648b4cccb33a7df81d69993b71ef5e7207d7",
+        "protocolCount": 15,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x36b5a505c528159e6b70bbab08c607bc5fc9babe",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x4461d605a73f4f0ea2d52b89c8b36ec78d7f56fd",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x4c0d9bff934e53cca53d98c187d0f6b29eecfd64",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x4e99b2991ab8306833fe403468dc44515694f638",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x508b0907701dfad406bc80e7833fd60e267e26bb",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5111fa46b34a5a89e76d0dab7993c0c28292f3a6",
+        "protocolCount": 15,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5de481dbdc77a56950be2b209a82cd34951335a1",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5f063c79b351a5ba3e6ef46a1d3be1a0224af1d3",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x605572243c30af7493707c9c8e8aa2ee25537e9a",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6186290b28d511bff971631c916244a9fc539cfe",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0x7605d018f1236c5b60b096c315fadadd56420bec",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x77bfecac1d1eb046d8a75c1d4cdabe267180646c",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x831e4ecf60dd9727d30c3610fa15ad52fa1ff54f",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x84eb5796df6787e19e2c7634c0b8e65997e78f23",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8aed145c9206808766ad816112f9ae6d9ba31849",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8e32736429d2f0a39179214c826deef5b8a37861",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8e6ed79c48944265fe5d004010c11cb28aa105b4",
+        "protocolCount": 15,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8eeaa9069fde5a7dacf4154c4a00e046e05f36d6",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8fcc6548de7c4a1e5f5c196de1b62c423e61cdaf",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x9158d82186b893581da3ec5a01e33b82dae6287a",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x92ee18538c392361f1923794aa62bd3a6550c8b1",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x941d795f9c3a947c67e2402450eab0b6cd92d422",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x954b6de2e9c58b0ca7b21e9a048fd0a6cea6f92c",
+        "protocolCount": 15,
+        "protocols": [
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xa30e48c7826eed00223224dfde038347b983f0f1",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xa6afc4610acc35afe818df9039baebdf386892c8",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xa9d508815d1216914706c03c566dc20dd972b383",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xad773aa6de26e9193c953bcfe5f30878bf711a18",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xaf5735cc5d392e54e92a54be30c3aacfa16a0096",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xb3db8d23a98780002b10da5fb082e47b2d22e4f3",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xb67a126bfc786978bc2a44e67759be70d151cb0b",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xbad81821aa1d4d3b75bf615159e91564028c80ee",
+        "protocolCount": 15,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xbb0b246f7f7c301da8484252e366b2349165e110",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xbdfa4f4492dd7b7cf211209c4791af8d52bf5c50",
+        "protocolCount": 15,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xc32b7438b3df7844c9ee799930a2224fe6e26426",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xcac2edcd082628ba3ba31b3b74537792550319e6",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xccbd326a9ec75476f5ab396880bf9e890d8bdc6c",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xd653971fa19ef68bc80becb7720675307bfb3ee6",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xdd08fb1b04dd705b3f31834734d943c1e2629d03",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xdda6ee62fd4f7f38f6e62da1cda241c3749b4af6",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xdddcd66893097ba4fb6086aeea5c199245477c45",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xdefdae6c629e7c06f5728b2c3ae39aec63d44fe9",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xe684dc05c16851c65edb5d9fc3b11bce4f427eb2",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0xe7ab68392b3ae1733313ccc379e244de4aebad49",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xe8039d12bf6e1c60a379c4ffa7330311f5f15150",
+        "protocolCount": 15,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xea0b91e10e31bf3f1bd25bd70a389dfc932512d6",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xeb7bf483a3f048ea0b00c1ef449ea5d54334cfd6",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xed62616a7c1dd354801f4e72389299a81493e004",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xed7646046603f5f661d789964ea86233dce0e297",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xf18e30936b6144b36cac59913d43eafc71f255ec",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xf33dc0ffbc5107962439f545d64679d877a8aaf1",
+        "protocolCount": 15,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xf60fd90fc72e1eb4d2054a24f5dcf7658f166eda",
+        "protocolCount": 15,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xfc3bbb6832f452584841b668434170a83e77c50d",
+        "protocolCount": 15,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x025e545e693cfeb629bb5b7be72fea50fa772774",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x05336e92edef2883d5cca2aaeee1b63187cef177",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x05d8fa8346470be95c8fa94300ccb313c0775c6c",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x06ca6fe39474fcd569ca0023188a25f1756179a7",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x07265663b688c5123e6600f9374f989e0869cdcd",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x083cf4249610cffda029be60e9ad9299319ed661",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x0aa0c3ac0151c42537fdb3cb6a2f37b9251a6c6c",
+        "protocolCount": 14,
+        "protocols": [
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x0c0dfcc5bd85b52f463bb0d172f94765a173ddc5",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x10b107a94b12dbb1dfb7d695dca8cb6f3bec338f",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x1206608fdc30925492b9afcd32aea0a9e579a03a",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x1267bf65aa1a7134c56eea3f0b59cd287a1066cb",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x1818238e84f9560c28732c44acca456a977db31b",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x1e5773301a43304d645341bce9af9d0cf6a0d1f0",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x1fd15afd03d6b970b2bd6f6a18c6e2f7cff8e125",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x23face08ba5c730cc79d2eb05ee43b45a2879c35",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x27756334f9dd3c3c0820e2f714a487158d2d4340",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x29afd76a41452e932d7ef80f2703a0cc44170b6a",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "HypurrNFT",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x29de368d4656cb50c182c528e901a5454f0b03e1",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x2fe21fc5130e953b862d4a6048cfd016ecf3974d",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0x30a26c2837e9ad41ea5955949f00402dbf86f124",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x32e29325128aa15a789e4c57f412efdae2d0e4a2",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x338d6068db894a01c52626b59cbfdb158ffc9db8",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x3415187c90ca060591f74565cdb67bd0c931f204",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x34f59297ad78a54ed80f4ebeaa7bdb250221ba5c",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x3922bf5084fb9abda908d703760754aa9da4b70e",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x39260b9be6b55b18505c6dd098d7fe0bb8622101",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x396a6d7a33655c45044143cb8a812227bf279578",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x3c2573b002cf51e64ab6d051814648eb3a305363",
+        "protocolCount": 14,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x3d9ee33b83381e34b48eafabd79c638d61c361c0",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x4603e5fe0470f573dec55082617d08a51ebaaf89",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x461bed1c0962cbcc4484be93030a0ea54be6d733",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x4806301e3565d4e364c22732529d457bc5cf278d",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x486434cf7c97e56ffeea8bb696f339ba296a06f1",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x4bb32d86606f0601aad2ae36c8b153968544dee2",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x4d6d99390c456bae07b2f16fc0f2651d9f293e69",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x4e5ac8bc43cec91f4255e326cbb166b0b1eb4e0a",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x555ae33620d3966aee5ec1a0e927095fb39c9ae1",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x56063c205244aec9e420367d831cea8a310851f4",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x570536c56f4ed8df9c4636bafae009f7c13734f6",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x58d249a203489d1cbb991a4558166baacb4f1bbf",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5951294bb10d836f55674a48b623c5120b1b8805",
+        "protocolCount": 14,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk"
+        ]
+      },
+      {
+        "address": "0x5b236d19f680ff47e7bf2a9eb88fc5cc03d443a8",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5b436e52ecb0e0056d5c79936697cc013bd944c8",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5b7ab4b4b4768923cddef657084223528c807963",
+        "protocolCount": 14,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5dcd2b947720e58f57bf88d3ea30c2ea820898b4",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5f0ef9ca677a3df3b89060b13593ec528ae91f9e",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x5f2c263aa195ddad2886fc5a6b7d4f33d1a72983",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x60c4ae0ee854a20ea7796a9678090767679b30fc",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x60d389e8f5a944d3b2a7d820190e698256335637",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x64bac0fc115ef0bb3e49eacafe89a8404dbb4c8a",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk"
+        ]
+      },
+      {
+        "address": "0x65d2126169ced7f4b12eb68f5d21294a8859fb0e",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x65d4a4b4b501478c3719453d28c9986094c5a444",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6953358517e9a5cc92274d1dd746a470654d37c2",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6a780c771281322c8e0bbab55b935c1bb70f66ec",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6be56b333916be1256b5a76bce2778deed8a18e7",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk"
+        ]
+      },
+      {
+        "address": "0x6cd68e8f04490cd1a5a21cc97cc8bc15b47dc9eb",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6d81fbdba7cc3afb7926f80c734965746b297668",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6e3a7ce3eeb814ad53ae6d11911894f225928cdd",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x6f413b49673d2f918cde926256ab1b7191a87287",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x76c644460410070f7293c1f83da81c1389a6efe6",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x7c9b4fbf5505aaf9a6353674d56bc56de41bb3a6",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk"
+        ]
+      },
+      {
+        "address": "0x7ed6ed28233d19470b4b4af3d37605b7642ce808",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x85f2280f9d41a1f842d2e41caf6301915e3cc27a",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x85faf1fe9a0f6060332bbda8194d3ebc546bd9be",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x8cf7baae1bb4662b82564b1b8d8b2a88f90c2150",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk"
+        ]
+      },
+      {
+        "address": "0x8d20ff49c8f517fe9ae3d7ebbb8f006fdcbc4824",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x92e8c440bd5ae54c9d95ce5a4d3bc8151fda63d8",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x934bc64d8681a4fc385da636c8b2c6ca7ecdf3d6",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x989923d33be0612680064dc7223a9f292c89a538",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x98abb17006aaa4f29f60cb8c9c3db70b174eba24",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x98bb2b867d2d72e4539babf71ff2bd99ddb2f4de",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x9c1c9a65b57a2c2c53518a5cae3ad64b62fc9848",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x9c7035f6c578f0d0372155d23da1c9345e8c89d9",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x9d915ceb820b5243d4a609f149799b540ecd5c67",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x9f5362c5ad18e5a3f9c06e9cf26d5ae0c5833f3f",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x9f5a7d8a31b7de4f62c44fe5819aa2ef09065acf",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xa1c9d41719c4ffd99463f1cfa579d9b6a96b50c6",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xa4beb4fbe651b00bc16d472e2e1aa1c26b3d90aa",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xac206dfe89faf2f394af56df6407ebb9053db240",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xaccbe4a95776c87b7ec8249bac85e4b524be0c0b",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0xacd3d2a67f897433f949d64664be60d7af84729b",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xaf12f95a23f79c541e079924ec3089280373f692",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xb2403d903ce1284739c63547c89573985d869df0",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0xb25cd9449afed2fb8bd55657b7040ce15465e6fe",
+        "protocolCount": 14,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xb5617bfc48ed7c00d7f8f0220443794813996ef4",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "rysk"
+        ]
+      },
+      {
+        "address": "0xb6f6bc3a1cd32e549199be771c387edfc53ece9e",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xb86cd572ac02dbaf977231184179c288a97eb876",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xb8a003b92b0e31b8197f158933a58bf23eb4aad8",
+        "protocolCount": 14,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xb962bc2116b8b0dd61b9fc1152d3f0fa45a27f7c",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xbb1598e6fdab904f2a62cb2e338ed44b3bf34951",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xbd73c7fe629b85dde4b4bb02cdaa7a799fcdee3d",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xbdfa3a7ca0a3c6e803486ffa9c769ab4cb6b457e",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "rysk",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xbe2fae6e1a7490ec3ac28ff2a51ff99d354de0ee",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xc0ad5d21ff19a4e85b016bfd53ced8842995c151",
+        "protocolCount": 14,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xc35e3f52213f568b1cc55754b85da5c59ca054bc",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xc510a17202d9e5720d43d0306cccfa780163a7ae",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xc8f20b76e532a534d4849bdb8a27b96d7ada41ce",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xce10c23561dce134ae20b32f8166a131c741f463",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xce10ff8371a0051e5ad3bba15de42606b90f4d6f",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xceec48581b3145a575508719f45da07dc57fa7ce",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xd4408dc67e85b229af48da4ce56d8892e76ded2e",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xd7163a6c90585397bcff7f429307a2c63547376a",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xd82e45c1bd8991f2c27b3f4a26bd931df93fb2b5",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xda1efdfd64d24c5061bae4a3456fa1b2a4e957df",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xdd74a5f502167c1bdd88968d058834170175277b",
+        "protocolCount": 14,
+        "protocols": [
+          "HypurrNFT",
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xdd7ee7e92ff7675965d08385ec7279448f17e80b",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0xde6e5e0390194a59933166efc04b50c77f6dca89",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xdeac2d5e8868a1d4e9b4d76d37e1e52014c08ce6",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xe39cc4dc58e63d5b2b95e97fed6b1811bc8a0dbc",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "Nunchi",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xe448d9d70efe95714e38d210e58d458dab0a77d5",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xe8e03821e3ef26221a9f95998283dc36ea08ad13",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0xea29adc9cc218b94bfc33d0b4794262a5039f577",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "kinetiq",
+          "morpho",
+          "projectx",
+          "rysk",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xec2868560e07c960b0f2b190c866caf93b1120f5",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xecbbebeb4fbef7021d5b60f80beeca74d229ed46",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xed32f2de7e3159f3a0fe14c13ad7fefbbc0d1572",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "felix",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xf17b03b741bb7162bd5236203b59197d216b7f3d",
+        "protocolCount": 14,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xf8a1c4bae37f1ace2a1b8ddd3058b1ccb9ccc9fa",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xfc01049ce4a2a07fb4c110c0aabd8a2b97820f49",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hypersurface",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0xfc848dad0622790b4349d3d0acba19206218615e",
+        "protocolCount": 14,
+        "protocols": [
+          "Nunchi",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0xfe09712a04f1ea995c7be367933a06e68d010416",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk"
+        ]
+      },
+      {
+        "address": "0xfe663631c4f06b8e93acf07ed5a3b5b7bfdd9768",
+        "protocolCount": 14,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0xff84aaa3211476431e20ecd1b417392138bfd144",
+        "protocolCount": 14,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid"
+        ]
+      },
+      {
+        "address": "0x016d13e3e6e5704cfd472266f790c6d534c28dd8",
+        "protocolCount": 13,
+        "protocols": [
+          "HypurrNFT",
+          "felix",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x0180bd56393851a46fab05ae627fb574dadb5049",
+        "protocolCount": 13,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x0193bfb1da3c88c64fd7714cd563248a169ae9e9",
+        "protocolCount": 13,
+        "protocols": [
+          "Hypio",
+          "HypurrNFT",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x0335b95aabd40f8e8794d79bfb6115757b60a294",
+        "protocolCount": 13,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x03e7ab483ea1d177e4be2472bf16ca17b8cf280d",
+        "protocolCount": 13,
+        "protocols": [
+          "Catbal",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x046f3cb63c444298e24556db13f6347c09c7d173",
+        "protocolCount": 13,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x06439dc5e068b473c0f2fb1933af7962a42b31c1",
+        "protocolCount": 13,
+        "protocols": [
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0x064cb0bb4c8abe11935134aee670c032d6833556",
+        "protocolCount": 13,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x0661f7963fa984bdfe53f86fce7b3172d63bec13",
+        "protocolCount": 13,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "rysk",
+          "ultrasolid",
+          "ventuals"
+        ]
+      },
+      {
+        "address": "0x06e0602c9158ee8478365c74606346d90d06df67",
+        "protocolCount": 13,
+        "protocols": [
+          "Catbal",
+          "Hypio",
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx"
+        ]
+      },
+      {
+        "address": "0x0922b44805cb5d90f35f3b9781aff83b47d722d3",
+        "protocolCount": 13,
+        "protocols": [
+          "felix",
+          "gLiquid",
+          "hlNames",
+          "hybrafinance",
+          "hyperbeat",
+          "hyperlend",
+          "hyperswap",
+          "hypurrfi",
+          "kinetiq",
+          "morpho",
+          "pendle",
+          "projectx",
+          "ventuals"
+        ]
+      }
+    ],
+    "summary": {
+      "protocolsWithPoints": [
+        "felix",
+        "gLiquid",
+        "hyperbeat",
+        "hyperdrive",
+        "hyperlend",
+        "hypurrfi",
+        "theo",
+        "upshift"
+      ],
+      "protocolsWithoutPoints": [
+        "Catbal",
+        "Hypio",
+        "HypurrNFT",
+        "Nunchi",
+        "hlNames",
+        "hybrafinance",
+        "hypersurface",
+        "hyperswap",
+        "kinetiq",
+        "morpho",
+        "pendle",
+        "projectx",
+        "rysk",
+        "ultrasolid",
+        "ventuals"
+      ],
+      "totalProtocols": 20,
+      "totalUsers": 167420,
+      "usersWithNoPointsSingleProtocol": 73583,
+      "topProtocolCountUsers": 250
+    }
+  }

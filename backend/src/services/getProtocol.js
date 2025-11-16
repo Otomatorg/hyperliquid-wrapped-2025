@@ -59,7 +59,17 @@ export async function getProtocol(address) {
     return [];
   }
 
-  // Return the protocols array, or empty array if not present
-  return userInfo.protocols || [];
+  // Get the protocols array, or empty array if not present
+  const protocols = userInfo.protocols || [];
+
+  // If the user has theo points, add "theo" to the protocols list if not already present
+  const theoPoints = userInfo.points?.theo;
+  if (theoPoints && typeof theoPoints === 'number' && theoPoints > 0) {
+    if (!protocols.includes('theo')) {
+      protocols.push('theo');
+    }
+  }
+
+  return protocols;
 }
 

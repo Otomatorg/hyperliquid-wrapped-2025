@@ -14,7 +14,8 @@ const NONCES_FILE_PATH = path.resolve(
 
 // Cache for sorted nonces array (loaded once)
 let sortedNoncesCache = null;
-let totalAddresses = 0;
+// Hardcoded total addresses for nonce rank calculation
+const totalAddresses = 643703;
 
 /**
  * Load and cache the sorted nonces array.
@@ -32,7 +33,6 @@ async function loadNoncesData() {
 
     // Extract all nonce values into an array
     const nonceValues = Object.values(noncesData);
-    totalAddresses = nonceValues.length;
 
     // Sort in descending order (highest nonce first = rank 1)
     sortedNoncesCache = nonceValues.sort((a, b) => b - a);

@@ -4,6 +4,8 @@ import { getProtocol } from "../services/getProtocol.js";
 import { getPoints } from "../services/getPoints.js";
 import { getNFTs } from "../services/getNFTs.js";
 import { getNetworth } from "../services/getNetworth.js";
+import { getTotalRank } from "../services/getTotalRank.js";
+import { getArchetype } from "../services/getArchetype.js";
 
 export default async function userRoute(req, res) {
   try {
@@ -12,14 +14,15 @@ export default async function userRoute(req, res) {
       return res.status(400).json({ error: "Address required" });
     }
 
-    // Fetch nonce, gas stats, protocols, points, and NFTs in parallel
-    const [nonce, gasStats, protocols, points, nfts, networth] = await Promise.all([
+    // Fetch nonce, gas stats, protocols, points, NFTs, networth, and archetype in parallel
+    const [nonce, gasStats, protocols, points, nfts, networth, archetype] = await Promise.all([
       getNonceStats(address),
       getGasStats(address),
       getProtocol(address),
       getPoints(address),
       getNFTs(address),
-      getNetworth(address)
+      getNetworth(address),
+      getArchetype(address)
     ]);
 
     // Calculate days since first activity
@@ -64,13 +67,61 @@ export default async function userRoute(req, res) {
       } : null
     };
 
+    // Format early rank object
+    let earlyRank = null;
+    let ogString = "Unknown";
+    if (gasStats.earlyRank !== null && gasStats.earlyPercentile !== null) {
+      const percentileRounded = Math.round(gasStats.earlyPercentile);
+      earlyRank = {
+        rank: gasStats.earlyRank,
+        percentile: percentileRounded
+      };
+      
+      // Format OG string based on percentile
+      if (gasStats.earlyPercentile >= 99) {
+        ogString = "Joined before 99% of users";
+      } else if (gasStats.earlyPercentile >= 95) {
+        ogString = "Joined before 95% of users";
+      } else if (gasStats.earlyPercentile >= 90) {
+        ogString = "Joined before 90% of users";
+      } else if (gasStats.earlyPercentile >= 75) {
+        ogString = "Joined before 75% of users";
+      } else if (gasStats.earlyPercentile >= 50) {
+        ogString = "Joined before 50% of users";
+      } else {
+        ogString = "Joined recently";
+      }
+    }
+
+    // Calculate total rank score from the fetched data
+    const rankData = getTotalRank({
+      nonce,
+      gasStats,
+      protocols,
+      points,
+      networth
+    });
+
+    // Calculate topPoints: top 3 protocols by percentile (or all if less than 3)
+    const topPoints = Object.entries(points)
+      .filter(([protocol, data]) => data.percentile !== null && data.percentile !== undefined)
+      .sort(([, a], [, b]) => (b.percentile || 0) - (a.percentile || 0))
+      .slice(0, 3)
+      .map(([protocol, data]) => {
+        const percentileRounded = Math.round(data.percentile);
+        return {
+          label: `Top ${percentileRounded}%`,
+          icon: protocol
+        };
+      });
+
     const response = {
-      rank: 123456,
+      rank: rankData.score,
       firstActivityDate: firstActivityDate || "Unknown",
       daysSinceFirstActivity: daysSinceFirstActivity || 0,
       gas: gas,
       nonce: {value: nonce.value, rank: nonce.rank},
-      EarlyRank: "#15,000 (top 5%)",
+      EarlyRank: earlyRank,
       HypercoreTrades: 42,
       HypercoreVolume: "420k $",
       numberOfProtocolsUsed: protocols.length,
@@ -79,17 +130,14 @@ export default async function userRoute(req, res) {
         name: "DeFi Explorer 🧭",
         description: "This user farmed points across many ecosystems."
       },
-      topPoints: [
-        { label: "Top 10%", icon: "hyperliquid" },
-        { label: "Top 25%", icon: "hyperlend" }
-      ],
+      topPoints: topPoints,
       allPoints: points,
       avatar: nfts.profilePicture,
       userBadge: badge,
       general: {
         transactions: gasStats.txCount.toString(),
-        og: "Joined before 90% of users",
-        archetype: "Yield Alchemist",
+        og: ogString,
+        archetype: archetype,
       }
     };
 

@@ -14,7 +14,8 @@ const GAS_DATA_FILE_PATH = path.resolve(
 
 // Cache for sorted gas values array (loaded once)
 let sortedGasCache = null;
-let totalAddresses = 0;
+// Hardcoded total addresses for gas rank calculation
+const totalAddresses = 643703;
 
 /**
  * Load and cache the sorted gas values array.
@@ -32,7 +33,6 @@ async function loadGasData() {
 
     // Extract all gasSpentHype values into an array
     const gasValues = Object.values(gasData).map(entry => entry.gasSpentHype);
-    totalAddresses = gasValues.length;
 
     // Sort in descending order (highest gas spent first = rank 1)
     sortedGasCache = gasValues.sort((a, b) => b - a);
