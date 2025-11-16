@@ -4,6 +4,7 @@ import { fileURLToPath } from "url";
 import { config } from "dotenv";
 import { createPublicClient, http } from "viem";
 import { wanchainTestnet } from "viem/chains";
+import { getNonceRank } from "./getNonceRank.js";
 
 // --- __dirname ESM equivalent ---
 const __filename = fileURLToPath(import.meta.url);
@@ -52,12 +53,11 @@ export async function getNonceStats(address) {
     // Real nonce value (will be 0 for addresses that never interacted)
     const value = Number(nonce);
 
-    // Dummy rank string for now (until you plug in global stats)
-    const rankLabel = "#0 (rank not computed yet)";
+    const rank = await getNonceRank(value);
 
     return {
       value,
-      rankLabel,
+      rank: rank,
     };
   } catch (err) {
     console.error(`❌ Error fetching nonce for ${address}: ${err.message}`);

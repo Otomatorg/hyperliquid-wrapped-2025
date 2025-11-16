@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 // Path to the nonces JSON file
 const NONCES_FILE_PATH = path.resolve(
   __dirname,
-  "../../../src/nonce/hyperEVM/addressNonces.json"
+  "../data/addressNonces.json"
 );
 
 // Cache for sorted nonces array (loaded once)
@@ -52,7 +52,6 @@ async function loadNoncesData() {
  *   - rank: number - The rank (1 = highest nonce, higher number = lower nonce)
  *   - totalAddresses: number - Total number of addresses
  *   - percentile: number - Percentile (0-100, where 100 = highest nonce)
- *   - rankLabel: string - Formatted rank string like "#12,345 (top 10%)"
  */
 export async function getNonceRank(nonceValue) {
   // Ensure data is loaded
@@ -96,28 +95,10 @@ export async function getNonceRank(nonceValue) {
   const percentile = ((totalAddresses - rank + 1) / totalAddresses) * 100;
   const percentileRounded = Math.round(percentile * 10) / 10;
 
-  // Format rank label
-  const rankFormatted = rank.toLocaleString();
-  let percentileLabel = "";
-  if (percentileRounded >= 90) {
-    percentileLabel = "top 10%";
-  } else if (percentileRounded >= 75) {
-    percentileLabel = "top 25%";
-  } else if (percentileRounded >= 50) {
-    percentileLabel = "top 50%";
-  } else if (percentileRounded >= 25) {
-    percentileLabel = "bottom 50%";
-  } else {
-    percentileLabel = "bottom 25%";
-  }
-
-  const rankLabel = `#${rankFormatted} (${percentileLabel})`;
-
   return {
     rank,
     totalAddresses,
     percentile: percentileRounded,
-    rankLabel,
   };
 }
 
