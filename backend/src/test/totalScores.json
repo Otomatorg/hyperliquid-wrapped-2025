@@ -3369,7 +3369,7 @@
           "rank": {
             "rank": 85,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -4617,7 +4617,7 @@
           "rank": {
             "rank": 74,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -5229,7 +5229,7 @@
           "rank": {
             "rank": 144,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -6732,7 +6732,7 @@
           "rank": {
             "rank": 85,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -6985,7 +6985,7 @@
           "rank": {
             "rank": 138,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -7319,7 +7319,7 @@
           "rank": {
             "rank": 161,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -8462,7 +8462,7 @@
           "rank": {
             "rank": 144,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -11582,7 +11582,7 @@
           "rank": {
             "rank": 112,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -12721,7 +12721,7 @@
           "rank": {
             "rank": 78,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -13117,7 +13117,7 @@
           "rank": {
             "rank": 77,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -13570,7 +13570,7 @@
           "rank": {
             "rank": 138,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -13650,7 +13650,7 @@
           "rank": {
             "rank": 75,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -14142,7 +14142,7 @@
           "rank": {
             "rank": 161,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {
@@ -14546,7 +14546,7 @@
           "rank": {
             "rank": 188,
             "totalAddresses": 140154,
-            "percentile": 99.9
+            "percentile": 0.01
           }
         },
         "nonce": {

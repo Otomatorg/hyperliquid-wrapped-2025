@@ -51,7 +51,11 @@ function calculatePercentile(rank, max_rank) {
   if (typeof rank !== 'number' || typeof max_rank !== 'number' || rank <= 0 || max_rank <= 0) {
     return null;
   }
-  const percentile = ((max_rank - rank + 1) / max_rank) * 100;
+  let percentile = ((max_rank - rank + 1) / max_rank) * 100;
+  // Cap percentiles at 0.01 instead of allowing 99.9+
+  if (percentile >= 99.9) {
+    return 0.01; // Return 0.01 directly without rounding
+  }
   return Math.round(percentile * 10) / 10; // Round to 1 decimal place
 }
 

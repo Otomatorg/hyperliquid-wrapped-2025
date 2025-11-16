@@ -145,6 +145,16 @@ export async function getProtocolRankForPoints(protocol, pointsValue) {
   } else {
     percentile = ((totalWithPoints - rank + 1) / totalWithPoints) * 100;
   }
+  // Cap percentiles at 0.01 instead of allowing 99.9+
+  if (percentile >= 99.9) {
+    percentile = 0.01;
+    // Round to 2 decimal places to preserve 0.01
+    return {
+      rank,
+      totalWithPoints,
+      percentile: 0.01,
+    };
+  }
   const percentileRounded = Math.round(percentile * 10) / 10;
 
   return {
