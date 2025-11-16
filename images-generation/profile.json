@@ -5,12 +5,18 @@
       "badges/hyperbeat.webp",
       "badges/hyperliquid.webp",
       "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
       "badges/hyperliquid.webp"
     ],
     "topPoints": [
-      { "label": "Top 1%", "icon": "badges/hyperlend.webp" },
-      { "label": "Top 8%", "icon": "badges/hyperbeat.webp" },
-      { "label": "Top 18%", "icon": "badges/hyperliquid.webp" }
+      { "label": "Top 1%", "icon": "hyperlend" },
+      { "label": "Top 8%", "icon": "hyperbeat" },
+      { "label": "Top 18%", "icon": "hyperliquid" }
     ],
     "avatar": "images/avatar.png",
     "background": "images/background.png",

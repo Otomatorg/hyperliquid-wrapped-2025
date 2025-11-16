@@ -29,11 +29,41 @@ async function loadImageSafe(imagePath, baseDir = __dirname) {
   return loadImage(fullPath);
 }
 
+/* ---------------------------------------------------------
+   Draw icon inside rounded padded background
+--------------------------------------------------------- */
+function drawRoundedIcon(ctx, img, x, y, size, padding = 40, circular = false) {
+  const bgSize = size + padding * 2;
+  const circleRadius = bgSize / 2;
+
+  // Background
+  ctx.fillStyle = "rgba(255, 255, 255, 0.1)";
+  ctx.beginPath();
+  ctx.arc(x + circleRadius, y + circleRadius, circleRadius, 0, Math.PI * 2);
+  ctx.fill();
+
+  // Icon (centered inside)
+  const iconX = x + padding;
+  const iconY = y + padding;
+  
+  if (circular) {
+    // Clip to circle for rounded badge
+    ctx.save();
+    ctx.beginPath();
+    ctx.arc(iconX + size / 2, iconY + size / 2, size / 2, 0, Math.PI * 2);
+    ctx.clip();
+    ctx.drawImage(img, iconX, iconY, size, size);
+    ctx.restore();
+  } else {
+    ctx.drawImage(img, iconX, iconY, size, size);
+  }
+}
+
 async function generateProfileImage(jsonPath, outputPath) {
   const data = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
   const baseDir = path.dirname(path.resolve(jsonPath));
 
-  // Canvas (same as screenshot)
+  // Canvas size (same as screenshot)
   const width = 1920;
   const height = 1080;
 
@@ -67,9 +97,8 @@ async function generateProfileImage(jsonPath, outputPath) {
   const avatarBoxSize = 420;
 
   // Background behind avatar
-  ctx.fillStyle = "#D4A574"; // golden-orange
+  ctx.fillStyle = "#3F6279";
   ctx.beginPath();
-  ctx.roundRect(avatarBoxX, avatarBoxY, avatarBoxSize, avatarBoxSize, 20);
   ctx.fill();
 
   const avatar = await loadImageSafe(data.avatar, baseDir);
@@ -79,21 +108,22 @@ async function generateProfileImage(jsonPath, outputPath) {
    Top Points
   --------------------------------------------------------- */
   let tpY = avatarBoxY + avatarBoxSize + 30;
-  ctx.fillStyle = "white";
-  ctx.font = "bold 35px Manrope";
-
+  ctx.fillStyle = "#A2BDC7";
+  ctx.font = "32px Manrope";
   ctx.fillText("Top points", avatarBoxX, tpY);
 
   let tpX = avatarBoxX;
-  const tpIconSize = 60;
-  const tpSpacing = 250;
+  const tpIconSize = 80;
+  const tpSpacing = 150;
 
   for (const tp of data.topPoints) {
-    const icon = await loadImageSafe(tp.icon, baseDir);
-    ctx.drawImage(icon, tpX, tpY + 40, tpIconSize, tpIconSize);
+    const icon = await loadImageSafe(`badges/${tp.icon}.webp`, baseDir);
+
+    // Rounded padded icon
+    drawRoundedIcon(ctx, icon, tpX, tpY + 20, tpIconSize, 20);
 
     ctx.font = "28px Manrope";
-    ctx.fillText(tp.label, tpX, tpY + 40 + tpIconSize + 25);
+    ctx.fillText(tp.label, tpX, tpY + 20 + tpIconSize + 35);
 
     tpX += tpSpacing;
   }
@@ -137,8 +167,8 @@ async function generateProfileImage(jsonPath, outputPath) {
   ctx.fillText("Badges", rightSectionX, currentY);
 
   const badgeSize = 80;
-  const badgeSpacing = 20;
-  const badgesPerRow = 5;
+  const badgeSpacing = 50;
+  const badgesPerRow = 7;
 
   let badgeX = rightSectionX;
   let badgeY = currentY + 40;
@@ -146,15 +176,15 @@ async function generateProfileImage(jsonPath, outputPath) {
 
   for (let badgePath of data.badges) {
     const badgeImg = await loadImageSafe(badgePath, baseDir);
-    ctx.drawImage(badgeImg, badgeX, badgeY, badgeSize, badgeSize);
 
-    badgeX += badgeSize + badgeSpacing;
+    drawRoundedIcon(ctx, badgeImg, badgeX, badgeY, badgeSize, 20, true);
+
+    badgeX += badgeSize + badgeSpacing + 8; // adjust spacing
     badgeCount++;
 
-    // Line break
     if (badgeCount % badgesPerRow === 0) {
       badgeX = rightSectionX;
-      badgeY += badgeSize + badgeSpacing;
+      badgeY += badgeSize + badgeSpacing + 8;
     }
   }
 
@@ -175,15 +205,12 @@ async function generateProfileImage(jsonPath, outputPath) {
     ctx.font = "28px Manrope";
 
     const drawStat = (label, value, y) => {
-      // Label
       ctx.fillStyle = "white";
       ctx.fillText(`${label}: `, gX, y);
 
-      // Measure label width
       const labelWidth = ctx.measureText(`${label}: `).width;
       const valueX = gX + labelWidth;
 
-      // Value box
       ctx.fillStyle = "#5B9BD5";
       const padding = 8;
 
@@ -195,7 +222,6 @@ async function generateProfileImage(jsonPath, outputPath) {
       ctx.roundRect(valueX - padding, y - boxHeight + 5, boxWidth, boxHeight, 6);
       ctx.fill();
 
-      // Value text
       ctx.fillStyle = "white";
       ctx.fillText(value, valueX, y);
     };
