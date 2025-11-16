@@ -1,0 +1,24 @@
+{
+    "rank": 634049,
+    "badges": [
+      "badges/hyperlend.webp",
+      "badges/hyperbeat.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp"
+    ],
+    "topPoints": [
+      { "label": "Top 1%", "icon": "hyperlend" },
+      { "label": "Top 8%", "icon": "hyperbeat" },
+      { "label": "Top 18%", "icon": "hyperliquid" }
+    ],
+    "avatar": "images/avatar.png",
+    "background": "images/background.png",
+    "userBadge": "images/shrimp.png"
+  }

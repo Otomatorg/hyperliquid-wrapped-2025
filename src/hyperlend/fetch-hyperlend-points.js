@@ -68,6 +68,28 @@ async function fetchPointsForAddress(address, index, total) {
 
 async function fetchPointsForAllAddresses() {
   try {
+    // Load existing results if file exists
+    let existingResults = [];
+    const existingAddresses = new Set();
+    
+    if (fs.existsSync(OUTPUT_FILE)) {
+      console.log(`Loading existing results from ${OUTPUT_FILE}...`);
+      try {
+        existingResults = JSON.parse(fs.readFileSync(OUTPUT_FILE, 'utf8'));
+        if (Array.isArray(existingResults)) {
+          existingResults.forEach(result => {
+            if (result.address) {
+              existingAddresses.add(result.address.toLowerCase());
+            }
+          });
+          console.log(`Found ${existingResults.length} existing results`);
+        }
+      } catch (error) {
+        console.log(`Warning: Could not parse existing results file: ${error.message}`);
+        console.log('Starting fresh...');
+      }
+    }
+    
     // Read unique addresses
     console.log(`Reading addresses from ${INPUT_FILE}...`);
     const addresses = JSON.parse(fs.readFileSync(INPUT_FILE, 'utf8'));
@@ -76,25 +98,38 @@ async function fetchPointsForAllAddresses() {
       throw new Error('Input file must contain an array of addresses');
     }
     
-    console.log(`Found ${addresses.length} unique addresses`);
-    console.log('Starting to fetch points in parallel batches of 10...\n');
+    // Filter out addresses that are already in results
+    const addressesToFetch = addresses.filter(address => 
+      !existingAddresses.has(address.toLowerCase())
+    );
     
-    const results = [];
+    console.log(`Found ${addresses.length} total addresses`);
+    console.log(`Already processed: ${addresses.length - addressesToFetch.length}`);
+    console.log(`Remaining to fetch: ${addressesToFetch.length}`);
+    
+    if (addressesToFetch.length === 0) {
+      console.log('\n✨ All addresses have already been processed!');
+      return;
+    }
+    
+    console.log('Starting to fetch points in parallel batches of 50...\n');
+    
+    const results = [...existingResults]; // Start with existing results
     let successCount = 0;
     let errorCount = 0;
-    const BATCH_SIZE = 10;
+    const BATCH_SIZE = 50;
     
-    // Process addresses in batches of 10
-    for (let i = 0; i < addresses.length; i += BATCH_SIZE) {
-      const batch = addresses.slice(i, i + BATCH_SIZE);
+    // Process addresses in batches of 50
+    for (let i = 0; i < addressesToFetch.length; i += BATCH_SIZE) {
+      const batch = addressesToFetch.slice(i, i + BATCH_SIZE);
       const batchNumber = Math.floor(i / BATCH_SIZE) + 1;
-      const totalBatches = Math.ceil(addresses.length / BATCH_SIZE);
+      const totalBatches = Math.ceil(addressesToFetch.length / BATCH_SIZE);
       
       console.log(`\n📦 Processing batch ${batchNumber}/${totalBatches} (${batch.length} addresses)...`);
       
       // Process batch in parallel
       const batchPromises = batch.map((address, batchIndex) => 
-        fetchPointsForAddress(address, i + batchIndex, addresses.length)
+        fetchPointsForAddress(address, i + batchIndex, addressesToFetch.length)
       );
       
       const batchResults = await Promise.all(batchPromises);
@@ -110,11 +145,11 @@ async function fetchPointsForAllAddresses() {
       });
       
       // Save progress after each batch
-      console.log(`💾 Saving progress... (${results.length}/${addresses.length} processed)`);
+      console.log(`💾 Saving progress... (${results.length}/${addresses.length} total, ${i + batch.length}/${addressesToFetch.length} new)`);
       fs.writeFileSync(OUTPUT_FILE, JSON.stringify(results, null, 2), 'utf8');
       
       // Add a small delay between batches to avoid rate limiting
-      if (i + BATCH_SIZE < addresses.length) {
+      if (i + BATCH_SIZE < addressesToFetch.length) {
         await delay(100); // 100ms delay between batches
       }
     }
@@ -126,9 +161,10 @@ async function fetchPointsForAllAddresses() {
     console.log('\n' + '='.repeat(60));
     console.log('✨ Finished fetching points!');
     console.log(`📁 Output file: ${OUTPUT_FILE}`);
-    console.log(`✅ Successful: ${successCount}`);
-    console.log(`❌ Errors: ${errorCount}`);
-    console.log(`📊 Total: ${addresses.length}`);
+    console.log(`✅ Successful (new): ${successCount}`);
+    console.log(`❌ Errors (new): ${errorCount}`);
+    console.log(`📊 Total addresses: ${addresses.length}`);
+    console.log(`📊 Total results: ${results.length}`);
     console.log('='.repeat(60));
     
   } catch (error) {
