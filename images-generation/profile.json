@@ -1,0 +1,18 @@
+{
+    "rank": 634049,
+    "badges": [
+      "badges/hyperlend.webp",
+      "badges/hyperbeat.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp",
+      "badges/hyperliquid.webp"
+    ],
+    "topPoints": [
+      { "label": "Top 1%", "icon": "badges/hyperlend.webp" },
+      { "label": "Top 8%", "icon": "badges/hyperbeat.webp" },
+      { "label": "Top 18%", "icon": "badges/hyperliquid.webp" }
+    ],
+    "avatar": "images/avatar.png",
+    "background": "images/background.png",
+    "userBadge": "images/shrimp.png"
+  }
