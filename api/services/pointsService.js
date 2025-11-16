@@ -3,7 +3,8 @@ const {
   fetchVentualsPoints,
   fetchHybraPoints,
   fetchPrjxPoints,
-  fetchUltrasolidPoints
+  fetchUltrasolidPoints,
+  fetchKinetiqPoints
 } = require('./platforms');
 
 /**
@@ -16,7 +17,8 @@ async function fetchAllPoints(address) {
     ventuals: null,
     hybra: null,
     prjx: null,
-    ultrasolid: null
+    ultrasolid: null,
+    kinetiq: null
   };
 
   // Fetch all points in parallel
@@ -24,20 +26,23 @@ async function fetchAllPoints(address) {
     fetchVentualsPoints(address).catch(err => ({ error: err.message })),
     fetchHybraPoints(address).catch(err => ({ error: err.message })),
     fetchPrjxPoints(address).catch(err => ({ error: err.message })),
-    fetchUltrasolidPoints(address).catch(err => ({ error: err.message }))
+    fetchUltrasolidPoints(address).catch(err => ({ error: err.message })),
+    fetchKinetiqPoints(address).catch(err => ({ error: err.message }))
   ];
 
   const [
     ventuals,
     hybra,
     prjx,
-    ultrasolid
+    ultrasolid,
+    kinetiq
   ] = await Promise.all(promises);
 
   results.ventuals = ventuals;
   results.hybra = hybra;
   results.prjx = prjx;
   results.ultrasolid = ultrasolid;
+  results.kinetiq = kinetiq;
 
   return results;
 }
