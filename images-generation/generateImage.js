@@ -3,6 +3,30 @@ const path = require("path");
 const { createCanvas, loadImage } = require("canvas");
 const sharp = require("sharp");
 
+protocolsList = [
+  "catbal",
+  "felix",
+  "gliquid",
+  "hlnames",
+  "hybra",
+  "hyperbeat",
+  "hyperlend",
+  "hypersurface",
+  "hyperswap",
+  "HypioNFTS",
+  "hypurrfi",
+  "HypurrNFTS",
+  "kinetiq",
+  "morpho",
+  "nunchi",
+  "pendle",
+  "projectx",
+  "rysk",
+  "theo",
+  "ultrasolid",
+  "ventuals", 
+]
+
 // Helper function handling WebP via sharp
 async function loadImageSafe(imagePath, baseDir = __dirname) {
   const fullPath = path.isAbsolute(imagePath)
@@ -124,7 +148,7 @@ async function generateProfileImage(jsonPath, outputPath) {
    User Badge (shrimp) top-right
   --------------------------------------------------------- */
   const shrimp = await loadImageSafe(`images/${data.userBadge}.png`, baseDir);
-  const shrimpSize = 170;
+  const shrimpSize = 140;
   const shrimpPadding = 40;
 
   ctx.drawImage(
@@ -158,7 +182,7 @@ async function generateProfileImage(jsonPath, outputPath) {
   currentY += 170;
   ctx.fillText("Badges", rightSectionX, currentY);
 
-  const badgeSize = 80;
+  const badgeSize = 70;
   const badgeSpacing = 50;
   const badgesPerRow = 7;
 
@@ -166,12 +190,35 @@ async function generateProfileImage(jsonPath, outputPath) {
   let badgeY = currentY + 40;
   let badgeCount = 0;
 
-  for (let badgePath of data.protocolBadges) {
+  for (let badgePath of protocolsList) {
+    const isEnabled = data.protocolBadges && data.protocolBadges.includes(badgePath);
+    
     const badgeImg = await loadImageSafe(`badges/${badgePath}.webp`, baseDir);
+
+    // Save context state
+    ctx.save();
+    
+    // Apply disabled effect if protocol is not in the list
+    if (!isEnabled) {
+      ctx.globalAlpha = 0.25; // Reduce opacity to 25% for disabled look
+    }
 
     drawRoundedIcon(ctx, badgeImg, badgeX, badgeY, badgeSize, 20, true);
 
-    badgeX += badgeSize + badgeSpacing + 8; // adjust spacing
+    // If disabled, add a dark overlay for extra dimming effect
+    if (!isEnabled) {
+      const bgSize = badgeSize + 40; // size + padding * 2
+      ctx.globalAlpha = 0.5;
+      ctx.fillStyle = 'rgba(0, 0, 0, 0.5)'; // Dark overlay
+      ctx.beginPath();
+      ctx.arc(badgeX + bgSize / 2, badgeY + bgSize / 2, bgSize / 2, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    // Restore context state
+    ctx.restore();
+
+    badgeX += badgeSize + badgeSpacing + 6; // adjust spacing
     badgeCount++;
 
     if (badgeCount % badgesPerRow === 0) {
@@ -188,7 +235,7 @@ if (data.general) {
 
   // Position under badges
   let gX = rightSectionX;
-  let gY = badgeY + badgeSize + 90;
+  let gY = badgeY + 40;
 
   // Title
   ctx.font = "32px Manrope";
@@ -205,10 +252,10 @@ if (data.general) {
 
   // Function to draw a stat card
   const drawCard = (title, value, x, y) => {
+    // Measure card width using respective font sizes
     ctx.font = "24px Manrope";
-
-    // Measure card width
     const titleWidth = ctx.measureText(title).width;
+    ctx.font = "28px Manrope";
     const valueWidth = ctx.measureText(value).width;
     const maxWidth = Math.max(titleWidth, valueWidth);
 
@@ -223,12 +270,12 @@ if (data.general) {
 
     // Title
     ctx.fillStyle = "#A6B9C5";
-    ctx.font = "20px Manrope";
+    ctx.font = "24px Manrope";
     ctx.fillText(title, x + cardPaddingX, y + 32);
 
     // Value
     ctx.fillStyle = "#FFFFFF";
-    ctx.font = "24px Manrope";
+    ctx.font = "28px Manrope";
     ctx.fillText(
       value,
       x + cardPaddingX,
@@ -242,16 +289,13 @@ if (data.general) {
   let cx = rightSectionX;
 
   if (stats.transactions) {
-    cx += drawCard("Transactions", stats.transactions, cx, gY) + cardSpacingX;
+    cx += drawCard("Transactions", stats.transactions, cx, gY - 20) + cardSpacingX;
   }
   if (stats.og) {
-    cx += drawCard("OG score", stats.og, cx, gY) + cardSpacingX;
+    cx += drawCard("OG score", stats.og, cx, gY - 20) + cardSpacingX;
   }
   if (stats.archetype) {
-    cx += drawCard("Archetype", stats.archetype, cx, gY) + cardSpacingX;
-  }
-  if (stats.gas) {
-    drawCard("Gas burner", stats.gas, rightSectionX, gY + 120);
+    cx += drawCard("Archetype", stats.archetype, cx, gY - 20) + cardSpacingX;
   }
 }
   /* ---------------------------------------------------------

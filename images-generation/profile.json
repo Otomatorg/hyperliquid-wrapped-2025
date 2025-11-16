@@ -11,19 +11,12 @@
     "HypercoreVolume" : "1.2M $",
     "numberOfProtcolsUsde" : 12,
     "protocolBadges": [
-      "hyperlend",
-      "hyperbeat",
-      "hyperliquid",
-      "pendle",
-      "ultrasolid",
       "rysk",
       "ventuals",
       "nunchi",
       "felix",
-      "gliquid",
-      "hybra",
-      "hypurrfi",
-      "prjx"
+      "HypioNFTS",
+      "hlnames"
     ],
     "userProfile" : {
       "name": "LP enjoyooooor 🤙",
@@ -54,7 +47,6 @@
     "general": {
       "transactions": "250+ (top 15%)",
       "og": "Joined before 92% of users",
-      "archetype": "Yield alchemist",
-      "gas": "Burned more gas than 99.2% of users"
+      "archetype": "Yield alchemist"
     }
   }
